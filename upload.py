@@ -1,12 +1,14 @@
 from neo4j import GraphDatabase
 import csv
+from dotenv import load_dotenv
+import os
 
-# 🔹 Configura la conexión a tu instancia de Neo4j Aura
-URI = "neo4j+s://634b1269.databases.neo4j.io"
-USER = "neo4j"
-PASSWORD = "XWSjvWMFQ84HGsB5dqgSuZ4qKD0EdKuePLxxdIiuopk"
+# Configura la conexión a tu instancia de Neo4j Aura
+URI = os.getenv("NEO4J_URI")
+USER = os.getenv("NEO4J_USER")
+PASSWORD = os.getenv("NEO4J_PASSWORD")
 
-# 🔹 Función para conectar y ejecutar queries en Neo4j
+# Función para conectar y ejecutar queries en Neo4j
 def insert_personas():
     driver = GraphDatabase.driver(URI, auth=(USER, PASSWORD))
 
