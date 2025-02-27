@@ -1,0 +1,501 @@
+start_id,start_label,type,end_id,end_label,fecha_asignacion,disponibilidad,cantidad_de_viajes
+135,Transporte,ASIGNADO_A,8,Almacen,2025-02-11,Disponible,75
+166,Transporte,ASIGNADO_A,5,Almacen,2025-02-09,En ruta,26
+60,Transporte,ASIGNADO_A,0,Sucursal,2025-01-12,Mantenimiento,54
+83,Transporte,ASIGNADO_A,14,Sucursal,2025-02-13,Mantenimiento,26
+66,Transporte,ASIGNADO_A,11,Sucursal,2025-01-07,Mantenimiento,90
+118,Transporte,ASIGNADO_A,13,Sucursal,2025-01-11,En ruta,76
+14,Transporte,ASIGNADO_A,5,Sucursal,2025-01-28,En ruta,23
+170,Transporte,ASIGNADO_A,1,Sucursal,2025-01-11,En ruta,35
+61,Transporte,ASIGNADO_A,6,Almacen,2025-01-18,Disponible,14
+25,Transporte,ASIGNADO_A,0,Almacen,2025-02-11,Mantenimiento,41
+123,Transporte,ASIGNADO_A,7,Sucursal,2025-01-02,En ruta,27
+117,Transporte,ASIGNADO_A,6,Almacen,2025-01-04,En ruta,38
+56,Transporte,ASIGNADO_A,5,Almacen,2025-01-12,Disponible,74
+171,Transporte,ASIGNADO_A,8,Almacen,2025-02-01,Mantenimiento,58
+196,Transporte,ASIGNADO_A,1,Almacen,2025-02-05,Disponible,13
+197,Transporte,ASIGNADO_A,6,Sucursal,2025-02-25,Mantenimiento,65
+8,Transporte,ASIGNADO_A,5,Almacen,2025-02-07,Disponible,14
+6,Transporte,ASIGNADO_A,12,Sucursal,2025-02-25,Mantenimiento,86
+168,Transporte,ASIGNADO_A,7,Almacen,2025-01-21,Disponible,100
+38,Transporte,ASIGNADO_A,5,Almacen,2025-01-08,En ruta,76
+59,Transporte,ASIGNADO_A,8,Sucursal,2025-02-04,Disponible,34
+19,Transporte,ASIGNADO_A,7,Almacen,2025-02-01,Disponible,82
+117,Transporte,ASIGNADO_A,5,Almacen,2025-02-24,En ruta,41
+110,Transporte,ASIGNADO_A,4,Sucursal,2025-01-11,Mantenimiento,17
+78,Transporte,ASIGNADO_A,6,Almacen,2025-01-07,En ruta,95
+171,Transporte,ASIGNADO_A,8,Sucursal,2025-02-12,Disponible,61
+165,Transporte,ASIGNADO_A,0,Sucursal,2025-02-05,En ruta,7
+63,Transporte,ASIGNADO_A,11,Sucursal,2025-01-13,Disponible,7
+133,Transporte,ASIGNADO_A,7,Almacen,2025-02-03,En ruta,44
+127,Transporte,ASIGNADO_A,1,Sucursal,2025-01-22,En ruta,74
+141,Transporte,ASIGNADO_A,8,Almacen,2025-01-09,En ruta,55
+67,Transporte,ASIGNADO_A,1,Almacen,2025-02-19,Disponible,15
+52,Transporte,ASIGNADO_A,3,Almacen,2025-02-03,En ruta,85
+136,Transporte,ASIGNADO_A,7,Sucursal,2025-01-01,Mantenimiento,90
+4,Transporte,ASIGNADO_A,9,Sucursal,2025-02-26,Mantenimiento,75
+131,Transporte,ASIGNADO_A,9,Sucursal,2025-02-05,Disponible,66
+162,Transporte,ASIGNADO_A,4,Sucursal,2025-02-25,En ruta,61
+173,Transporte,ASIGNADO_A,6,Almacen,2025-01-10,Disponible,81
+59,Transporte,ASIGNADO_A,1,Almacen,2025-01-24,En ruta,69
+54,Transporte,ASIGNADO_A,1,Sucursal,2025-01-13,Disponible,60
+148,Transporte,ASIGNADO_A,6,Sucursal,2025-02-01,Mantenimiento,87
+20,Transporte,ASIGNADO_A,1,Almacen,2025-02-15,Disponible,37
+138,Transporte,ASIGNADO_A,13,Sucursal,2025-02-03,Disponible,63
+66,Transporte,ASIGNADO_A,14,Sucursal,2025-01-20,Mantenimiento,11
+62,Transporte,ASIGNADO_A,6,Sucursal,2025-01-18,En ruta,32
+149,Transporte,ASIGNADO_A,0,Sucursal,2025-02-25,Disponible,40
+175,Transporte,ASIGNADO_A,4,Almacen,2025-02-09,En ruta,86
+10,Transporte,ASIGNADO_A,2,Almacen,2025-02-05,Disponible,19
+80,Transporte,ASIGNADO_A,3,Almacen,2025-01-22,Disponible,51
+33,Transporte,ASIGNADO_A,1,Sucursal,2025-02-15,En ruta,67
+171,Transporte,ASIGNADO_A,9,Almacen,2025-01-26,Disponible,36
+57,Transporte,ASIGNADO_A,2,Sucursal,2025-02-04,Disponible,14
+91,Transporte,ASIGNADO_A,1,Sucursal,2025-01-07,Disponible,41
+12,Transporte,ASIGNADO_A,3,Almacen,2025-02-26,En ruta,67
+48,Transporte,ASIGNADO_A,13,Sucursal,2025-01-08,Disponible,30
+172,Transporte,ASIGNADO_A,0,Sucursal,2025-02-18,En ruta,97
+119,Transporte,ASIGNADO_A,12,Sucursal,2025-01-12,En ruta,72
+126,Transporte,ASIGNADO_A,11,Sucursal,2025-01-12,Mantenimiento,70
+118,Transporte,ASIGNADO_A,7,Almacen,2025-02-15,Disponible,96
+75,Transporte,ASIGNADO_A,1,Almacen,2025-02-13,En ruta,90
+141,Transporte,ASIGNADO_A,2,Sucursal,2025-01-21,Disponible,61
+32,Transporte,ASIGNADO_A,1,Sucursal,2025-02-09,Disponible,11
+109,Transporte,ASIGNADO_A,11,Sucursal,2025-02-09,Mantenimiento,73
+87,Transporte,ASIGNADO_A,14,Sucursal,2025-01-02,Disponible,8
+125,Transporte,ASIGNADO_A,7,Almacen,2025-01-31,Disponible,59
+66,Transporte,ASIGNADO_A,8,Almacen,2025-01-20,Mantenimiento,28
+47,Transporte,ASIGNADO_A,4,Almacen,2025-02-24,Mantenimiento,74
+65,Transporte,ASIGNADO_A,6,Sucursal,2025-02-05,Mantenimiento,64
+195,Transporte,ASIGNADO_A,10,Sucursal,2025-02-13,Disponible,85
+5,Transporte,ASIGNADO_A,5,Almacen,2025-01-01,Disponible,11
+66,Transporte,ASIGNADO_A,3,Sucursal,2025-02-16,Mantenimiento,13
+184,Transporte,ASIGNADO_A,0,Almacen,2025-02-21,Disponible,83
+51,Transporte,ASIGNADO_A,1,Sucursal,2025-01-31,Disponible,85
+170,Transporte,ASIGNADO_A,6,Almacen,2025-02-04,En ruta,49
+115,Transporte,ASIGNADO_A,13,Sucursal,2025-01-22,En ruta,95
+11,Transporte,ASIGNADO_A,1,Almacen,2025-02-25,En ruta,70
+183,Transporte,ASIGNADO_A,9,Sucursal,2025-02-21,Disponible,66
+56,Transporte,ASIGNADO_A,9,Almacen,2025-02-18,Mantenimiento,36
+15,Transporte,ASIGNADO_A,7,Sucursal,2025-01-18,Mantenimiento,99
+116,Transporte,ASIGNADO_A,11,Sucursal,2025-01-06,En ruta,88
+184,Transporte,ASIGNADO_A,1,Almacen,2025-01-08,En ruta,85
+67,Transporte,ASIGNADO_A,0,Almacen,2025-01-07,Disponible,84
+149,Transporte,ASIGNADO_A,4,Almacen,2025-02-25,Mantenimiento,29
+14,Transporte,ASIGNADO_A,2,Almacen,2025-01-10,En ruta,51
+142,Transporte,ASIGNADO_A,3,Almacen,2025-01-28,Disponible,93
+73,Transporte,ASIGNADO_A,13,Sucursal,2025-01-16,Mantenimiento,35
+154,Transporte,ASIGNADO_A,1,Sucursal,2025-02-21,Disponible,15
+191,Transporte,ASIGNADO_A,8,Almacen,2025-02-25,Disponible,50
+173,Transporte,ASIGNADO_A,1,Sucursal,2025-01-11,Disponible,54
+177,Transporte,ASIGNADO_A,5,Almacen,2025-01-04,Disponible,63
+31,Transporte,ASIGNADO_A,9,Almacen,2025-01-18,Mantenimiento,33
+3,Transporte,ASIGNADO_A,9,Sucursal,2025-01-14,Disponible,94
+56,Transporte,ASIGNADO_A,9,Sucursal,2025-02-16,En ruta,30
+54,Transporte,ASIGNADO_A,12,Sucursal,2025-02-16,Mantenimiento,59
+11,Transporte,ASIGNADO_A,2,Almacen,2025-01-31,En ruta,62
+181,Transporte,ASIGNADO_A,6,Almacen,2025-02-24,En ruta,84
+152,Transporte,ASIGNADO_A,11,Sucursal,2025-01-18,Disponible,26
+169,Transporte,ASIGNADO_A,5,Almacen,2025-01-18,Mantenimiento,52
+65,Transporte,ASIGNADO_A,5,Almacen,2025-01-30,En ruta,44
+107,Transporte,ASIGNADO_A,9,Almacen,2025-02-13,Disponible,16
+174,Transporte,ASIGNADO_A,1,Almacen,2025-01-31,Mantenimiento,64
+34,Transporte,ASIGNADO_A,12,Sucursal,2025-01-20,Disponible,57
+45,Transporte,ASIGNADO_A,7,Sucursal,2025-01-15,Mantenimiento,68
+178,Transporte,ASIGNADO_A,9,Sucursal,2025-02-07,Mantenimiento,22
+105,Transporte,ASIGNADO_A,7,Almacen,2025-02-09,Disponible,32
+117,Transporte,ASIGNADO_A,1,Almacen,2025-01-14,Mantenimiento,75
+76,Transporte,ASIGNADO_A,13,Sucursal,2025-02-19,Mantenimiento,94
+37,Transporte,ASIGNADO_A,9,Almacen,2025-01-20,Mantenimiento,34
+42,Transporte,ASIGNADO_A,2,Almacen,2025-01-01,Mantenimiento,6
+95,Transporte,ASIGNADO_A,11,Sucursal,2025-01-22,Mantenimiento,36
+16,Transporte,ASIGNADO_A,9,Almacen,2025-01-16,Disponible,18
+13,Transporte,ASIGNADO_A,5,Sucursal,2025-02-25,En ruta,17
+177,Transporte,ASIGNADO_A,11,Sucursal,2025-02-05,Mantenimiento,68
+95,Transporte,ASIGNADO_A,9,Sucursal,2025-02-15,Disponible,51
+90,Transporte,ASIGNADO_A,0,Almacen,2025-01-13,Mantenimiento,59
+134,Transporte,ASIGNADO_A,1,Sucursal,2025-01-20,Mantenimiento,36
+25,Transporte,ASIGNADO_A,1,Sucursal,2025-01-14,En ruta,35
+161,Transporte,ASIGNADO_A,7,Sucursal,2025-01-20,Disponible,90
+127,Transporte,ASIGNADO_A,2,Almacen,2025-02-25,En ruta,29
+179,Transporte,ASIGNADO_A,3,Almacen,2025-02-06,Disponible,84
+153,Transporte,ASIGNADO_A,1,Almacen,2025-01-27,Disponible,65
+94,Transporte,ASIGNADO_A,2,Sucursal,2025-02-11,En ruta,73
+155,Transporte,ASIGNADO_A,4,Sucursal,2025-01-01,Mantenimiento,24
+134,Transporte,ASIGNADO_A,0,Almacen,2025-02-19,Disponible,33
+41,Transporte,ASIGNADO_A,6,Almacen,2025-02-13,Disponible,97
+26,Transporte,ASIGNADO_A,14,Sucursal,2025-02-08,En ruta,15
+127,Transporte,ASIGNADO_A,2,Almacen,2025-01-27,Disponible,35
+125,Transporte,ASIGNADO_A,0,Almacen,2025-01-03,Disponible,40
+146,Transporte,ASIGNADO_A,5,Almacen,2025-01-23,Disponible,15
+156,Transporte,ASIGNADO_A,1,Almacen,2025-01-16,Mantenimiento,55
+87,Transporte,ASIGNADO_A,9,Almacen,2025-01-13,Disponible,74
+110,Transporte,ASIGNADO_A,7,Sucursal,2025-01-06,Disponible,20
+127,Transporte,ASIGNADO_A,6,Sucursal,2025-02-01,Mantenimiento,27
+172,Transporte,ASIGNADO_A,12,Sucursal,2025-01-28,Disponible,74
+38,Transporte,ASIGNADO_A,6,Almacen,2025-01-10,Disponible,40
+187,Transporte,ASIGNADO_A,8,Almacen,2025-02-11,Disponible,38
+19,Transporte,ASIGNADO_A,0,Almacen,2025-02-23,Mantenimiento,72
+197,Transporte,ASIGNADO_A,2,Sucursal,2025-02-05,En ruta,54
+38,Transporte,ASIGNADO_A,3,Almacen,2025-01-25,Disponible,69
+88,Transporte,ASIGNADO_A,5,Sucursal,2025-01-10,Disponible,42
+67,Transporte,ASIGNADO_A,1,Almacen,2025-01-16,Mantenimiento,80
+121,Transporte,ASIGNADO_A,10,Sucursal,2025-01-15,En ruta,83
+30,Transporte,ASIGNADO_A,1,Almacen,2025-01-07,Mantenimiento,51
+147,Transporte,ASIGNADO_A,1,Sucursal,2025-01-02,En ruta,45
+43,Transporte,ASIGNADO_A,5,Almacen,2025-02-06,Disponible,88
+81,Transporte,ASIGNADO_A,14,Sucursal,2025-02-06,Disponible,53
+35,Transporte,ASIGNADO_A,9,Sucursal,2025-01-20,Disponible,60
+55,Transporte,ASIGNADO_A,9,Almacen,2025-01-24,Disponible,56
+117,Transporte,ASIGNADO_A,4,Almacen,2025-01-06,Mantenimiento,95
+175,Transporte,ASIGNADO_A,4,Almacen,2025-02-06,Mantenimiento,52
+19,Transporte,ASIGNADO_A,1,Almacen,2025-02-09,En ruta,11
+114,Transporte,ASIGNADO_A,4,Sucursal,2025-02-17,En ruta,32
+143,Transporte,ASIGNADO_A,2,Sucursal,2025-02-20,Mantenimiento,76
+193,Transporte,ASIGNADO_A,0,Sucursal,2025-02-24,Mantenimiento,92
+113,Transporte,ASIGNADO_A,2,Almacen,2025-01-08,Disponible,47
+171,Transporte,ASIGNADO_A,4,Almacen,2025-01-01,Disponible,19
+75,Transporte,ASIGNADO_A,1,Almacen,2025-01-12,Mantenimiento,53
+115,Transporte,ASIGNADO_A,14,Sucursal,2025-02-19,Mantenimiento,25
+45,Transporte,ASIGNADO_A,6,Sucursal,2025-01-27,Mantenimiento,16
+157,Transporte,ASIGNADO_A,5,Almacen,2025-01-24,En ruta,18
+35,Transporte,ASIGNADO_A,3,Almacen,2025-01-05,Disponible,63
+195,Transporte,ASIGNADO_A,8,Sucursal,2025-01-28,Disponible,92
+175,Transporte,ASIGNADO_A,9,Sucursal,2025-01-14,En ruta,13
+136,Transporte,ASIGNADO_A,4,Sucursal,2025-01-10,Mantenimiento,42
+136,Transporte,ASIGNADO_A,7,Almacen,2025-02-14,Disponible,70
+179,Transporte,ASIGNADO_A,8,Almacen,2025-02-13,Mantenimiento,32
+20,Transporte,ASIGNADO_A,11,Sucursal,2025-01-13,En ruta,18
+178,Transporte,ASIGNADO_A,0,Almacen,2025-01-10,En ruta,87
+105,Transporte,ASIGNADO_A,13,Sucursal,2025-02-05,En ruta,45
+16,Transporte,ASIGNADO_A,9,Almacen,2025-02-08,Mantenimiento,65
+10,Transporte,ASIGNADO_A,1,Almacen,2025-02-25,En ruta,9
+119,Transporte,ASIGNADO_A,2,Sucursal,2025-01-26,Disponible,54
+82,Transporte,ASIGNADO_A,8,Almacen,2025-02-11,En ruta,58
+9,Transporte,ASIGNADO_A,8,Almacen,2025-01-21,Mantenimiento,81
+183,Transporte,ASIGNADO_A,7,Sucursal,2025-01-22,Mantenimiento,90
+197,Transporte,ASIGNADO_A,1,Sucursal,2025-02-07,En ruta,35
+20,Transporte,ASIGNADO_A,4,Sucursal,2025-01-19,Mantenimiento,66
+79,Transporte,ASIGNADO_A,13,Sucursal,2025-02-03,Disponible,55
+132,Transporte,ASIGNADO_A,6,Almacen,2025-02-10,Mantenimiento,88
+126,Transporte,ASIGNADO_A,14,Sucursal,2025-02-24,Mantenimiento,5
+1,Transporte,ASIGNADO_A,6,Sucursal,2025-01-12,Disponible,69
+152,Transporte,ASIGNADO_A,0,Almacen,2025-01-16,Disponible,96
+83,Transporte,ASIGNADO_A,6,Sucursal,2025-01-04,Mantenimiento,16
+27,Transporte,ASIGNADO_A,13,Sucursal,2025-02-01,En ruta,90
+118,Transporte,ASIGNADO_A,5,Sucursal,2025-02-08,Mantenimiento,31
+49,Transporte,ASIGNADO_A,10,Sucursal,2025-02-22,Disponible,73
+81,Transporte,ASIGNADO_A,10,Sucursal,2025-01-10,Disponible,21
+115,Transporte,ASIGNADO_A,9,Almacen,2025-02-22,Mantenimiento,13
+121,Transporte,ASIGNADO_A,14,Sucursal,2025-02-18,En ruta,32
+12,Transporte,ASIGNADO_A,9,Sucursal,2025-01-30,Disponible,73
+110,Transporte,ASIGNADO_A,3,Sucursal,2025-02-10,Mantenimiento,92
+68,Transporte,ASIGNADO_A,5,Sucursal,2025-01-11,En ruta,17
+12,Transporte,ASIGNADO_A,2,Sucursal,2025-01-10,En ruta,24
+32,Transporte,ASIGNADO_A,11,Sucursal,2025-01-19,En ruta,28
+153,Transporte,ASIGNADO_A,9,Almacen,2025-02-11,Disponible,61
+63,Transporte,ASIGNADO_A,14,Sucursal,2025-01-30,En ruta,39
+148,Transporte,ASIGNADO_A,2,Sucursal,2025-01-17,Disponible,64
+97,Transporte,ASIGNADO_A,14,Sucursal,2025-02-02,En ruta,83
+175,Transporte,ASIGNADO_A,2,Almacen,2025-01-12,En ruta,97
+73,Transporte,ASIGNADO_A,11,Sucursal,2025-02-12,En ruta,72
+143,Transporte,ASIGNADO_A,7,Sucursal,2025-01-26,Mantenimiento,5
+86,Transporte,ASIGNADO_A,13,Sucursal,2025-02-08,Mantenimiento,41
+101,Transporte,ASIGNADO_A,5,Almacen,2025-02-17,Disponible,54
+93,Transporte,ASIGNADO_A,9,Sucursal,2025-01-21,Mantenimiento,68
+174,Transporte,ASIGNADO_A,2,Almacen,2025-02-01,Mantenimiento,67
+135,Transporte,ASIGNADO_A,9,Almacen,2025-01-25,En ruta,86
+10,Transporte,ASIGNADO_A,13,Sucursal,2025-02-25,En ruta,14
+69,Transporte,ASIGNADO_A,3,Almacen,2025-02-07,Disponible,41
+93,Transporte,ASIGNADO_A,3,Almacen,2025-01-11,En ruta,48
+169,Transporte,ASIGNADO_A,7,Sucursal,2025-02-13,Disponible,60
+42,Transporte,ASIGNADO_A,1,Sucursal,2025-02-12,En ruta,82
+169,Transporte,ASIGNADO_A,5,Almacen,2025-02-09,Disponible,23
+106,Transporte,ASIGNADO_A,12,Sucursal,2025-01-14,Disponible,37
+82,Transporte,ASIGNADO_A,8,Almacen,2025-02-09,En ruta,88
+162,Transporte,ASIGNADO_A,6,Almacen,2025-01-02,En ruta,94
+25,Transporte,ASIGNADO_A,3,Almacen,2025-02-11,Mantenimiento,51
+113,Transporte,ASIGNADO_A,4,Sucursal,2025-01-09,Mantenimiento,63
+145,Transporte,ASIGNADO_A,8,Almacen,2025-02-22,Mantenimiento,69
+108,Transporte,ASIGNADO_A,0,Sucursal,2025-01-05,Mantenimiento,91
+49,Transporte,ASIGNADO_A,6,Almacen,2025-02-19,Mantenimiento,90
+196,Transporte,ASIGNADO_A,7,Almacen,2025-02-13,Mantenimiento,11
+154,Transporte,ASIGNADO_A,13,Sucursal,2025-01-09,En ruta,79
+168,Transporte,ASIGNADO_A,4,Almacen,2025-01-22,Mantenimiento,13
+134,Transporte,ASIGNADO_A,4,Almacen,2025-02-03,Disponible,74
+142,Transporte,ASIGNADO_A,6,Sucursal,2025-01-17,En ruta,37
+75,Transporte,ASIGNADO_A,2,Almacen,2025-02-11,En ruta,75
+15,Transporte,ASIGNADO_A,12,Sucursal,2025-02-09,Mantenimiento,83
+53,Transporte,ASIGNADO_A,1,Sucursal,2025-01-03,En ruta,91
+90,Transporte,ASIGNADO_A,13,Sucursal,2025-01-01,Disponible,59
+195,Transporte,ASIGNADO_A,5,Sucursal,2025-01-10,En ruta,48
+16,Transporte,ASIGNADO_A,5,Almacen,2025-02-02,Mantenimiento,12
+122,Transporte,ASIGNADO_A,12,Sucursal,2025-01-11,En ruta,44
+38,Transporte,ASIGNADO_A,1,Sucursal,2025-01-06,En ruta,53
+76,Transporte,ASIGNADO_A,5,Almacen,2025-01-01,En ruta,20
+100,Transporte,ASIGNADO_A,3,Sucursal,2025-01-26,Disponible,58
+74,Transporte,ASIGNADO_A,6,Almacen,2025-01-10,Disponible,54
+39,Transporte,ASIGNADO_A,7,Almacen,2025-02-09,Mantenimiento,9
+121,Transporte,ASIGNADO_A,2,Sucursal,2025-02-13,Mantenimiento,18
+165,Transporte,ASIGNADO_A,10,Sucursal,2025-01-08,Mantenimiento,39
+11,Transporte,ASIGNADO_A,3,Almacen,2025-01-10,En ruta,72
+187,Transporte,ASIGNADO_A,9,Sucursal,2025-01-28,Disponible,30
+138,Transporte,ASIGNADO_A,1,Almacen,2025-02-16,Disponible,77
+18,Transporte,ASIGNADO_A,1,Sucursal,2025-02-09,Disponible,94
+60,Transporte,ASIGNADO_A,5,Almacen,2025-01-22,Disponible,57
+191,Transporte,ASIGNADO_A,5,Sucursal,2025-02-11,Disponible,51
+153,Transporte,ASIGNADO_A,0,Almacen,2025-01-28,Disponible,15
+39,Transporte,ASIGNADO_A,10,Sucursal,2025-01-02,Disponible,90
+112,Transporte,ASIGNADO_A,8,Almacen,2025-01-16,En ruta,31
+136,Transporte,ASIGNADO_A,1,Almacen,2025-01-27,En ruta,75
+104,Transporte,ASIGNADO_A,8,Almacen,2025-01-18,Mantenimiento,70
+169,Transporte,ASIGNADO_A,6,Almacen,2025-02-09,Disponible,17
+129,Transporte,ASIGNADO_A,8,Sucursal,2025-02-20,En ruta,55
+148,Transporte,ASIGNADO_A,3,Almacen,2025-02-17,En ruta,58
+190,Transporte,ASIGNADO_A,5,Almacen,2025-02-06,En ruta,99
+127,Transporte,ASIGNADO_A,3,Sucursal,2025-02-24,En ruta,60
+121,Transporte,ASIGNADO_A,3,Sucursal,2025-01-17,Mantenimiento,29
+146,Transporte,ASIGNADO_A,8,Almacen,2025-02-01,En ruta,77
+51,Transporte,ASIGNADO_A,0,Almacen,2025-02-26,En ruta,66
+7,Transporte,ASIGNADO_A,5,Almacen,2025-02-07,Disponible,46
+99,Transporte,ASIGNADO_A,9,Almacen,2025-01-06,Disponible,73
+131,Transporte,ASIGNADO_A,5,Sucursal,2025-01-21,Disponible,57
+35,Transporte,ASIGNADO_A,0,Sucursal,2025-01-05,En ruta,20
+49,Transporte,ASIGNADO_A,6,Almacen,2025-02-11,En ruta,45
+154,Transporte,ASIGNADO_A,0,Sucursal,2025-01-04,Mantenimiento,88
+72,Transporte,ASIGNADO_A,5,Sucursal,2025-02-17,Mantenimiento,58
+131,Transporte,ASIGNADO_A,5,Sucursal,2025-01-09,En ruta,40
+123,Transporte,ASIGNADO_A,9,Sucursal,2025-01-16,En ruta,65
+62,Transporte,ASIGNADO_A,5,Almacen,2025-01-03,Disponible,95
+1,Transporte,ASIGNADO_A,0,Almacen,2025-02-10,Mantenimiento,82
+78,Transporte,ASIGNADO_A,3,Sucursal,2025-02-19,Disponible,78
+120,Transporte,ASIGNADO_A,14,Sucursal,2025-02-11,Mantenimiento,86
+160,Transporte,ASIGNADO_A,14,Sucursal,2025-02-09,Mantenimiento,30
+28,Transporte,ASIGNADO_A,0,Sucursal,2025-02-14,En ruta,27
+152,Transporte,ASIGNADO_A,6,Almacen,2025-01-20,Disponible,98
+78,Transporte,ASIGNADO_A,10,Sucursal,2025-01-06,Mantenimiento,37
+37,Transporte,ASIGNADO_A,1,Almacen,2025-01-28,En ruta,65
+57,Transporte,ASIGNADO_A,7,Sucursal,2025-02-19,Disponible,21
+84,Transporte,ASIGNADO_A,6,Almacen,2025-01-14,Mantenimiento,17
+188,Transporte,ASIGNADO_A,6,Sucursal,2025-02-03,Mantenimiento,44
+98,Transporte,ASIGNADO_A,7,Almacen,2025-01-19,Disponible,61
+13,Transporte,ASIGNADO_A,1,Almacen,2025-02-22,Mantenimiento,36
+156,Transporte,ASIGNADO_A,3,Almacen,2025-02-11,Mantenimiento,99
+40,Transporte,ASIGNADO_A,4,Almacen,2025-01-25,Mantenimiento,53
+193,Transporte,ASIGNADO_A,6,Almacen,2025-01-12,En ruta,38
+19,Transporte,ASIGNADO_A,12,Sucursal,2025-01-03,Disponible,6
+38,Transporte,ASIGNADO_A,0,Almacen,2025-02-26,Mantenimiento,34
+70,Transporte,ASIGNADO_A,11,Sucursal,2025-01-26,Disponible,39
+100,Transporte,ASIGNADO_A,2,Sucursal,2025-01-07,En ruta,8
+72,Transporte,ASIGNADO_A,10,Sucursal,2025-02-16,Mantenimiento,95
+12,Transporte,ASIGNADO_A,11,Sucursal,2025-01-11,Disponible,53
+34,Transporte,ASIGNADO_A,7,Almacen,2025-02-03,Disponible,83
+57,Transporte,ASIGNADO_A,1,Sucursal,2025-02-04,En ruta,29
+148,Transporte,ASIGNADO_A,0,Almacen,2025-02-04,Disponible,84
+30,Transporte,ASIGNADO_A,3,Almacen,2025-02-13,En ruta,33
+142,Transporte,ASIGNADO_A,1,Almacen,2025-01-02,En ruta,21
+75,Transporte,ASIGNADO_A,1,Sucursal,2025-02-15,Disponible,46
+176,Transporte,ASIGNADO_A,7,Almacen,2025-01-18,En ruta,68
+129,Transporte,ASIGNADO_A,3,Almacen,2025-01-24,Mantenimiento,65
+111,Transporte,ASIGNADO_A,1,Sucursal,2025-01-31,Mantenimiento,25
+8,Transporte,ASIGNADO_A,12,Sucursal,2025-02-26,Mantenimiento,59
+107,Transporte,ASIGNADO_A,3,Sucursal,2025-01-24,En ruta,45
+50,Transporte,ASIGNADO_A,5,Sucursal,2025-01-31,Disponible,30
+177,Transporte,ASIGNADO_A,8,Almacen,2025-01-30,Mantenimiento,52
+199,Transporte,ASIGNADO_A,8,Almacen,2025-01-26,Mantenimiento,16
+91,Transporte,ASIGNADO_A,7,Almacen,2025-02-25,Disponible,56
+39,Transporte,ASIGNADO_A,14,Sucursal,2025-02-16,Mantenimiento,8
+25,Transporte,ASIGNADO_A,7,Sucursal,2025-02-21,Disponible,36
+95,Transporte,ASIGNADO_A,5,Sucursal,2025-02-25,Mantenimiento,24
+32,Transporte,ASIGNADO_A,1,Sucursal,2025-01-15,Mantenimiento,70
+195,Transporte,ASIGNADO_A,9,Sucursal,2025-02-04,Mantenimiento,20
+67,Transporte,ASIGNADO_A,8,Almacen,2025-02-05,Mantenimiento,76
+76,Transporte,ASIGNADO_A,5,Almacen,2025-02-03,En ruta,67
+65,Transporte,ASIGNADO_A,7,Sucursal,2025-01-25,Mantenimiento,89
+20,Transporte,ASIGNADO_A,1,Sucursal,2025-02-13,En ruta,71
+19,Transporte,ASIGNADO_A,1,Sucursal,2025-01-24,Disponible,21
+22,Transporte,ASIGNADO_A,8,Almacen,2025-01-27,Disponible,100
+187,Transporte,ASIGNADO_A,14,Sucursal,2025-01-22,En ruta,14
+54,Transporte,ASIGNADO_A,1,Almacen,2025-02-26,En ruta,76
+92,Transporte,ASIGNADO_A,14,Sucursal,2025-01-18,Mantenimiento,67
+149,Transporte,ASIGNADO_A,4,Sucursal,2025-01-10,Disponible,26
+143,Transporte,ASIGNADO_A,2,Sucursal,2025-01-18,Disponible,89
+79,Transporte,ASIGNADO_A,5,Sucursal,2025-02-06,En ruta,56
+107,Transporte,ASIGNADO_A,7,Almacen,2025-01-03,En ruta,7
+91,Transporte,ASIGNADO_A,8,Sucursal,2025-01-01,Disponible,84
+165,Transporte,ASIGNADO_A,13,Sucursal,2025-01-04,En ruta,18
+24,Transporte,ASIGNADO_A,1,Sucursal,2025-01-13,Mantenimiento,90
+46,Transporte,ASIGNADO_A,6,Almacen,2025-02-11,En ruta,9
+146,Transporte,ASIGNADO_A,7,Sucursal,2025-02-25,Disponible,23
+41,Transporte,ASIGNADO_A,7,Sucursal,2025-02-12,En ruta,85
+149,Transporte,ASIGNADO_A,3,Sucursal,2025-02-07,En ruta,97
+61,Transporte,ASIGNADO_A,6,Sucursal,2025-02-01,En ruta,72
+125,Transporte,ASIGNADO_A,2,Almacen,2025-02-22,En ruta,90
+122,Transporte,ASIGNADO_A,9,Almacen,2025-02-26,En ruta,10
+42,Transporte,ASIGNADO_A,3,Almacen,2025-02-09,Mantenimiento,97
+11,Transporte,ASIGNADO_A,5,Sucursal,2025-02-19,Disponible,25
+117,Transporte,ASIGNADO_A,4,Sucursal,2025-01-04,En ruta,12
+80,Transporte,ASIGNADO_A,6,Almacen,2025-02-06,Mantenimiento,17
+148,Transporte,ASIGNADO_A,5,Almacen,2025-02-18,Disponible,68
+138,Transporte,ASIGNADO_A,2,Sucursal,2025-01-07,Disponible,77
+24,Transporte,ASIGNADO_A,6,Sucursal,2025-02-05,Mantenimiento,36
+177,Transporte,ASIGNADO_A,6,Almacen,2025-02-16,Mantenimiento,64
+108,Transporte,ASIGNADO_A,8,Almacen,2025-02-24,En ruta,40
+56,Transporte,ASIGNADO_A,3,Sucursal,2025-02-10,Mantenimiento,89
+187,Transporte,ASIGNADO_A,1,Almacen,2025-01-19,Disponible,55
+197,Transporte,ASIGNADO_A,4,Almacen,2025-01-28,En ruta,5
+119,Transporte,ASIGNADO_A,4,Almacen,2025-02-08,Disponible,29
+130,Transporte,ASIGNADO_A,0,Sucursal,2025-01-04,En ruta,95
+154,Transporte,ASIGNADO_A,1,Almacen,2025-02-14,Disponible,22
+101,Transporte,ASIGNADO_A,1,Sucursal,2025-02-20,Disponible,15
+73,Transporte,ASIGNADO_A,12,Sucursal,2025-01-25,Disponible,76
+144,Transporte,ASIGNADO_A,13,Sucursal,2025-02-04,Mantenimiento,32
+22,Transporte,ASIGNADO_A,5,Almacen,2025-01-06,En ruta,23
+60,Transporte,ASIGNADO_A,4,Almacen,2025-01-02,Mantenimiento,93
+184,Transporte,ASIGNADO_A,1,Almacen,2025-02-09,En ruta,96
+35,Transporte,ASIGNADO_A,4,Sucursal,2025-01-16,En ruta,94
+118,Transporte,ASIGNADO_A,7,Sucursal,2025-02-11,Mantenimiento,33
+40,Transporte,ASIGNADO_A,12,Sucursal,2025-01-01,Mantenimiento,62
+39,Transporte,ASIGNADO_A,9,Almacen,2025-01-14,En ruta,69
+190,Transporte,ASIGNADO_A,10,Sucursal,2025-01-31,En ruta,24
+157,Transporte,ASIGNADO_A,0,Almacen,2025-02-24,Disponible,97
+186,Transporte,ASIGNADO_A,11,Sucursal,2025-01-09,Mantenimiento,6
+120,Transporte,ASIGNADO_A,4,Almacen,2025-01-26,Disponible,52
+122,Transporte,ASIGNADO_A,0,Almacen,2025-01-17,Disponible,39
+73,Transporte,ASIGNADO_A,3,Almacen,2025-02-23,Disponible,70
+114,Transporte,ASIGNADO_A,14,Sucursal,2025-02-18,En ruta,75
+148,Transporte,ASIGNADO_A,5,Almacen,2025-01-22,En ruta,93
+113,Transporte,ASIGNADO_A,14,Sucursal,2025-02-08,Disponible,59
+32,Transporte,ASIGNADO_A,8,Almacen,2025-02-24,Mantenimiento,49
+58,Transporte,ASIGNADO_A,4,Almacen,2025-01-01,Disponible,54
+198,Transporte,ASIGNADO_A,2,Almacen,2025-01-08,Disponible,75
+143,Transporte,ASIGNADO_A,1,Sucursal,2025-01-08,Disponible,87
+79,Transporte,ASIGNADO_A,8,Sucursal,2025-01-03,En ruta,32
+1,Transporte,ASIGNADO_A,8,Almacen,2025-02-18,Mantenimiento,82
+148,Transporte,ASIGNADO_A,0,Almacen,2025-02-25,Mantenimiento,98
+104,Transporte,ASIGNADO_A,2,Almacen,2025-01-30,Disponible,25
+138,Transporte,ASIGNADO_A,3,Sucursal,2025-02-07,Disponible,31
+99,Transporte,ASIGNADO_A,5,Almacen,2025-02-09,En ruta,94
+137,Transporte,ASIGNADO_A,9,Sucursal,2025-01-21,En ruta,24
+42,Transporte,ASIGNADO_A,9,Almacen,2025-02-12,Mantenimiento,70
+128,Transporte,ASIGNADO_A,12,Sucursal,2025-02-22,Disponible,37
+5,Transporte,ASIGNADO_A,3,Almacen,2025-01-22,Mantenimiento,14
+191,Transporte,ASIGNADO_A,6,Almacen,2025-01-03,Disponible,94
+57,Transporte,ASIGNADO_A,0,Almacen,2025-02-08,Mantenimiento,74
+99,Transporte,ASIGNADO_A,2,Sucursal,2025-02-13,En ruta,80
+142,Transporte,ASIGNADO_A,1,Sucursal,2025-01-14,Disponible,5
+87,Transporte,ASIGNADO_A,2,Almacen,2025-02-26,En ruta,13
+169,Transporte,ASIGNADO_A,8,Almacen,2025-02-13,Disponible,53
+94,Transporte,ASIGNADO_A,2,Almacen,2025-01-12,Mantenimiento,15
+192,Transporte,ASIGNADO_A,10,Sucursal,2025-02-16,Disponible,56
+115,Transporte,ASIGNADO_A,0,Almacen,2025-02-19,Disponible,50
+184,Transporte,ASIGNADO_A,7,Almacen,2025-01-19,En ruta,11
+180,Transporte,ASIGNADO_A,8,Almacen,2025-01-17,Disponible,56
+141,Transporte,ASIGNADO_A,5,Sucursal,2025-02-18,En ruta,84
+188,Transporte,ASIGNADO_A,10,Sucursal,2025-02-20,Mantenimiento,75
+122,Transporte,ASIGNADO_A,0,Almacen,2025-01-05,En ruta,38
+22,Transporte,ASIGNADO_A,9,Almacen,2025-02-19,En ruta,7
+71,Transporte,ASIGNADO_A,0,Almacen,2025-01-19,Disponible,92
+51,Transporte,ASIGNADO_A,5,Sucursal,2025-01-26,Disponible,57
+39,Transporte,ASIGNADO_A,8,Almacen,2025-02-12,En ruta,68
+171,Transporte,ASIGNADO_A,6,Sucursal,2025-02-13,En ruta,75
+182,Transporte,ASIGNADO_A,6,Sucursal,2025-02-18,En ruta,39
+33,Transporte,ASIGNADO_A,6,Almacen,2025-02-26,Mantenimiento,86
+28,Transporte,ASIGNADO_A,9,Almacen,2025-01-28,Disponible,87
+125,Transporte,ASIGNADO_A,8,Almacen,2025-02-04,Mantenimiento,49
+153,Transporte,ASIGNADO_A,6,Sucursal,2025-02-13,En ruta,25
+137,Transporte,ASIGNADO_A,4,Almacen,2025-01-29,En ruta,28
+23,Transporte,ASIGNADO_A,7,Sucursal,2025-02-09,En ruta,94
+163,Transporte,ASIGNADO_A,7,Sucursal,2025-02-22,Mantenimiento,17
+27,Transporte,ASIGNADO_A,4,Sucursal,2025-01-01,Mantenimiento,93
+158,Transporte,ASIGNADO_A,6,Sucursal,2025-02-20,Mantenimiento,79
+42,Transporte,ASIGNADO_A,2,Almacen,2025-01-27,Disponible,34
+140,Transporte,ASIGNADO_A,11,Sucursal,2025-01-15,Mantenimiento,61
+40,Transporte,ASIGNADO_A,2,Sucursal,2025-02-23,Disponible,25
+71,Transporte,ASIGNADO_A,7,Sucursal,2025-01-27,Disponible,32
+27,Transporte,ASIGNADO_A,4,Almacen,2025-02-25,En ruta,67
+68,Transporte,ASIGNADO_A,2,Almacen,2025-02-10,En ruta,77
+178,Transporte,ASIGNADO_A,2,Sucursal,2025-02-10,Disponible,87
+9,Transporte,ASIGNADO_A,10,Sucursal,2025-02-10,Disponible,48
+5,Transporte,ASIGNADO_A,0,Sucursal,2025-01-03,Disponible,16
+5,Transporte,ASIGNADO_A,8,Almacen,2025-01-08,En ruta,10
+175,Transporte,ASIGNADO_A,6,Sucursal,2025-02-11,Disponible,70
+77,Transporte,ASIGNADO_A,6,Sucursal,2025-02-09,En ruta,10
+106,Transporte,ASIGNADO_A,14,Sucursal,2025-01-14,En ruta,39
+83,Transporte,ASIGNADO_A,6,Almacen,2025-01-29,En ruta,51
+151,Transporte,ASIGNADO_A,14,Sucursal,2025-01-24,Disponible,11
+86,Transporte,ASIGNADO_A,1,Sucursal,2025-02-02,Mantenimiento,60
+10,Transporte,ASIGNADO_A,4,Sucursal,2025-01-12,En ruta,76
+182,Transporte,ASIGNADO_A,2,Almacen,2025-01-27,Disponible,29
+182,Transporte,ASIGNADO_A,14,Sucursal,2025-01-06,Mantenimiento,52
+121,Transporte,ASIGNADO_A,6,Sucursal,2025-02-05,Disponible,39
+173,Transporte,ASIGNADO_A,0,Almacen,2025-02-13,Mantenimiento,68
+77,Transporte,ASIGNADO_A,14,Sucursal,2025-01-10,Mantenimiento,29
+134,Transporte,ASIGNADO_A,5,Almacen,2025-01-23,Disponible,19
+4,Transporte,ASIGNADO_A,1,Almacen,2025-02-19,En ruta,67
+138,Transporte,ASIGNADO_A,7,Almacen,2025-02-04,Mantenimiento,30
+68,Transporte,ASIGNADO_A,3,Almacen,2025-01-09,En ruta,22
+94,Transporte,ASIGNADO_A,9,Sucursal,2025-02-24,En ruta,28
+86,Transporte,ASIGNADO_A,2,Sucursal,2025-01-08,En ruta,17
+178,Transporte,ASIGNADO_A,5,Sucursal,2025-02-25,Disponible,83
+170,Transporte,ASIGNADO_A,12,Sucursal,2025-02-18,Mantenimiento,88
+76,Transporte,ASIGNADO_A,2,Almacen,2025-01-04,En ruta,21
+189,Transporte,ASIGNADO_A,9,Almacen,2025-02-02,Mantenimiento,22
+149,Transporte,ASIGNADO_A,6,Almacen,2025-01-03,En ruta,50
+144,Transporte,ASIGNADO_A,10,Sucursal,2025-01-17,Disponible,48
+45,Transporte,ASIGNADO_A,7,Sucursal,2025-01-17,Mantenimiento,34
+32,Transporte,ASIGNADO_A,0,Almacen,2025-01-23,Mantenimiento,38
+49,Transporte,ASIGNADO_A,14,Sucursal,2025-02-08,Disponible,91
+57,Transporte,ASIGNADO_A,9,Almacen,2025-01-26,Disponible,91
+147,Transporte,ASIGNADO_A,2,Sucursal,2025-01-22,Mantenimiento,18
+155,Transporte,ASIGNADO_A,0,Almacen,2025-02-26,Mantenimiento,79
+143,Transporte,ASIGNADO_A,11,Sucursal,2025-02-10,En ruta,6
+18,Transporte,ASIGNADO_A,8,Almacen,2025-02-19,Mantenimiento,32
+51,Transporte,ASIGNADO_A,3,Almacen,2025-01-25,Mantenimiento,47
+96,Transporte,ASIGNADO_A,9,Almacen,2025-01-25,Disponible,89
+183,Transporte,ASIGNADO_A,1,Almacen,2025-01-11,Disponible,45
+50,Transporte,ASIGNADO_A,7,Sucursal,2025-02-18,En ruta,90
+159,Transporte,ASIGNADO_A,8,Almacen,2025-01-05,Mantenimiento,54
+143,Transporte,ASIGNADO_A,5,Sucursal,2025-02-21,En ruta,84
+140,Transporte,ASIGNADO_A,2,Almacen,2025-02-13,Mantenimiento,76
+107,Transporte,ASIGNADO_A,8,Almacen,2025-01-09,Mantenimiento,18
+62,Transporte,ASIGNADO_A,7,Sucursal,2025-02-16,Mantenimiento,18
+171,Transporte,ASIGNADO_A,14,Sucursal,2025-02-24,En ruta,100
+178,Transporte,ASIGNADO_A,0,Sucursal,2025-01-05,En ruta,15
+0,Transporte,ASIGNADO_A,12,Sucursal,2025-01-18,Disponible,69
+50,Transporte,ASIGNADO_A,4,Sucursal,2025-02-01,Mantenimiento,81
+52,Transporte,ASIGNADO_A,3,Almacen,2025-02-25,En ruta,39
+159,Transporte,ASIGNADO_A,4,Almacen,2025-02-07,Disponible,59
+34,Transporte,ASIGNADO_A,0,Almacen,2025-01-16,Mantenimiento,62
+178,Transporte,ASIGNADO_A,9,Almacen,2025-01-14,Mantenimiento,94
+30,Transporte,ASIGNADO_A,7,Almacen,2025-02-07,Mantenimiento,32
+128,Transporte,ASIGNADO_A,0,Almacen,2025-01-22,En ruta,13
+73,Transporte,ASIGNADO_A,8,Almacen,2025-02-18,Disponible,36
+168,Transporte,ASIGNADO_A,3,Almacen,2025-01-06,Mantenimiento,89
+1,Transporte,ASIGNADO_A,4,Sucursal,2025-02-14,En ruta,46
+85,Transporte,ASIGNADO_A,4,Almacen,2025-01-24,En ruta,10
+83,Transporte,ASIGNADO_A,2,Sucursal,2025-02-18,En ruta,43
+190,Transporte,ASIGNADO_A,12,Sucursal,2025-01-30,En ruta,15
+153,Transporte,ASIGNADO_A,8,Sucursal,2025-01-03,Disponible,99
+161,Transporte,ASIGNADO_A,8,Almacen,2025-02-15,Disponible,74
+4,Transporte,ASIGNADO_A,12,Sucursal,2025-02-03,Mantenimiento,70
+21,Transporte,ASIGNADO_A,4,Sucursal,2025-02-12,Disponible,6
+190,Transporte,ASIGNADO_A,0,Almacen,2025-02-24,Mantenimiento,27
+141,Transporte,ASIGNADO_A,10,Sucursal,2025-01-22,Disponible,68
+65,Transporte,ASIGNADO_A,0,Almacen,2025-01-18,En ruta,32
+119,Transporte,ASIGNADO_A,0,Sucursal,2025-02-18,Disponible,65
+53,Transporte,ASIGNADO_A,6,Almacen,2025-02-17,En ruta,69
+67,Transporte,ASIGNADO_A,9,Sucursal,2025-01-28,Disponible,20
+159,Transporte,ASIGNADO_A,1,Almacen,2025-02-14,Mantenimiento,25
+70,Transporte,ASIGNADO_A,4,Sucursal,2025-01-23,En ruta,73
+61,Transporte,ASIGNADO_A,6,Sucursal,2025-01-14,En ruta,16
+101,Transporte,ASIGNADO_A,3,Almacen,2025-02-07,Disponible,87
+28,Transporte,ASIGNADO_A,5,Sucursal,2025-01-13,Disponible,85
+104,Transporte,ASIGNADO_A,4,Almacen,2025-01-04,Disponible,57
+120,Transporte,ASIGNADO_A,5,Almacen,2025-02-23,Mantenimiento,31
+158,Transporte,ASIGNADO_A,10,Sucursal,2025-02-10,Disponible,29
+132,Transporte,ASIGNADO_A,1,Almacen,2025-01-28,Mantenimiento,74
+149,Transporte,ASIGNADO_A,11,Sucursal,2025-02-14,Disponible,19
+192,Transporte,ASIGNADO_A,0,Almacen,2025-01-15,Disponible,13
+0,Transporte,ASIGNADO_A,0,Sucursal,2025-01-07,Mantenimiento,34
+196,Transporte,ASIGNADO_A,8,Almacen,2025-01-29,En ruta,20

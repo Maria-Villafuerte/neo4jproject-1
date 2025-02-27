@@ -1,0 +1,41 @@
+id,labels,nombre,ubicacion,departamento,tipo_produccion,marca
+0,Proveedor,Jenkins and Sons,"77950 Kenneth Villages
+Smithfort, WA 61422",Idaho,Importación,Inc
+1,Proveedor,"Scott, Boyd and Miller","69750 Jones Fall Apt. 284
+Devinchester, MT 80973",New Mexico,Importación,PLC
+2,Proveedor,Young-Kirby,"4114 Jamie Forges
+Adamschester, VA 58956",New Hampshire,Importación,Ltd
+3,Proveedor,"Dean, Jacobs and Smith","9695 Andrew Trail Apt. 366
+North Johnny, RI 57664",Idaho,Manufactura,LLC
+4,Proveedor,Hayes and Sons,"6042 Erika Well Apt. 359
+Baileyshire, NC 10112",Wisconsin,Importación,and Sons
+5,Proveedor,Williams-Shepherd,"754 Mason Via Suite 552
+East Edward, IN 32086",New York,Agrícola,LLC
+6,Proveedor,Barton Inc,"USNV Hansen
+FPO AE 52272",Maine,Importación,PLC
+7,Proveedor,Sweeney-Miller,"2926 Jill Mountains Suite 454
+West Madelineport, VI 81412",Mississippi,Manufactura,PLC
+8,Proveedor,"Henry, Smith and Graham","458 Benjamin Freeway
+Tinaberg, MT 75163",Arizona,Importación,PLC
+9,Proveedor,Parker-Phillips,"9302 Porter Plaza
+Margaretbury, MI 61616",Hawaii,Manufactura,Group
+10,Proveedor,"Weeks, King and Fowler","661 Jonathan Camp
+Port Cassandrastad, GU 36381",Michigan,Manufactura,PLC
+11,Proveedor,"Estrada, Ortiz and Jackson","7324 Patrick Fords
+North Rachel, KS 16314",Florida,Manufactura,Group
+12,Proveedor,"Gordon, Neal and Collins","568 James Parks Suite 737
+South Peter, AS 89004",Ohio,Agrícola,Inc
+13,Proveedor,Snyder-Anderson,"672 Sheila Turnpike
+Stewartborough, FL 78660",Idaho,Agrícola,PLC
+14,Proveedor,Benjamin-Peterson,"24429 Timothy Hills Suite 188
+North Kyleberg, MI 94664",Arkansas,Manufactura,PLC
+15,Proveedor,"Hughes, Martin and Larsen","63432 Crosby Crossroad
+Lake Luisfort, AK 51103",Connecticut,Importación,Group
+16,Proveedor,"Santos, Martin and Wagner","088 Elijah Crossroad Apt. 281
+Ryanstad, CT 25390",California,Importación,Inc
+17,Proveedor,Thomas-Foster,"760 Castro Harbor
+Carlaside, SD 44625",Maryland,Manufactura,Inc
+18,Proveedor,Wheeler and Sons,"530 Eaton Port Apt. 556
+Jenniferburgh, LA 64576",Wisconsin,Manufactura,Group
+19,Proveedor,Collins-Riley,"22983 Mays Well Suite 863
+Walkerland, NC 97471",Iowa,Manufactura,LLC

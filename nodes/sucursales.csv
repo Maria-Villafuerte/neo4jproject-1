@@ -1,0 +1,31 @@
+id,labels,nombre,fecha_inauguracion,pedidos_domicilio,ubicacion,departamento
+0,Sucursal,Delgado PLC,2021-03-24,True,"3520 Ryan Forks
+Edwardsmouth, MT 30518",Indiana
+1,Sucursal,"Orozco, Guerrero and Le",2003-02-16,False,"PSC 9323, Box 3282
+APO AE 47045",Arkansas
+2,Sucursal,"Miller, Miller and Kelly",2001-08-30,True,"813 Harmon Pine
+South Mary, GA 19238",Texas
+3,Sucursal,Freeman Group,2009-12-17,True,"376 Mccoy Square Apt. 139
+Lake Christineberg, SD 62744",North Dakota
+4,Sucursal,"Shea, Ponce and Doyle",2018-06-07,False,"3648 Santos Isle
+Juanshire, AR 66934",Michigan
+5,Sucursal,Stewart-Baxter,2019-11-25,False,"PSC 8531, Box 2417
+APO AA 41863",Missouri
+6,Sucursal,Berry-Hopkins,1997-12-01,True,"5330 Sean Cliffs Suite 118
+Nicholasview, AZ 94944",New Hampshire
+7,Sucursal,"Richard, Frederick and Weiss",2018-10-26,False,"9665 Ronald Crest Apt. 536
+Port Jackie, MO 39419",Washington
+8,Sucursal,Daniel and Sons,2014-12-30,True,"3334 Wright Parks Apt. 330
+Vanessafort, RI 06973",New York
+9,Sucursal,"Matthews, Hoover and Stevens",1999-02-20,False,"16414 Foster Island
+Port Nicolemouth, AS 93326",Wyoming
+10,Sucursal,Williams LLC,1997-08-02,False,"PSC 4088, Box 8051
+APO AE 62405",New York
+11,Sucursal,"Nichols, Allen and Kennedy",2001-01-05,False,"74976 John Lake Suite 524
+Lozanofort, IN 08091",Iowa
+12,Sucursal,Wilson PLC,2018-01-30,True,"49982 Danielle Street Suite 377
+Arthurland, MO 23828",Idaho
+13,Sucursal,Rollins PLC,2018-09-07,False,"64857 Hunter Haven
+Port William, RI 63005",New Mexico
+14,Sucursal,"Cortez, Stanton and Galloway",2011-05-16,True,"2422 Hall Forks
+South Chad, RI 53780",New York
