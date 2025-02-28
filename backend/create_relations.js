@@ -1,0 +1,57 @@
+import express, { json } from 'express';
+import cors from 'cors';
+import { getSession } from './neo4j-connection.js';
+
+const app = express();
+app.use(cors());
+app.use(json());
+
+/**
+ * Operación CREATE que cree una relación entre 2 nodos ya existentes
+ * Incluye el tipo de la relación y sus propiedades
+ * 
+ * Usa de parámetros para hacer una generalización de la creación de relaciones
+ * 
+ * El query de consulta se veria como:
+ * MERGE (a:LabelA {propertyN: value_propertyA})
+ * -[r:relationship {propertyR1: value_propertyR1, propertyR2: value_propertyR2, propertyR3: value_propertyR3}]
+ * ->(b:LabelB {propertyN: value_propertyB})
+ */
+router.post('/api/relacion', async (req, res) => {
+    const session = getSession();
+    const { labelA, propertiesA, relationship, propertiesR, labelB, propertiesB } = req.body;
+
+    if (!labelA || !labelB || !relationship || !propertiesA || !propertiesB) {
+        return res.status(400).json({ error: 'Faltan datos requeridos' });
+    }
+
+    try {
+        const query = `
+            MERGE (a:${labelA} $propsA)
+            MERGE (b:${labelB} $propsB)
+            MERGE (a)-[r:${relationship} $propsR]->(b)
+            RETURN a, r, b
+        `;
+
+        const result = await session.run(query, {
+            propsA: propertiesA,
+            propsB: propertiesB,
+            propsR: propertiesR || {}
+        });
+
+        const response = result.records.map(record => ({
+            nodeA: record.get('a').properties,
+            relationship: record.get('r').properties,
+            nodeB: record.get('b').properties
+        }));
+
+        res.json(response);
+    } catch (error) {
+        console.error('Error creando relación:', error);
+        res.status(500).json({ error: 'Error en la base de datos' });
+    } finally {
+        await session.close();
+    }
+});
+
+export default router;
