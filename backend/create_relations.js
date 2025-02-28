@@ -17,11 +17,11 @@ app.use(json());
  * -[r:relationship {propertyR1: value_propertyR1, propertyR2: value_propertyR2, propertyR3: value_propertyR3}]
  * ->(b:LabelB {propertyN: value_propertyB})
  */
-router.post('/api/relacion', async (req, res) => {
+router.post('/create/relacion', async (req, res) => {
     const session = getSession();
     const { labelA, propertiesA, relationship, propertiesR, labelB, propertiesB } = req.body;
 
-    if (!labelA || !labelB || !relationship || !propertiesA || !propertiesB) {
+    if (!labelA || !labelB || !relationship || !propertiesR || !propertiesA || !propertiesB) {
         return res.status(400).json({ error: 'Faltan datos requeridos' });
     }
 
@@ -36,7 +36,7 @@ router.post('/api/relacion', async (req, res) => {
         const result = await session.run(query, {
             propsA: propertiesA,
             propsB: propertiesB,
-            propsR: propertiesR || {}
+            propsR: propertiesR
         });
 
         const response = result.records.map(record => ({

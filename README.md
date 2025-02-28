@@ -63,10 +63,10 @@ neo4jproject-1/
 │── .gitignore              # Archivos ignorados en Git
 │── package.json           # Dependencias y configuración
 │── README.md              # Documentación
+├── .env                   # Variables de entorno (IGNORADO en Git)
 │── backend/
 │   ├── server.js          # Archivo principal del servidor
 │   ├── neo4j-connection.js # Configuración de conexión a Neo4j
-│   ├── .env                   # Variables de entorno (IGNORADO en Git)
 
 ```
 
