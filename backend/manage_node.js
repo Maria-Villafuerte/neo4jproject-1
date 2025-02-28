@@ -2,9 +2,7 @@ import express, { json } from 'express';
 import cors from 'cors';
 import { getSession } from './neo4j-connection.js';
 
-const app = express();
-app.use(cors());
-app.use(json());
+const router = express.Router();
 
 // Operación que permita agregar 1 o más propiedades a un nodo
 // Operación que permita realizar la actualización de 1 o más propiedades de un nodo
@@ -154,3 +152,5 @@ router.post('/delete/nodes/properties', async (req, res) => {
         await session.close();
     }
 });
+
+export default router;
