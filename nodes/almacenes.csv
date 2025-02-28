@@ -1,21 +1,21 @@
-id,labels,nombre,ubicacion,departamento,tipo,capacidad_max,capacidad_actual
-0,Almacen,Almacén Brandonview,"66789 Amy Dale Apt. 724
-Kimberlyland, AK 16874",Nevada,Congelado,"[8443.21, 5636.59, 36685.25]","[3402.63, 3518.01, 15234.49]"
-1,Almacen,Almacén Wrightport,"942 Dale Green Suite 908
-Allenbury, FM 37431",Massachusetts,Refrigerado,"[34684.49, 19938.41, 49733.8]","[7509.47, 15751.84, 38005.37]"
-2,Almacen,Almacén Lisachester,"26988 Johnson Loaf
-Rossfurt, NM 68682",South Dakota,Congelado,"[44064.04, 38645.39, 28137.18]","[23366.71, 12670.51, 14375.97]"
-3,Almacen,Almacén Anthonyberg,"758 Monroe Club
-Mendozaburgh, OR 37330",Alaska,Congelado,"[30078.92, 22310.24, 17777.1]","[22790.91, 10828.82, 15230.27]"
-4,Almacen,Almacén South Kevinbury,"Unit 6939 Box 2175
-DPO AE 61781",Indiana,Refrigerado,"[7577.17, 47314.34, 9614.79]","[4376.96, 34652.49, 7544.12]"
-5,Almacen,Almacén New Andrew,"6606 Huff Gateway Apt. 442
-Port Andreachester, PW 87243",Louisiana,Congelado,"[41520.41, 25953.26, 38601.72]","[8580.83, 9086.16, 9231.34]"
-6,Almacen,Almacén Rodgersborough,"54277 James Tunnel
-North Elizabeth, IL 56544",California,Refrigerado,"[9876.75, 7131.92, 20075.48]","[3948.41, 2190.54, 16466.56]"
-7,Almacen,Almacén South David,"PSC 6999, Box 1408
-APO AA 76523",Hawaii,Seco,"[6461.17, 49158.48, 19991.34]","[5318.02, 14278.88, 9393.91]"
-8,Almacen,Almacén Rickyport,"0633 Hughes Court Suite 979
-New Nichole, NV 51957",Texas,Seco,"[35153.75, 24056.1, 18218.83]","[16708.25, 6478.95, 7021.04]"
-9,Almacen,Almacén Burnsville,"009 Paige Viaduct Apt. 137
-Port Robert, FM 96589",Wisconsin,Refrigerado,"[40232.52, 48028.55, 34433.6]","[35938.38, 40933.17, 21088.27]"
+id,labels,nombre,ubicacion,estado,tipo,capacidad_max,capacidad_actual
+0,Almacen,Almacén East Benjamin,"554 Lee Light Suite 597
+Port Jenniferton, MS 58633",Michigan,Congelado,"[44842.57, 19729.32, 44909.73]","[24318.21, 8318.54, 31145.76]"
+1,Almacen,Almacén West Johnland,"USNS Jacobs
+FPO AA 28976",Vermont,Congelado,"[24311.72, 21932.12, 47811.98]","[17772.98, 14653.95, 41686.84]"
+2,Almacen,Almacén South Tarastad,"PSC 8336, Box 7455
+APO AA 04658",Oregon,Refrigerado,"[26208.64, 40172.34, 18121.89]","[17876.84, 32408.11, 9862.46]"
+3,Almacen,Almacén Austinbury,"5866 Brown Walk Suite 449
+Robertsstad, AZ 67433",Rhode Island,Congelado,"[29554.86, 26055.45, 9225.67]","[21683.3, 10089.38, 7030.96]"
+4,Almacen,Almacén South Markland,"753 Gonzalez Club
+Christinastad, MO 32085",South Carolina,Congelado,"[34989.37, 22307.09, 9725.4]","[27335.84, 5477.28, 2625.87]"
+5,Almacen,Almacén Lake Courtneymouth,"31234 Robert Spur
+Lake Zacharytown, NE 06661",Iowa,Refrigerado,"[46566.14, 46952.29, 5308.58]","[12311.63, 12199.57, 2291.03]"
+6,Almacen,Almacén Daniellefort,"433 Tony Islands Apt. 251
+West Brandonchester, AS 10150",Missouri,Congelado,"[26962.57, 17301.2, 15322.0]","[15726.73, 5186.11, 3935.26]"
+7,Almacen,Almacén Tamaraport,"1160 John Isle
+Kaylatown, IN 57118",Iowa,Seco,"[42886.97, 42373.85, 34433.98]","[37923.51, 19925.64, 13253.12]"
+8,Almacen,Almacén Lopezville,"4582 Davis Lane Apt. 160
+North Angela, NM 06045",Michigan,Refrigerado,"[41623.97, 5720.5, 44504.29]","[16501.58, 2625.59, 31560.49]"
+9,Almacen,Almacén Johnstontown,"PSC 2460, Box 6627
+APO AE 47571",Alabama,Seco,"[10943.3, 34365.27, 37547.28]","[3094.87, 19994.83, 16068.62]"

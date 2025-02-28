@@ -1,41 +1,41 @@
-id,labels,nombre,ubicacion,departamento,tipo_produccion,marca
-0,Proveedor,Jenkins and Sons,"77950 Kenneth Villages
-Smithfort, WA 61422",Idaho,Importación,Inc
-1,Proveedor,"Scott, Boyd and Miller","69750 Jones Fall Apt. 284
-Devinchester, MT 80973",New Mexico,Importación,PLC
-2,Proveedor,Young-Kirby,"4114 Jamie Forges
-Adamschester, VA 58956",New Hampshire,Importación,Ltd
-3,Proveedor,"Dean, Jacobs and Smith","9695 Andrew Trail Apt. 366
-North Johnny, RI 57664",Idaho,Manufactura,LLC
-4,Proveedor,Hayes and Sons,"6042 Erika Well Apt. 359
-Baileyshire, NC 10112",Wisconsin,Importación,and Sons
-5,Proveedor,Williams-Shepherd,"754 Mason Via Suite 552
-East Edward, IN 32086",New York,Agrícola,LLC
-6,Proveedor,Barton Inc,"USNV Hansen
-FPO AE 52272",Maine,Importación,PLC
-7,Proveedor,Sweeney-Miller,"2926 Jill Mountains Suite 454
-West Madelineport, VI 81412",Mississippi,Manufactura,PLC
-8,Proveedor,"Henry, Smith and Graham","458 Benjamin Freeway
-Tinaberg, MT 75163",Arizona,Importación,PLC
-9,Proveedor,Parker-Phillips,"9302 Porter Plaza
-Margaretbury, MI 61616",Hawaii,Manufactura,Group
-10,Proveedor,"Weeks, King and Fowler","661 Jonathan Camp
-Port Cassandrastad, GU 36381",Michigan,Manufactura,PLC
-11,Proveedor,"Estrada, Ortiz and Jackson","7324 Patrick Fords
-North Rachel, KS 16314",Florida,Manufactura,Group
-12,Proveedor,"Gordon, Neal and Collins","568 James Parks Suite 737
-South Peter, AS 89004",Ohio,Agrícola,Inc
-13,Proveedor,Snyder-Anderson,"672 Sheila Turnpike
-Stewartborough, FL 78660",Idaho,Agrícola,PLC
-14,Proveedor,Benjamin-Peterson,"24429 Timothy Hills Suite 188
-North Kyleberg, MI 94664",Arkansas,Manufactura,PLC
-15,Proveedor,"Hughes, Martin and Larsen","63432 Crosby Crossroad
-Lake Luisfort, AK 51103",Connecticut,Importación,Group
-16,Proveedor,"Santos, Martin and Wagner","088 Elijah Crossroad Apt. 281
-Ryanstad, CT 25390",California,Importación,Inc
-17,Proveedor,Thomas-Foster,"760 Castro Harbor
-Carlaside, SD 44625",Maryland,Manufactura,Inc
-18,Proveedor,Wheeler and Sons,"530 Eaton Port Apt. 556
-Jenniferburgh, LA 64576",Wisconsin,Manufactura,Group
-19,Proveedor,Collins-Riley,"22983 Mays Well Suite 863
-Walkerland, NC 97471",Iowa,Manufactura,LLC
+id,labels,nombre,ubicacion,estado,tipo_produccion,marca
+0,Proveedor,King Group,"8270 Kevin Mills Suite 055
+Nguyentown, CO 17648",California,Manufactura,Ltd
+1,Proveedor,Robertson PLC,"Unit 0765 Box 3821
+DPO AP 43276",Massachusetts,Importación,Ltd
+2,Proveedor,Davis-Johnson,"166 Parker Ford Apt. 890
+East Justinhaven, MA 36730",Connecticut,Manufactura,LLC
+3,Proveedor,Vargas-Freeman,"94502 Jennifer Hill Apt. 787
+South Mark, MT 89315",Montana,Manufactura,and Sons
+4,Proveedor,Wright and Sons,"503 Jesse Heights
+West Diana, VI 57397",Colorado,Manufactura,and Sons
+5,Proveedor,Shaw-Goodman,"4868 Lane Alley
+Robertside, AZ 64830",North Carolina,Importación,Ltd
+6,Proveedor,"Sanchez, Lee and Bell","22308 Norman Well
+Jenniferbury, FL 82652",South Carolina,Manufactura,LLC
+7,Proveedor,"Williams, Walker and Schwartz","774 Emma Plains
+East Jeffrey, NC 18873",Mississippi,Manufactura,PLC
+8,Proveedor,Smith-Butler,"76821 Bruce Underpass
+Gregoryland, SD 83204",Louisiana,Importación,PLC
+9,Proveedor,Solis-Greene,"0875 Johnny Club
+Lake Jenniferborough, GU 97362",New Jersey,Importación,LLC
+10,Proveedor,Lam-Roberts,"602 Gallegos Square
+South Lindaville, TN 81955",South Carolina,Agrícola,Group
+11,Proveedor,Moyer Inc,"PSC 8676, Box 7072
+APO AA 59967",Arizona,Manufactura,Inc
+12,Proveedor,"Fernandez, Moore and Diaz","USNV Marks
+FPO AP 87594",Wyoming,Agrícola,and Sons
+13,Proveedor,Hamilton-Rodriguez,"14497 Kristy Lock
+Port Jameston, DC 64551",Ohio,Agrícola,PLC
+14,Proveedor,"Mcclain, Cook and Jackson","USCGC Parrish
+FPO AA 97676",Kansas,Importación,LLC
+15,Proveedor,Taylor LLC,"170 Kimberly Mission
+Lake Heather, WY 99226",Indiana,Manufactura,Inc
+16,Proveedor,Lopez-Bradley,"9541 Caldwell Route
+Gutierrezshire, MS 95200",Florida,Importación,LLC
+17,Proveedor,"Hancock, Walker and Fischer","25156 Taylor Fort
+East Jenniferburgh, NH 54590",Idaho,Manufactura,Ltd
+18,Proveedor,"Humphrey, Tran and Evans","554 Leah Rapids Apt. 376
+Edwardmouth, MD 07236",Kansas,Agrícola,Group
+19,Proveedor,Davis and Sons,"096 Jennifer Groves Apt. 655
+East Susanville, GU 24865",Virginia,Manufactura,Ltd

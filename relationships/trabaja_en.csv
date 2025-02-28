@@ -1,501 +1,876 @@
 start_id,start_label,type,end_id,end_label,horario,dias_laborales,estado
-763,Personal,TRABAJA_EN,14,Sucursal,04:14:22,Lunes a Sábado,Baja
-695,Personal,TRABAJA_EN,4,Almacen,14:41:38,Lunes a Viernes,Suspendido
-389,Personal,TRABAJA_EN,6,Sucursal,15:54:58,Lunes a Sábado,Activo
-978,Personal,TRABAJA_EN,7,Sucursal,10:36:11,Lunes a Sábado,Activo
-340,Personal,TRABAJA_EN,9,Almacen,18:26:11,Lunes a Sábado,Baja
-244,Personal,TRABAJA_EN,11,Sucursal,00:00:38,Lunes a Sábado,Activo
-856,Personal,TRABAJA_EN,12,Sucursal,11:29:29,Turnos rotativos,Baja
-859,Personal,TRABAJA_EN,11,Sucursal,21:42:05,Lunes a Sábado,Suspendido
-897,Personal,TRABAJA_EN,8,Almacen,16:30:15,Turnos rotativos,Suspendido
-346,Personal,TRABAJA_EN,6,Almacen,21:40:01,Lunes a Viernes,Suspendido
-550,Personal,TRABAJA_EN,2,Almacen,15:55:40,Lunes a Viernes,Baja
-702,Personal,TRABAJA_EN,7,Sucursal,06:40:26,Turnos rotativos,Activo
-485,Personal,TRABAJA_EN,0,Sucursal,00:31:56,Lunes a Viernes,Baja
-383,Personal,TRABAJA_EN,0,Almacen,06:59:43,Lunes a Viernes,Baja
-782,Personal,TRABAJA_EN,1,Almacen,08:25:25,Turnos rotativos,Baja
-232,Personal,TRABAJA_EN,7,Sucursal,23:33:58,Turnos rotativos,Baja
-222,Personal,TRABAJA_EN,3,Almacen,12:46:11,Lunes a Sábado,Suspendido
-595,Personal,TRABAJA_EN,11,Sucursal,04:50:06,Lunes a Sábado,Baja
-331,Personal,TRABAJA_EN,4,Sucursal,04:14:51,Lunes a Sábado,Baja
-535,Personal,TRABAJA_EN,13,Sucursal,21:49:41,Lunes a Viernes,Baja
-83,Personal,TRABAJA_EN,14,Sucursal,07:48:32,Lunes a Viernes,Baja
-678,Personal,TRABAJA_EN,1,Sucursal,00:06:07,Turnos rotativos,Baja
-929,Personal,TRABAJA_EN,7,Almacen,08:38:36,Lunes a Viernes,Suspendido
-72,Personal,TRABAJA_EN,0,Sucursal,08:43:15,Lunes a Sábado,Suspendido
-735,Personal,TRABAJA_EN,2,Almacen,13:11:15,Lunes a Viernes,Activo
-196,Personal,TRABAJA_EN,7,Almacen,09:35:07,Lunes a Sábado,Baja
-773,Personal,TRABAJA_EN,3,Almacen,11:54:54,Lunes a Sábado,Baja
-142,Personal,TRABAJA_EN,5,Almacen,21:29:48,Lunes a Viernes,Activo
-950,Personal,TRABAJA_EN,7,Sucursal,04:06:00,Turnos rotativos,Suspendido
-559,Personal,TRABAJA_EN,0,Sucursal,04:42:05,Lunes a Viernes,Baja
-911,Personal,TRABAJA_EN,1,Almacen,06:04:02,Lunes a Sábado,Baja
-57,Personal,TRABAJA_EN,12,Sucursal,10:30:57,Lunes a Viernes,Baja
-652,Personal,TRABAJA_EN,8,Sucursal,08:00:11,Turnos rotativos,Suspendido
-916,Personal,TRABAJA_EN,9,Sucursal,09:52:40,Lunes a Viernes,Baja
-526,Personal,TRABAJA_EN,11,Sucursal,06:29:16,Turnos rotativos,Activo
-938,Personal,TRABAJA_EN,5,Sucursal,12:44:39,Lunes a Viernes,Baja
-502,Personal,TRABAJA_EN,12,Sucursal,19:02:38,Lunes a Viernes,Activo
-620,Personal,TRABAJA_EN,9,Sucursal,15:28:04,Lunes a Sábado,Activo
-610,Personal,TRABAJA_EN,6,Almacen,22:45:43,Turnos rotativos,Baja
-34,Personal,TRABAJA_EN,1,Sucursal,03:18:54,Lunes a Viernes,Suspendido
-675,Personal,TRABAJA_EN,12,Sucursal,09:57:37,Turnos rotativos,Activo
-650,Personal,TRABAJA_EN,2,Sucursal,01:20:22,Lunes a Viernes,Baja
-667,Personal,TRABAJA_EN,13,Sucursal,10:10:31,Lunes a Viernes,Activo
-748,Personal,TRABAJA_EN,5,Almacen,23:41:03,Lunes a Viernes,Suspendido
-668,Personal,TRABAJA_EN,12,Sucursal,21:07:04,Lunes a Sábado,Baja
-209,Personal,TRABAJA_EN,7,Almacen,17:15:52,Lunes a Viernes,Activo
-784,Personal,TRABAJA_EN,7,Almacen,17:34:37,Lunes a Sábado,Baja
-985,Personal,TRABAJA_EN,5,Sucursal,10:17:33,Lunes a Sábado,Suspendido
-436,Personal,TRABAJA_EN,3,Almacen,21:56:38,Lunes a Sábado,Baja
-965,Personal,TRABAJA_EN,0,Almacen,11:22:34,Lunes a Sábado,Baja
-29,Personal,TRABAJA_EN,3,Sucursal,11:27:18,Lunes a Viernes,Baja
-758,Personal,TRABAJA_EN,8,Almacen,12:13:01,Lunes a Viernes,Suspendido
-390,Personal,TRABAJA_EN,6,Almacen,21:07:47,Lunes a Viernes,Suspendido
-912,Personal,TRABAJA_EN,0,Almacen,18:37:07,Turnos rotativos,Suspendido
-517,Personal,TRABAJA_EN,6,Almacen,02:34:23,Lunes a Sábado,Baja
-463,Personal,TRABAJA_EN,0,Almacen,05:49:40,Lunes a Sábado,Baja
-352,Personal,TRABAJA_EN,9,Sucursal,04:28:29,Turnos rotativos,Baja
-582,Personal,TRABAJA_EN,0,Sucursal,12:26:37,Turnos rotativos,Suspendido
-656,Personal,TRABAJA_EN,5,Sucursal,20:48:58,Turnos rotativos,Activo
-961,Personal,TRABAJA_EN,9,Sucursal,00:49:08,Lunes a Viernes,Baja
-730,Personal,TRABAJA_EN,9,Almacen,14:41:57,Lunes a Viernes,Baja
-168,Personal,TRABAJA_EN,2,Sucursal,08:52:07,Lunes a Sábado,Baja
-789,Personal,TRABAJA_EN,0,Almacen,21:20:36,Lunes a Sábado,Activo
-78,Personal,TRABAJA_EN,6,Sucursal,07:15:39,Turnos rotativos,Suspendido
-213,Personal,TRABAJA_EN,9,Almacen,07:40:13,Turnos rotativos,Suspendido
-815,Personal,TRABAJA_EN,5,Sucursal,11:40:03,Lunes a Sábado,Suspendido
-185,Personal,TRABAJA_EN,4,Sucursal,09:52:23,Lunes a Viernes,Suspendido
-519,Personal,TRABAJA_EN,1,Almacen,04:58:20,Lunes a Viernes,Suspendido
-781,Personal,TRABAJA_EN,1,Almacen,18:09:41,Lunes a Viernes,Activo
-350,Personal,TRABAJA_EN,3,Sucursal,17:48:12,Turnos rotativos,Baja
-922,Personal,TRABAJA_EN,6,Almacen,04:16:04,Turnos rotativos,Suspendido
-963,Personal,TRABAJA_EN,2,Almacen,14:54:02,Lunes a Viernes,Suspendido
-976,Personal,TRABAJA_EN,2,Almacen,16:34:14,Lunes a Viernes,Activo
-445,Personal,TRABAJA_EN,0,Sucursal,04:27:29,Lunes a Viernes,Suspendido
-201,Personal,TRABAJA_EN,8,Almacen,20:22:51,Lunes a Viernes,Activo
-299,Personal,TRABAJA_EN,3,Almacen,18:48:15,Lunes a Sábado,Baja
-354,Personal,TRABAJA_EN,10,Sucursal,18:40:49,Lunes a Viernes,Baja
-953,Personal,TRABAJA_EN,6,Sucursal,12:30:18,Lunes a Sábado,Baja
-994,Personal,TRABAJA_EN,10,Sucursal,06:05:04,Lunes a Sábado,Baja
-377,Personal,TRABAJA_EN,7,Almacen,15:19:39,Lunes a Sábado,Baja
-781,Personal,TRABAJA_EN,14,Sucursal,19:11:28,Lunes a Sábado,Baja
-953,Personal,TRABAJA_EN,0,Almacen,01:40:20,Lunes a Sábado,Activo
-364,Personal,TRABAJA_EN,7,Almacen,17:49:31,Lunes a Sábado,Activo
-217,Personal,TRABAJA_EN,8,Sucursal,01:52:27,Lunes a Viernes,Baja
-316,Personal,TRABAJA_EN,3,Almacen,05:58:41,Lunes a Viernes,Suspendido
-985,Personal,TRABAJA_EN,5,Almacen,03:17:54,Lunes a Viernes,Activo
-93,Personal,TRABAJA_EN,6,Almacen,17:26:47,Lunes a Viernes,Baja
-875,Personal,TRABAJA_EN,2,Sucursal,10:58:32,Turnos rotativos,Activo
-47,Personal,TRABAJA_EN,5,Sucursal,16:15:58,Lunes a Viernes,Activo
-390,Personal,TRABAJA_EN,14,Sucursal,13:28:29,Lunes a Viernes,Activo
-528,Personal,TRABAJA_EN,2,Almacen,00:15:48,Lunes a Viernes,Suspendido
-280,Personal,TRABAJA_EN,8,Sucursal,00:10:23,Lunes a Viernes,Suspendido
-310,Personal,TRABAJA_EN,4,Almacen,21:03:34,Lunes a Sábado,Baja
-226,Personal,TRABAJA_EN,11,Sucursal,21:45:57,Lunes a Sábado,Baja
-932,Personal,TRABAJA_EN,4,Sucursal,21:59:22,Lunes a Sábado,Activo
-664,Personal,TRABAJA_EN,2,Almacen,12:02:08,Turnos rotativos,Baja
-490,Personal,TRABAJA_EN,2,Almacen,15:18:36,Turnos rotativos,Activo
-433,Personal,TRABAJA_EN,11,Sucursal,14:37:40,Lunes a Viernes,Baja
-422,Personal,TRABAJA_EN,14,Sucursal,08:34:34,Lunes a Sábado,Activo
-284,Personal,TRABAJA_EN,9,Almacen,15:59:37,Lunes a Sábado,Activo
-812,Personal,TRABAJA_EN,10,Sucursal,13:12:29,Turnos rotativos,Baja
-546,Personal,TRABAJA_EN,6,Sucursal,04:51:38,Lunes a Sábado,Suspendido
-671,Personal,TRABAJA_EN,1,Almacen,14:17:01,Lunes a Sábado,Suspendido
-791,Personal,TRABAJA_EN,2,Sucursal,14:03:40,Lunes a Viernes,Baja
-165,Personal,TRABAJA_EN,9,Almacen,01:32:39,Turnos rotativos,Suspendido
-677,Personal,TRABAJA_EN,8,Almacen,07:14:15,Lunes a Viernes,Suspendido
-433,Personal,TRABAJA_EN,9,Almacen,23:29:10,Lunes a Viernes,Baja
-550,Personal,TRABAJA_EN,10,Sucursal,11:55:31,Lunes a Sábado,Baja
-561,Personal,TRABAJA_EN,2,Sucursal,06:34:25,Turnos rotativos,Activo
-458,Personal,TRABAJA_EN,8,Almacen,11:58:56,Turnos rotativos,Suspendido
-719,Personal,TRABAJA_EN,10,Sucursal,05:51:45,Turnos rotativos,Activo
-18,Personal,TRABAJA_EN,1,Almacen,12:18:41,Turnos rotativos,Activo
-535,Personal,TRABAJA_EN,8,Almacen,02:45:26,Lunes a Viernes,Baja
-702,Personal,TRABAJA_EN,9,Almacen,22:32:36,Turnos rotativos,Activo
-769,Personal,TRABAJA_EN,7,Sucursal,02:05:06,Lunes a Viernes,Suspendido
-597,Personal,TRABAJA_EN,1,Almacen,10:05:10,Lunes a Viernes,Baja
-575,Personal,TRABAJA_EN,7,Almacen,08:20:24,Lunes a Viernes,Suspendido
-102,Personal,TRABAJA_EN,1,Sucursal,01:11:26,Lunes a Viernes,Suspendido
-340,Personal,TRABAJA_EN,8,Almacen,16:34:47,Turnos rotativos,Activo
-172,Personal,TRABAJA_EN,5,Sucursal,20:07:11,Lunes a Sábado,Baja
-111,Personal,TRABAJA_EN,6,Almacen,15:44:18,Lunes a Sábado,Activo
-906,Personal,TRABAJA_EN,6,Almacen,03:35:50,Lunes a Viernes,Activo
-372,Personal,TRABAJA_EN,3,Sucursal,07:41:21,Lunes a Viernes,Baja
-457,Personal,TRABAJA_EN,7,Almacen,00:36:03,Lunes a Sábado,Baja
-73,Personal,TRABAJA_EN,12,Sucursal,01:50:19,Lunes a Viernes,Baja
-81,Personal,TRABAJA_EN,8,Almacen,17:49:42,Turnos rotativos,Suspendido
-403,Personal,TRABAJA_EN,4,Almacen,19:29:30,Turnos rotativos,Baja
-150,Personal,TRABAJA_EN,10,Sucursal,10:03:54,Lunes a Sábado,Suspendido
-627,Personal,TRABAJA_EN,9,Almacen,05:32:35,Lunes a Sábado,Baja
-183,Personal,TRABAJA_EN,5,Almacen,17:59:42,Lunes a Viernes,Activo
-407,Personal,TRABAJA_EN,5,Sucursal,00:18:40,Lunes a Sábado,Baja
-368,Personal,TRABAJA_EN,9,Sucursal,14:06:48,Turnos rotativos,Activo
-257,Personal,TRABAJA_EN,7,Almacen,07:06:05,Lunes a Sábado,Activo
-693,Personal,TRABAJA_EN,7,Almacen,07:04:34,Lunes a Viernes,Activo
-16,Personal,TRABAJA_EN,11,Sucursal,16:19:03,Lunes a Sábado,Suspendido
-910,Personal,TRABAJA_EN,9,Sucursal,18:56:43,Lunes a Viernes,Activo
-435,Personal,TRABAJA_EN,9,Almacen,16:06:20,Turnos rotativos,Suspendido
-734,Personal,TRABAJA_EN,7,Sucursal,00:03:40,Lunes a Viernes,Suspendido
-92,Personal,TRABAJA_EN,1,Sucursal,07:02:42,Lunes a Viernes,Suspendido
-542,Personal,TRABAJA_EN,7,Almacen,12:11:43,Lunes a Viernes,Baja
-614,Personal,TRABAJA_EN,0,Sucursal,11:44:05,Turnos rotativos,Suspendido
-486,Personal,TRABAJA_EN,2,Almacen,15:48:21,Lunes a Sábado,Suspendido
-942,Personal,TRABAJA_EN,9,Almacen,17:01:07,Lunes a Viernes,Suspendido
-639,Personal,TRABAJA_EN,4,Almacen,19:25:22,Turnos rotativos,Baja
-470,Personal,TRABAJA_EN,5,Sucursal,16:36:06,Turnos rotativos,Activo
-606,Personal,TRABAJA_EN,0,Sucursal,09:42:10,Turnos rotativos,Baja
-903,Personal,TRABAJA_EN,10,Sucursal,04:18:18,Turnos rotativos,Baja
-693,Personal,TRABAJA_EN,5,Almacen,22:50:27,Lunes a Sábado,Suspendido
-941,Personal,TRABAJA_EN,8,Almacen,19:57:28,Lunes a Sábado,Activo
-782,Personal,TRABAJA_EN,1,Sucursal,20:17:48,Lunes a Viernes,Baja
-705,Personal,TRABAJA_EN,3,Sucursal,05:00:24,Lunes a Viernes,Activo
-945,Personal,TRABAJA_EN,0,Almacen,06:46:58,Lunes a Sábado,Baja
-708,Personal,TRABAJA_EN,12,Sucursal,09:29:17,Lunes a Sábado,Suspendido
-678,Personal,TRABAJA_EN,12,Sucursal,07:05:57,Turnos rotativos,Activo
-531,Personal,TRABAJA_EN,8,Almacen,14:46:20,Lunes a Viernes,Activo
-264,Personal,TRABAJA_EN,0,Sucursal,10:08:53,Lunes a Viernes,Baja
-284,Personal,TRABAJA_EN,9,Almacen,18:27:01,Lunes a Viernes,Activo
-345,Personal,TRABAJA_EN,5,Sucursal,10:52:08,Turnos rotativos,Suspendido
-386,Personal,TRABAJA_EN,3,Almacen,10:27:03,Lunes a Sábado,Baja
-746,Personal,TRABAJA_EN,2,Almacen,05:49:37,Lunes a Sábado,Activo
-765,Personal,TRABAJA_EN,7,Sucursal,11:51:03,Turnos rotativos,Activo
-67,Personal,TRABAJA_EN,14,Sucursal,20:52:02,Turnos rotativos,Activo
-585,Personal,TRABAJA_EN,14,Sucursal,22:36:11,Lunes a Sábado,Baja
-592,Personal,TRABAJA_EN,4,Almacen,23:30:03,Turnos rotativos,Activo
-298,Personal,TRABAJA_EN,7,Sucursal,19:53:08,Lunes a Sábado,Suspendido
-537,Personal,TRABAJA_EN,9,Almacen,20:08:49,Lunes a Sábado,Activo
-377,Personal,TRABAJA_EN,3,Sucursal,01:24:08,Lunes a Viernes,Suspendido
-799,Personal,TRABAJA_EN,8,Almacen,19:18:11,Lunes a Sábado,Activo
-337,Personal,TRABAJA_EN,6,Almacen,05:22:51,Lunes a Sábado,Activo
-231,Personal,TRABAJA_EN,9,Sucursal,03:26:41,Lunes a Viernes,Activo
-852,Personal,TRABAJA_EN,14,Sucursal,03:12:28,Lunes a Sábado,Baja
-351,Personal,TRABAJA_EN,9,Almacen,06:12:18,Turnos rotativos,Baja
-728,Personal,TRABAJA_EN,6,Almacen,02:49:47,Turnos rotativos,Suspendido
-760,Personal,TRABAJA_EN,5,Sucursal,04:48:24,Lunes a Sábado,Suspendido
-696,Personal,TRABAJA_EN,9,Sucursal,04:38:51,Lunes a Sábado,Baja
-690,Personal,TRABAJA_EN,12,Sucursal,21:21:21,Lunes a Sábado,Baja
-1,Personal,TRABAJA_EN,5,Almacen,05:22:01,Turnos rotativos,Suspendido
-450,Personal,TRABAJA_EN,12,Sucursal,18:53:46,Turnos rotativos,Activo
-775,Personal,TRABAJA_EN,8,Almacen,09:10:26,Lunes a Viernes,Suspendido
-679,Personal,TRABAJA_EN,5,Almacen,02:05:22,Turnos rotativos,Suspendido
-107,Personal,TRABAJA_EN,6,Almacen,03:04:24,Lunes a Viernes,Suspendido
-535,Personal,TRABAJA_EN,0,Almacen,14:10:34,Turnos rotativos,Suspendido
-41,Personal,TRABAJA_EN,9,Almacen,06:31:17,Lunes a Viernes,Baja
-240,Personal,TRABAJA_EN,12,Sucursal,14:54:16,Lunes a Viernes,Baja
-903,Personal,TRABAJA_EN,5,Almacen,02:52:57,Turnos rotativos,Baja
-240,Personal,TRABAJA_EN,9,Almacen,20:27:06,Lunes a Sábado,Activo
-108,Personal,TRABAJA_EN,7,Almacen,11:48:22,Lunes a Sábado,Activo
-606,Personal,TRABAJA_EN,1,Sucursal,16:21:35,Lunes a Sábado,Suspendido
-800,Personal,TRABAJA_EN,0,Sucursal,00:18:44,Turnos rotativos,Baja
-380,Personal,TRABAJA_EN,11,Sucursal,14:04:08,Lunes a Viernes,Activo
-542,Personal,TRABAJA_EN,6,Almacen,12:49:40,Lunes a Sábado,Baja
-40,Personal,TRABAJA_EN,13,Sucursal,13:46:37,Lunes a Sábado,Baja
-309,Personal,TRABAJA_EN,14,Sucursal,08:44:11,Lunes a Sábado,Baja
-96,Personal,TRABAJA_EN,4,Almacen,19:01:48,Lunes a Sábado,Activo
-862,Personal,TRABAJA_EN,11,Sucursal,01:33:43,Lunes a Sábado,Baja
-195,Personal,TRABAJA_EN,2,Sucursal,07:58:08,Lunes a Sábado,Activo
-495,Personal,TRABAJA_EN,6,Almacen,07:33:47,Turnos rotativos,Suspendido
-980,Personal,TRABAJA_EN,5,Almacen,12:54:06,Lunes a Sábado,Suspendido
-220,Personal,TRABAJA_EN,12,Sucursal,16:25:38,Turnos rotativos,Baja
-134,Personal,TRABAJA_EN,13,Sucursal,18:47:24,Lunes a Sábado,Baja
-463,Personal,TRABAJA_EN,8,Almacen,23:16:34,Lunes a Sábado,Activo
-70,Personal,TRABAJA_EN,9,Almacen,02:09:58,Lunes a Sábado,Suspendido
-830,Personal,TRABAJA_EN,4,Almacen,09:22:20,Lunes a Viernes,Baja
-312,Personal,TRABAJA_EN,1,Almacen,08:11:37,Lunes a Sábado,Suspendido
-584,Personal,TRABAJA_EN,5,Sucursal,00:50:14,Turnos rotativos,Suspendido
-987,Personal,TRABAJA_EN,1,Almacen,00:14:02,Lunes a Sábado,Activo
-46,Personal,TRABAJA_EN,0,Sucursal,19:31:12,Turnos rotativos,Activo
-866,Personal,TRABAJA_EN,0,Almacen,13:10:47,Lunes a Viernes,Suspendido
-948,Personal,TRABAJA_EN,8,Almacen,17:58:45,Turnos rotativos,Baja
-320,Personal,TRABAJA_EN,5,Almacen,03:41:56,Lunes a Viernes,Baja
-857,Personal,TRABAJA_EN,4,Sucursal,13:33:31,Lunes a Sábado,Activo
-756,Personal,TRABAJA_EN,3,Almacen,07:22:23,Lunes a Viernes,Baja
-887,Personal,TRABAJA_EN,9,Almacen,14:54:28,Lunes a Viernes,Suspendido
-381,Personal,TRABAJA_EN,8,Sucursal,21:19:40,Lunes a Sábado,Activo
-995,Personal,TRABAJA_EN,10,Sucursal,03:34:45,Turnos rotativos,Activo
-681,Personal,TRABAJA_EN,0,Almacen,20:48:11,Lunes a Viernes,Suspendido
-671,Personal,TRABAJA_EN,3,Sucursal,12:13:44,Lunes a Sábado,Activo
-74,Personal,TRABAJA_EN,6,Sucursal,05:42:21,Turnos rotativos,Activo
-566,Personal,TRABAJA_EN,0,Almacen,08:24:40,Lunes a Sábado,Suspendido
-513,Personal,TRABAJA_EN,1,Almacen,11:57:52,Turnos rotativos,Baja
-432,Personal,TRABAJA_EN,6,Almacen,11:01:53,Turnos rotativos,Suspendido
-530,Personal,TRABAJA_EN,3,Almacen,06:02:03,Turnos rotativos,Suspendido
-87,Personal,TRABAJA_EN,7,Sucursal,19:53:18,Lunes a Viernes,Activo
-322,Personal,TRABAJA_EN,4,Sucursal,13:48:18,Turnos rotativos,Activo
-323,Personal,TRABAJA_EN,7,Sucursal,00:27:58,Lunes a Sábado,Baja
-32,Personal,TRABAJA_EN,7,Almacen,03:54:20,Lunes a Sábado,Suspendido
-795,Personal,TRABAJA_EN,9,Sucursal,16:59:27,Lunes a Viernes,Suspendido
-914,Personal,TRABAJA_EN,6,Almacen,20:40:40,Lunes a Sábado,Suspendido
-252,Personal,TRABAJA_EN,1,Almacen,23:48:08,Lunes a Viernes,Suspendido
-947,Personal,TRABAJA_EN,4,Almacen,16:36:08,Lunes a Viernes,Suspendido
-697,Personal,TRABAJA_EN,1,Almacen,11:07:03,Lunes a Sábado,Activo
-810,Personal,TRABAJA_EN,7,Sucursal,20:15:28,Lunes a Viernes,Baja
-926,Personal,TRABAJA_EN,9,Almacen,23:47:15,Lunes a Viernes,Activo
-838,Personal,TRABAJA_EN,1,Sucursal,23:25:04,Turnos rotativos,Baja
-657,Personal,TRABAJA_EN,0,Almacen,19:45:53,Turnos rotativos,Activo
-540,Personal,TRABAJA_EN,4,Almacen,22:24:11,Turnos rotativos,Activo
-630,Personal,TRABAJA_EN,9,Almacen,07:20:29,Turnos rotativos,Suspendido
-884,Personal,TRABAJA_EN,6,Sucursal,09:18:31,Lunes a Sábado,Suspendido
-423,Personal,TRABAJA_EN,5,Almacen,19:28:56,Lunes a Sábado,Activo
-652,Personal,TRABAJA_EN,9,Almacen,00:10:18,Lunes a Sábado,Suspendido
-408,Personal,TRABAJA_EN,12,Sucursal,08:37:02,Turnos rotativos,Activo
-340,Personal,TRABAJA_EN,14,Sucursal,18:37:31,Turnos rotativos,Activo
-21,Personal,TRABAJA_EN,3,Almacen,21:12:13,Turnos rotativos,Suspendido
-724,Personal,TRABAJA_EN,9,Almacen,01:40:26,Turnos rotativos,Baja
-262,Personal,TRABAJA_EN,9,Almacen,22:55:17,Turnos rotativos,Activo
-337,Personal,TRABAJA_EN,5,Sucursal,03:14:07,Lunes a Sábado,Baja
-25,Personal,TRABAJA_EN,14,Sucursal,15:12:44,Lunes a Sábado,Suspendido
-310,Personal,TRABAJA_EN,6,Almacen,03:52:01,Turnos rotativos,Baja
-403,Personal,TRABAJA_EN,5,Sucursal,07:19:49,Lunes a Viernes,Baja
-545,Personal,TRABAJA_EN,0,Almacen,09:15:46,Lunes a Sábado,Suspendido
-120,Personal,TRABAJA_EN,11,Sucursal,23:33:54,Lunes a Viernes,Activo
-434,Personal,TRABAJA_EN,13,Sucursal,05:07:55,Turnos rotativos,Baja
-547,Personal,TRABAJA_EN,9,Almacen,02:51:39,Lunes a Sábado,Activo
-129,Personal,TRABAJA_EN,4,Almacen,12:22:27,Lunes a Viernes,Suspendido
-530,Personal,TRABAJA_EN,13,Sucursal,02:18:22,Lunes a Viernes,Baja
-322,Personal,TRABAJA_EN,0,Almacen,23:59:37,Lunes a Sábado,Baja
-483,Personal,TRABAJA_EN,6,Almacen,18:07:10,Turnos rotativos,Suspendido
-969,Personal,TRABAJA_EN,0,Almacen,18:08:33,Turnos rotativos,Baja
-79,Personal,TRABAJA_EN,4,Almacen,19:06:30,Lunes a Sábado,Suspendido
-636,Personal,TRABAJA_EN,3,Sucursal,16:57:01,Lunes a Sábado,Activo
-807,Personal,TRABAJA_EN,3,Almacen,01:28:25,Lunes a Viernes,Activo
-329,Personal,TRABAJA_EN,0,Sucursal,22:26:20,Turnos rotativos,Baja
-100,Personal,TRABAJA_EN,4,Almacen,07:31:09,Turnos rotativos,Activo
-151,Personal,TRABAJA_EN,2,Sucursal,21:03:15,Lunes a Sábado,Suspendido
-963,Personal,TRABAJA_EN,14,Sucursal,15:18:56,Lunes a Sábado,Activo
-36,Personal,TRABAJA_EN,2,Almacen,23:23:43,Lunes a Viernes,Suspendido
-68,Personal,TRABAJA_EN,5,Almacen,21:58:05,Turnos rotativos,Baja
-296,Personal,TRABAJA_EN,2,Almacen,04:19:44,Turnos rotativos,Activo
-37,Personal,TRABAJA_EN,8,Almacen,11:02:55,Lunes a Sábado,Activo
-634,Personal,TRABAJA_EN,7,Almacen,05:00:37,Lunes a Sábado,Suspendido
-168,Personal,TRABAJA_EN,14,Sucursal,21:06:54,Lunes a Viernes,Baja
-505,Personal,TRABAJA_EN,3,Sucursal,15:34:36,Lunes a Sábado,Activo
-519,Personal,TRABAJA_EN,8,Almacen,21:38:47,Lunes a Viernes,Suspendido
-183,Personal,TRABAJA_EN,8,Sucursal,15:49:06,Turnos rotativos,Baja
-773,Personal,TRABAJA_EN,13,Sucursal,13:01:04,Lunes a Viernes,Suspendido
-327,Personal,TRABAJA_EN,13,Sucursal,11:09:32,Lunes a Sábado,Activo
-335,Personal,TRABAJA_EN,3,Almacen,23:22:53,Turnos rotativos,Activo
-373,Personal,TRABAJA_EN,8,Sucursal,06:46:45,Lunes a Viernes,Activo
-307,Personal,TRABAJA_EN,1,Sucursal,10:42:10,Lunes a Sábado,Activo
-172,Personal,TRABAJA_EN,9,Sucursal,23:38:37,Lunes a Viernes,Baja
-558,Personal,TRABAJA_EN,5,Sucursal,21:44:16,Lunes a Viernes,Suspendido
-622,Personal,TRABAJA_EN,0,Almacen,08:48:40,Turnos rotativos,Activo
-420,Personal,TRABAJA_EN,6,Almacen,06:16:26,Lunes a Viernes,Activo
-666,Personal,TRABAJA_EN,2,Almacen,05:16:00,Turnos rotativos,Suspendido
-664,Personal,TRABAJA_EN,11,Sucursal,12:38:39,Lunes a Viernes,Activo
-262,Personal,TRABAJA_EN,0,Almacen,08:32:13,Turnos rotativos,Activo
-686,Personal,TRABAJA_EN,12,Sucursal,03:32:58,Lunes a Sábado,Suspendido
-825,Personal,TRABAJA_EN,8,Almacen,19:04:40,Lunes a Sábado,Suspendido
-956,Personal,TRABAJA_EN,11,Sucursal,21:19:53,Turnos rotativos,Activo
-63,Personal,TRABAJA_EN,3,Almacen,18:23:47,Lunes a Viernes,Suspendido
-214,Personal,TRABAJA_EN,3,Almacen,18:19:18,Lunes a Sábado,Suspendido
-13,Personal,TRABAJA_EN,8,Almacen,20:37:28,Turnos rotativos,Suspendido
-291,Personal,TRABAJA_EN,5,Almacen,01:58:15,Lunes a Sábado,Activo
-710,Personal,TRABAJA_EN,8,Almacen,05:30:09,Lunes a Sábado,Activo
-35,Personal,TRABAJA_EN,12,Sucursal,18:48:03,Lunes a Viernes,Activo
-188,Personal,TRABAJA_EN,5,Almacen,05:11:34,Turnos rotativos,Suspendido
-3,Personal,TRABAJA_EN,9,Sucursal,11:26:09,Lunes a Viernes,Activo
-907,Personal,TRABAJA_EN,5,Almacen,23:30:16,Turnos rotativos,Baja
-804,Personal,TRABAJA_EN,6,Sucursal,12:43:13,Lunes a Sábado,Activo
-994,Personal,TRABAJA_EN,4,Sucursal,07:06:51,Turnos rotativos,Suspendido
-742,Personal,TRABAJA_EN,8,Almacen,07:08:49,Turnos rotativos,Baja
-981,Personal,TRABAJA_EN,2,Sucursal,20:09:37,Turnos rotativos,Activo
-253,Personal,TRABAJA_EN,8,Sucursal,06:54:36,Turnos rotativos,Suspendido
-33,Personal,TRABAJA_EN,5,Almacen,05:46:19,Lunes a Sábado,Baja
-991,Personal,TRABAJA_EN,1,Sucursal,15:03:44,Lunes a Sábado,Suspendido
-688,Personal,TRABAJA_EN,9,Almacen,18:19:58,Turnos rotativos,Baja
-216,Personal,TRABAJA_EN,10,Sucursal,08:13:05,Turnos rotativos,Suspendido
-377,Personal,TRABAJA_EN,0,Sucursal,02:28:25,Turnos rotativos,Activo
-557,Personal,TRABAJA_EN,2,Almacen,23:54:27,Lunes a Viernes,Baja
-957,Personal,TRABAJA_EN,6,Sucursal,03:38:22,Lunes a Sábado,Suspendido
-454,Personal,TRABAJA_EN,6,Sucursal,04:00:25,Lunes a Viernes,Suspendido
-160,Personal,TRABAJA_EN,2,Sucursal,07:22:32,Lunes a Viernes,Suspendido
-93,Personal,TRABAJA_EN,7,Almacen,14:22:50,Lunes a Viernes,Suspendido
-31,Personal,TRABAJA_EN,12,Sucursal,04:11:02,Turnos rotativos,Baja
-891,Personal,TRABAJA_EN,7,Almacen,10:10:25,Lunes a Viernes,Activo
-917,Personal,TRABAJA_EN,5,Almacen,01:06:52,Lunes a Viernes,Suspendido
-319,Personal,TRABAJA_EN,9,Sucursal,03:49:23,Turnos rotativos,Suspendido
-239,Personal,TRABAJA_EN,10,Sucursal,02:49:32,Turnos rotativos,Activo
-532,Personal,TRABAJA_EN,2,Sucursal,02:30:49,Lunes a Viernes,Baja
-24,Personal,TRABAJA_EN,9,Sucursal,14:30:27,Lunes a Sábado,Baja
-154,Personal,TRABAJA_EN,4,Sucursal,16:59:57,Lunes a Sábado,Suspendido
-633,Personal,TRABAJA_EN,3,Sucursal,19:51:10,Lunes a Viernes,Baja
-602,Personal,TRABAJA_EN,6,Almacen,16:04:26,Turnos rotativos,Baja
-428,Personal,TRABAJA_EN,7,Almacen,11:06:33,Lunes a Viernes,Activo
-748,Personal,TRABAJA_EN,12,Sucursal,10:06:31,Lunes a Viernes,Baja
-462,Personal,TRABAJA_EN,7,Sucursal,16:34:36,Turnos rotativos,Activo
-294,Personal,TRABAJA_EN,5,Almacen,12:48:52,Lunes a Viernes,Suspendido
-575,Personal,TRABAJA_EN,8,Almacen,12:25:14,Lunes a Viernes,Suspendido
-806,Personal,TRABAJA_EN,7,Almacen,18:28:40,Turnos rotativos,Suspendido
-331,Personal,TRABAJA_EN,0,Almacen,12:25:04,Lunes a Sábado,Baja
-818,Personal,TRABAJA_EN,7,Sucursal,05:15:19,Lunes a Viernes,Activo
-220,Personal,TRABAJA_EN,13,Sucursal,04:39:20,Lunes a Sábado,Baja
-173,Personal,TRABAJA_EN,2,Sucursal,21:00:23,Lunes a Viernes,Activo
-365,Personal,TRABAJA_EN,5,Sucursal,02:22:45,Lunes a Sábado,Activo
-324,Personal,TRABAJA_EN,4,Almacen,20:30:20,Lunes a Viernes,Suspendido
-403,Personal,TRABAJA_EN,4,Almacen,03:06:23,Turnos rotativos,Suspendido
-600,Personal,TRABAJA_EN,3,Almacen,17:02:14,Lunes a Viernes,Suspendido
-471,Personal,TRABAJA_EN,8,Sucursal,05:08:20,Lunes a Sábado,Baja
-102,Personal,TRABAJA_EN,10,Sucursal,16:36:46,Lunes a Viernes,Suspendido
-103,Personal,TRABAJA_EN,9,Sucursal,01:33:16,Lunes a Sábado,Suspendido
-170,Personal,TRABAJA_EN,3,Almacen,09:55:06,Lunes a Viernes,Activo
-686,Personal,TRABAJA_EN,9,Sucursal,05:15:49,Turnos rotativos,Activo
-592,Personal,TRABAJA_EN,8,Almacen,13:42:24,Lunes a Sábado,Baja
-685,Personal,TRABAJA_EN,2,Almacen,02:34:41,Lunes a Viernes,Activo
-280,Personal,TRABAJA_EN,8,Almacen,15:09:08,Lunes a Sábado,Baja
-981,Personal,TRABAJA_EN,7,Almacen,04:36:57,Turnos rotativos,Baja
-434,Personal,TRABAJA_EN,7,Almacen,16:53:11,Lunes a Viernes,Suspendido
-161,Personal,TRABAJA_EN,5,Sucursal,19:18:17,Turnos rotativos,Suspendido
-658,Personal,TRABAJA_EN,9,Almacen,09:06:20,Turnos rotativos,Baja
-946,Personal,TRABAJA_EN,9,Sucursal,16:30:57,Lunes a Viernes,Suspendido
-208,Personal,TRABAJA_EN,9,Almacen,14:33:33,Turnos rotativos,Activo
-877,Personal,TRABAJA_EN,1,Almacen,08:03:07,Lunes a Sábado,Suspendido
-10,Personal,TRABAJA_EN,7,Almacen,13:23:55,Turnos rotativos,Baja
-802,Personal,TRABAJA_EN,2,Almacen,16:38:14,Lunes a Sábado,Activo
-60,Personal,TRABAJA_EN,1,Almacen,09:02:15,Lunes a Sábado,Activo
-329,Personal,TRABAJA_EN,7,Almacen,10:26:41,Lunes a Viernes,Baja
-810,Personal,TRABAJA_EN,7,Almacen,15:03:53,Turnos rotativos,Activo
-88,Personal,TRABAJA_EN,1,Almacen,23:09:56,Lunes a Viernes,Baja
-469,Personal,TRABAJA_EN,1,Sucursal,15:00:45,Lunes a Viernes,Baja
-378,Personal,TRABAJA_EN,5,Sucursal,14:46:33,Turnos rotativos,Activo
-925,Personal,TRABAJA_EN,1,Almacen,10:00:40,Turnos rotativos,Baja
-144,Personal,TRABAJA_EN,14,Sucursal,00:37:58,Lunes a Viernes,Activo
-165,Personal,TRABAJA_EN,8,Sucursal,06:13:36,Turnos rotativos,Suspendido
-473,Personal,TRABAJA_EN,6,Almacen,02:54:44,Turnos rotativos,Activo
-465,Personal,TRABAJA_EN,9,Sucursal,23:07:53,Turnos rotativos,Baja
-333,Personal,TRABAJA_EN,5,Almacen,13:23:47,Lunes a Viernes,Activo
-526,Personal,TRABAJA_EN,2,Almacen,13:16:17,Turnos rotativos,Activo
-777,Personal,TRABAJA_EN,11,Sucursal,05:51:02,Lunes a Sábado,Suspendido
-900,Personal,TRABAJA_EN,0,Almacen,07:54:53,Turnos rotativos,Activo
-286,Personal,TRABAJA_EN,9,Almacen,06:59:52,Turnos rotativos,Suspendido
-944,Personal,TRABAJA_EN,0,Almacen,00:48:09,Turnos rotativos,Baja
-424,Personal,TRABAJA_EN,9,Sucursal,15:24:15,Lunes a Viernes,Activo
-910,Personal,TRABAJA_EN,5,Almacen,16:15:35,Turnos rotativos,Activo
-958,Personal,TRABAJA_EN,5,Almacen,01:53:36,Turnos rotativos,Activo
-146,Personal,TRABAJA_EN,4,Sucursal,21:52:57,Turnos rotativos,Baja
-294,Personal,TRABAJA_EN,4,Sucursal,23:42:55,Lunes a Viernes,Suspendido
-128,Personal,TRABAJA_EN,1,Sucursal,03:56:37,Lunes a Viernes,Activo
-943,Personal,TRABAJA_EN,1,Almacen,22:02:55,Turnos rotativos,Activo
-240,Personal,TRABAJA_EN,12,Sucursal,02:19:05,Lunes a Viernes,Suspendido
-392,Personal,TRABAJA_EN,8,Sucursal,06:09:34,Lunes a Viernes,Suspendido
-489,Personal,TRABAJA_EN,0,Almacen,18:33:27,Turnos rotativos,Baja
-418,Personal,TRABAJA_EN,4,Sucursal,03:17:44,Turnos rotativos,Activo
-583,Personal,TRABAJA_EN,9,Almacen,05:53:22,Lunes a Viernes,Baja
-235,Personal,TRABAJA_EN,0,Almacen,22:42:47,Lunes a Viernes,Activo
-906,Personal,TRABAJA_EN,12,Sucursal,07:53:54,Turnos rotativos,Suspendido
-894,Personal,TRABAJA_EN,2,Almacen,19:24:15,Lunes a Sábado,Baja
-404,Personal,TRABAJA_EN,4,Almacen,04:28:25,Lunes a Viernes,Activo
-604,Personal,TRABAJA_EN,10,Sucursal,17:44:51,Lunes a Sábado,Baja
-579,Personal,TRABAJA_EN,9,Sucursal,18:35:41,Lunes a Viernes,Baja
-794,Personal,TRABAJA_EN,10,Sucursal,16:38:17,Turnos rotativos,Baja
-959,Personal,TRABAJA_EN,10,Sucursal,10:01:28,Turnos rotativos,Suspendido
-41,Personal,TRABAJA_EN,4,Sucursal,14:59:23,Lunes a Sábado,Baja
-123,Personal,TRABAJA_EN,7,Almacen,06:54:45,Turnos rotativos,Baja
-237,Personal,TRABAJA_EN,0,Almacen,11:47:46,Lunes a Sábado,Activo
-759,Personal,TRABAJA_EN,5,Almacen,17:51:20,Lunes a Viernes,Baja
-61,Personal,TRABAJA_EN,8,Almacen,02:45:16,Lunes a Viernes,Suspendido
-502,Personal,TRABAJA_EN,11,Sucursal,11:05:17,Lunes a Viernes,Suspendido
-911,Personal,TRABAJA_EN,8,Sucursal,20:10:13,Lunes a Viernes,Baja
-351,Personal,TRABAJA_EN,1,Almacen,21:24:05,Lunes a Viernes,Suspendido
-79,Personal,TRABAJA_EN,14,Sucursal,02:57:22,Lunes a Viernes,Suspendido
-935,Personal,TRABAJA_EN,4,Sucursal,11:56:45,Lunes a Viernes,Activo
-436,Personal,TRABAJA_EN,8,Almacen,06:24:06,Lunes a Sábado,Baja
-172,Personal,TRABAJA_EN,3,Sucursal,01:23:55,Turnos rotativos,Activo
-582,Personal,TRABAJA_EN,14,Sucursal,17:04:14,Lunes a Sábado,Suspendido
-91,Personal,TRABAJA_EN,6,Almacen,22:40:02,Lunes a Viernes,Suspendido
-490,Personal,TRABAJA_EN,3,Almacen,22:49:33,Lunes a Sábado,Baja
-557,Personal,TRABAJA_EN,9,Sucursal,03:12:08,Lunes a Viernes,Suspendido
-77,Personal,TRABAJA_EN,7,Almacen,13:58:19,Lunes a Viernes,Suspendido
-296,Personal,TRABAJA_EN,4,Almacen,04:05:36,Turnos rotativos,Baja
-852,Personal,TRABAJA_EN,7,Sucursal,15:53:59,Turnos rotativos,Suspendido
-429,Personal,TRABAJA_EN,0,Almacen,04:37:14,Turnos rotativos,Baja
-938,Personal,TRABAJA_EN,0,Sucursal,06:30:04,Lunes a Viernes,Activo
-511,Personal,TRABAJA_EN,8,Almacen,04:31:28,Turnos rotativos,Suspendido
-990,Personal,TRABAJA_EN,8,Almacen,09:37:05,Lunes a Sábado,Activo
-964,Personal,TRABAJA_EN,2,Almacen,13:44:54,Turnos rotativos,Activo
-839,Personal,TRABAJA_EN,9,Almacen,17:59:55,Lunes a Sábado,Baja
-846,Personal,TRABAJA_EN,0,Sucursal,20:45:30,Lunes a Viernes,Activo
-519,Personal,TRABAJA_EN,6,Sucursal,17:21:27,Turnos rotativos,Suspendido
-624,Personal,TRABAJA_EN,8,Almacen,02:23:21,Lunes a Viernes,Activo
-158,Personal,TRABAJA_EN,2,Almacen,01:36:56,Lunes a Sábado,Suspendido
-428,Personal,TRABAJA_EN,7,Sucursal,19:00:37,Lunes a Sábado,Activo
-227,Personal,TRABAJA_EN,2,Almacen,22:38:47,Lunes a Sábado,Baja
-236,Personal,TRABAJA_EN,7,Almacen,16:19:11,Lunes a Viernes,Baja
-843,Personal,TRABAJA_EN,3,Almacen,12:11:10,Lunes a Viernes,Activo
-954,Personal,TRABAJA_EN,9,Sucursal,13:03:48,Lunes a Viernes,Activo
-902,Personal,TRABAJA_EN,7,Sucursal,21:30:12,Lunes a Sábado,Baja
-397,Personal,TRABAJA_EN,8,Almacen,01:32:15,Lunes a Viernes,Baja
-215,Personal,TRABAJA_EN,8,Almacen,17:54:10,Turnos rotativos,Baja
-477,Personal,TRABAJA_EN,1,Almacen,16:18:22,Lunes a Viernes,Activo
-849,Personal,TRABAJA_EN,2,Sucursal,02:02:52,Turnos rotativos,Baja
-230,Personal,TRABAJA_EN,7,Sucursal,07:32:07,Lunes a Sábado,Activo
-258,Personal,TRABAJA_EN,9,Almacen,01:13:48,Lunes a Viernes,Baja
-280,Personal,TRABAJA_EN,12,Sucursal,23:07:16,Turnos rotativos,Baja
-754,Personal,TRABAJA_EN,8,Sucursal,07:31:11,Lunes a Sábado,Suspendido
-834,Personal,TRABAJA_EN,9,Almacen,04:45:12,Lunes a Sábado,Activo
-129,Personal,TRABAJA_EN,8,Sucursal,21:12:03,Lunes a Sábado,Suspendido
-156,Personal,TRABAJA_EN,5,Sucursal,13:22:24,Lunes a Sábado,Suspendido
-88,Personal,TRABAJA_EN,10,Sucursal,13:22:54,Lunes a Viernes,Suspendido
-157,Personal,TRABAJA_EN,7,Almacen,04:04:52,Lunes a Sábado,Baja
-339,Personal,TRABAJA_EN,8,Almacen,10:02:04,Lunes a Sábado,Suspendido
-989,Personal,TRABAJA_EN,9,Almacen,08:09:55,Lunes a Viernes,Activo
-89,Personal,TRABAJA_EN,2,Almacen,07:42:58,Turnos rotativos,Activo
-181,Personal,TRABAJA_EN,5,Sucursal,20:35:32,Lunes a Sábado,Activo
-331,Personal,TRABAJA_EN,6,Almacen,22:56:29,Lunes a Sábado,Baja
-88,Personal,TRABAJA_EN,5,Sucursal,11:01:52,Lunes a Viernes,Baja
-669,Personal,TRABAJA_EN,7,Almacen,12:08:22,Turnos rotativos,Baja
-1,Personal,TRABAJA_EN,2,Sucursal,00:29:15,Lunes a Viernes,Activo
-360,Personal,TRABAJA_EN,3,Sucursal,19:51:02,Lunes a Sábado,Activo
-211,Personal,TRABAJA_EN,9,Sucursal,11:56:09,Lunes a Sábado,Suspendido
-983,Personal,TRABAJA_EN,9,Almacen,10:10:09,Lunes a Viernes,Baja
-751,Personal,TRABAJA_EN,6,Almacen,21:05:12,Turnos rotativos,Suspendido
-785,Personal,TRABAJA_EN,5,Sucursal,02:35:17,Lunes a Sábado,Activo
-799,Personal,TRABAJA_EN,5,Almacen,12:53:48,Lunes a Sábado,Suspendido
-673,Personal,TRABAJA_EN,10,Sucursal,11:26:45,Lunes a Sábado,Activo
-130,Personal,TRABAJA_EN,14,Sucursal,07:45:07,Turnos rotativos,Suspendido
-184,Personal,TRABAJA_EN,13,Sucursal,16:20:16,Turnos rotativos,Suspendido
-181,Personal,TRABAJA_EN,2,Almacen,08:06:33,Turnos rotativos,Baja
-165,Personal,TRABAJA_EN,8,Almacen,20:00:54,Lunes a Viernes,Baja
-653,Personal,TRABAJA_EN,3,Sucursal,17:39:13,Turnos rotativos,Activo
-692,Personal,TRABAJA_EN,5,Sucursal,03:46:31,Lunes a Sábado,Activo
-514,Personal,TRABAJA_EN,6,Almacen,12:36:16,Lunes a Sábado,Baja
-402,Personal,TRABAJA_EN,8,Almacen,19:17:00,Lunes a Sábado,Baja
-369,Personal,TRABAJA_EN,3,Almacen,11:57:09,Lunes a Viernes,Suspendido
-318,Personal,TRABAJA_EN,9,Almacen,13:39:18,Lunes a Viernes,Suspendido
-588,Personal,TRABAJA_EN,14,Sucursal,20:21:17,Lunes a Viernes,Activo
-377,Personal,TRABAJA_EN,3,Sucursal,20:51:23,Turnos rotativos,Suspendido
-307,Personal,TRABAJA_EN,3,Almacen,02:33:27,Lunes a Viernes,Activo
-888,Personal,TRABAJA_EN,4,Sucursal,01:06:16,Lunes a Sábado,Suspendido
-613,Personal,TRABAJA_EN,2,Sucursal,16:56:51,Turnos rotativos,Activo
-209,Personal,TRABAJA_EN,10,Sucursal,16:02:32,Turnos rotativos,Activo
-509,Personal,TRABAJA_EN,5,Sucursal,03:22:41,Lunes a Sábado,Baja
-297,Personal,TRABAJA_EN,4,Almacen,20:28:13,Turnos rotativos,Baja
-280,Personal,TRABAJA_EN,2,Almacen,23:13:13,Lunes a Sábado,Activo
-6,Personal,TRABAJA_EN,5,Almacen,15:30:37,Lunes a Sábado,Baja
-355,Personal,TRABAJA_EN,8,Almacen,07:22:59,Lunes a Viernes,Baja
-870,Personal,TRABAJA_EN,7,Sucursal,14:18:00,Turnos rotativos,Activo
-601,Personal,TRABAJA_EN,11,Sucursal,06:13:34,Lunes a Viernes,Baja
-329,Personal,TRABAJA_EN,0,Sucursal,08:47:20,Lunes a Sábado,Suspendido
-894,Personal,TRABAJA_EN,9,Sucursal,14:24:49,Lunes a Sábado,Activo
-98,Personal,TRABAJA_EN,5,Almacen,23:02:18,Lunes a Sábado,Suspendido
-598,Personal,TRABAJA_EN,1,Almacen,02:11:05,Lunes a Viernes,Suspendido
-198,Personal,TRABAJA_EN,2,Sucursal,16:51:35,Lunes a Sábado,Baja
-800,Personal,TRABAJA_EN,13,Sucursal,01:58:15,Lunes a Viernes,Suspendido
-698,Personal,TRABAJA_EN,4,Almacen,20:14:22,Lunes a Viernes,Suspendido
-674,Personal,TRABAJA_EN,10,Sucursal,15:34:56,Turnos rotativos,Activo
-744,Personal,TRABAJA_EN,0,Sucursal,10:34:56,Lunes a Viernes,Suspendido
-69,Personal,TRABAJA_EN,3,Almacen,20:07:46,Turnos rotativos,Suspendido
-606,Personal,TRABAJA_EN,14,Sucursal,16:34:46,Lunes a Viernes,Baja
-498,Personal,TRABAJA_EN,9,Almacen,14:29:15,Turnos rotativos,Activo
-871,Personal,TRABAJA_EN,3,Sucursal,01:49:05,Turnos rotativos,Suspendido
-601,Personal,TRABAJA_EN,5,Almacen,20:24:57,Turnos rotativos,Suspendido
-183,Personal,TRABAJA_EN,5,Sucursal,17:31:32,Lunes a Sábado,Suspendido
-740,Personal,TRABAJA_EN,3,Almacen,15:12:57,Turnos rotativos,Activo
-751,Personal,TRABAJA_EN,6,Almacen,00:39:37,Lunes a Viernes,Suspendido
-170,Personal,TRABAJA_EN,5,Almacen,05:00:20,Turnos rotativos,Activo
-611,Personal,TRABAJA_EN,6,Almacen,08:46:25,Lunes a Sábado,Activo
-370,Personal,TRABAJA_EN,5,Almacen,04:52:12,Turnos rotativos,Activo
-72,Personal,TRABAJA_EN,7,Sucursal,13:11:51,Turnos rotativos,Suspendido
-983,Personal,TRABAJA_EN,7,Almacen,23:57:26,Turnos rotativos,Baja
-728,Personal,TRABAJA_EN,1,Sucursal,04:07:16,Lunes a Viernes,Suspendido
+0,Personal,TRABAJA_EN,7,Almacen,17:51:47,Turnos rotativos,Baja
+1,Personal,TRABAJA_EN,8,Almacen,11:21:46,Lunes a Viernes,Suspendido
+2,Personal,TRABAJA_EN,5,Sucursal,22:45:20,Lunes a Sábado,Suspendido
+3,Personal,TRABAJA_EN,9,Almacen,11:02:30,Lunes a Sábado,Suspendido
+4,Personal,TRABAJA_EN,7,Almacen,12:18:51,Lunes a Sábado,Baja
+5,Personal,TRABAJA_EN,1,Sucursal,13:45:02,Lunes a Sábado,Activo
+6,Personal,TRABAJA_EN,3,Almacen,17:57:38,Lunes a Sábado,Suspendido
+7,Personal,TRABAJA_EN,3,Almacen,13:08:31,Lunes a Sábado,Activo
+8,Personal,TRABAJA_EN,5,Almacen,11:23:50,Lunes a Viernes,Suspendido
+9,Personal,TRABAJA_EN,1,Almacen,22:57:33,Lunes a Viernes,Suspendido
+10,Personal,TRABAJA_EN,7,Almacen,00:31:41,Turnos rotativos,Activo
+11,Personal,TRABAJA_EN,12,Sucursal,17:01:59,Lunes a Viernes,Suspendido
+12,Personal,TRABAJA_EN,9,Almacen,18:18:43,Lunes a Sábado,Suspendido
+13,Personal,TRABAJA_EN,7,Almacen,17:17:02,Lunes a Sábado,Activo
+14,Personal,TRABAJA_EN,3,Sucursal,18:18:53,Lunes a Sábado,Suspendido
+15,Personal,TRABAJA_EN,4,Almacen,02:48:17,Lunes a Sábado,Baja
+16,Personal,TRABAJA_EN,6,Almacen,03:31:06,Lunes a Viernes,Suspendido
+17,Personal,TRABAJA_EN,5,Sucursal,09:56:30,Lunes a Viernes,Activo
+18,Personal,TRABAJA_EN,8,Sucursal,05:56:47,Lunes a Sábado,Suspendido
+19,Personal,TRABAJA_EN,2,Sucursal,23:09:01,Lunes a Sábado,Suspendido
+20,Personal,TRABAJA_EN,3,Almacen,19:07:14,Turnos rotativos,Activo
+21,Personal,TRABAJA_EN,3,Almacen,09:35:50,Lunes a Sábado,Baja
+22,Personal,TRABAJA_EN,5,Sucursal,06:30:38,Turnos rotativos,Activo
+23,Personal,TRABAJA_EN,2,Sucursal,19:11:36,Lunes a Viernes,Activo
+24,Personal,TRABAJA_EN,6,Almacen,18:26:37,Turnos rotativos,Suspendido
+25,Personal,TRABAJA_EN,3,Almacen,11:22:26,Turnos rotativos,Baja
+26,Personal,TRABAJA_EN,9,Almacen,11:19:37,Lunes a Sábado,Baja
+27,Personal,TRABAJA_EN,7,Almacen,05:16:01,Lunes a Viernes,Activo
+28,Personal,TRABAJA_EN,4,Sucursal,14:54:42,Turnos rotativos,Baja
+29,Personal,TRABAJA_EN,13,Sucursal,01:03:49,Lunes a Sábado,Baja
+30,Personal,TRABAJA_EN,10,Sucursal,00:25:39,Lunes a Viernes,Suspendido
+31,Personal,TRABAJA_EN,9,Sucursal,22:32:20,Lunes a Viernes,Activo
+32,Personal,TRABAJA_EN,1,Sucursal,17:47:30,Lunes a Viernes,Baja
+33,Personal,TRABAJA_EN,4,Sucursal,18:31:41,Lunes a Viernes,Activo
+34,Personal,TRABAJA_EN,5,Almacen,19:13:54,Lunes a Viernes,Activo
+35,Personal,TRABAJA_EN,8,Sucursal,14:44:20,Lunes a Viernes,Suspendido
+36,Personal,TRABAJA_EN,10,Sucursal,14:10:05,Lunes a Sábado,Baja
+37,Personal,TRABAJA_EN,1,Almacen,05:31:54,Lunes a Sábado,Suspendido
+38,Personal,TRABAJA_EN,0,Almacen,00:23:21,Turnos rotativos,Activo
+39,Personal,TRABAJA_EN,0,Sucursal,11:50:41,Lunes a Viernes,Baja
+40,Personal,TRABAJA_EN,4,Almacen,19:44:29,Lunes a Sábado,Baja
+41,Personal,TRABAJA_EN,2,Almacen,20:27:26,Lunes a Viernes,Baja
+42,Personal,TRABAJA_EN,0,Almacen,08:35:47,Turnos rotativos,Baja
+43,Personal,TRABAJA_EN,0,Almacen,10:02:58,Lunes a Viernes,Activo
+44,Personal,TRABAJA_EN,3,Sucursal,18:46:04,Turnos rotativos,Suspendido
+45,Personal,TRABAJA_EN,1,Almacen,19:29:28,Turnos rotativos,Baja
+46,Personal,TRABAJA_EN,5,Sucursal,06:45:57,Lunes a Viernes,Activo
+47,Personal,TRABAJA_EN,6,Almacen,17:37:12,Lunes a Sábado,Suspendido
+48,Personal,TRABAJA_EN,14,Sucursal,14:51:55,Turnos rotativos,Suspendido
+49,Personal,TRABAJA_EN,3,Sucursal,00:18:01,Lunes a Sábado,Suspendido
+50,Personal,TRABAJA_EN,4,Sucursal,01:05:08,Lunes a Viernes,Activo
+51,Personal,TRABAJA_EN,0,Sucursal,08:22:59,Turnos rotativos,Baja
+52,Personal,TRABAJA_EN,11,Sucursal,04:01:12,Lunes a Viernes,Baja
+53,Personal,TRABAJA_EN,2,Almacen,16:49:30,Lunes a Sábado,Activo
+54,Personal,TRABAJA_EN,9,Almacen,12:34:41,Turnos rotativos,Activo
+55,Personal,TRABAJA_EN,3,Almacen,18:38:10,Lunes a Sábado,Activo
+56,Personal,TRABAJA_EN,7,Almacen,03:09:55,Turnos rotativos,Baja
+57,Personal,TRABAJA_EN,7,Almacen,14:38:01,Lunes a Viernes,Activo
+58,Personal,TRABAJA_EN,3,Sucursal,00:48:45,Turnos rotativos,Baja
+59,Personal,TRABAJA_EN,0,Sucursal,07:34:03,Lunes a Sábado,Baja
+60,Personal,TRABAJA_EN,9,Almacen,07:01:52,Turnos rotativos,Activo
+61,Personal,TRABAJA_EN,5,Almacen,16:27:59,Turnos rotativos,Activo
+62,Personal,TRABAJA_EN,12,Sucursal,10:51:52,Turnos rotativos,Activo
+63,Personal,TRABAJA_EN,5,Almacen,05:41:08,Turnos rotativos,Suspendido
+64,Personal,TRABAJA_EN,3,Sucursal,20:17:14,Turnos rotativos,Suspendido
+65,Personal,TRABAJA_EN,3,Almacen,23:37:19,Turnos rotativos,Activo
+66,Personal,TRABAJA_EN,5,Almacen,01:38:50,Lunes a Viernes,Activo
+67,Personal,TRABAJA_EN,3,Almacen,12:32:51,Lunes a Viernes,Baja
+68,Personal,TRABAJA_EN,2,Sucursal,19:25:36,Lunes a Viernes,Suspendido
+69,Personal,TRABAJA_EN,0,Sucursal,07:19:31,Lunes a Sábado,Suspendido
+70,Personal,TRABAJA_EN,7,Sucursal,18:51:22,Lunes a Viernes,Suspendido
+71,Personal,TRABAJA_EN,7,Sucursal,08:10:11,Lunes a Viernes,Suspendido
+72,Personal,TRABAJA_EN,9,Almacen,23:03:45,Turnos rotativos,Baja
+73,Personal,TRABAJA_EN,9,Sucursal,16:05:10,Lunes a Viernes,Suspendido
+74,Personal,TRABAJA_EN,10,Sucursal,01:25:24,Lunes a Viernes,Baja
+75,Personal,TRABAJA_EN,7,Almacen,11:15:09,Turnos rotativos,Activo
+76,Personal,TRABAJA_EN,1,Sucursal,00:39:41,Lunes a Sábado,Baja
+77,Personal,TRABAJA_EN,0,Sucursal,06:30:17,Lunes a Viernes,Baja
+78,Personal,TRABAJA_EN,5,Almacen,06:53:20,Turnos rotativos,Activo
+79,Personal,TRABAJA_EN,9,Almacen,03:28:51,Lunes a Viernes,Suspendido
+80,Personal,TRABAJA_EN,2,Sucursal,20:04:14,Turnos rotativos,Baja
+81,Personal,TRABAJA_EN,12,Sucursal,06:41:03,Lunes a Sábado,Activo
+82,Personal,TRABAJA_EN,1,Sucursal,03:31:53,Lunes a Sábado,Activo
+83,Personal,TRABAJA_EN,7,Almacen,04:27:10,Turnos rotativos,Suspendido
+84,Personal,TRABAJA_EN,0,Almacen,20:07:49,Lunes a Sábado,Suspendido
+85,Personal,TRABAJA_EN,6,Sucursal,16:35:59,Lunes a Sábado,Baja
+86,Personal,TRABAJA_EN,6,Almacen,08:34:47,Turnos rotativos,Baja
+87,Personal,TRABAJA_EN,13,Sucursal,08:57:49,Lunes a Viernes,Suspendido
+88,Personal,TRABAJA_EN,1,Almacen,08:58:00,Turnos rotativos,Activo
+89,Personal,TRABAJA_EN,1,Sucursal,22:25:40,Lunes a Viernes,Suspendido
+90,Personal,TRABAJA_EN,3,Sucursal,13:59:14,Lunes a Sábado,Baja
+91,Personal,TRABAJA_EN,13,Sucursal,14:48:57,Lunes a Viernes,Suspendido
+92,Personal,TRABAJA_EN,7,Almacen,13:10:03,Lunes a Viernes,Baja
+93,Personal,TRABAJA_EN,11,Sucursal,16:15:47,Lunes a Viernes,Suspendido
+94,Personal,TRABAJA_EN,9,Sucursal,19:36:40,Lunes a Viernes,Suspendido
+95,Personal,TRABAJA_EN,8,Sucursal,04:34:34,Lunes a Sábado,Suspendido
+96,Personal,TRABAJA_EN,9,Sucursal,23:30:31,Lunes a Sábado,Baja
+97,Personal,TRABAJA_EN,0,Sucursal,07:01:48,Lunes a Viernes,Suspendido
+98,Personal,TRABAJA_EN,2,Almacen,01:44:48,Lunes a Sábado,Activo
+99,Personal,TRABAJA_EN,11,Sucursal,07:27:04,Lunes a Viernes,Activo
+100,Personal,TRABAJA_EN,3,Almacen,11:22:57,Lunes a Viernes,Activo
+101,Personal,TRABAJA_EN,5,Almacen,15:27:17,Turnos rotativos,Baja
+102,Personal,TRABAJA_EN,1,Almacen,14:05:58,Turnos rotativos,Activo
+103,Personal,TRABAJA_EN,13,Sucursal,09:17:15,Turnos rotativos,Baja
+104,Personal,TRABAJA_EN,1,Almacen,06:09:12,Lunes a Viernes,Suspendido
+105,Personal,TRABAJA_EN,7,Almacen,01:52:00,Lunes a Sábado,Suspendido
+106,Personal,TRABAJA_EN,1,Sucursal,20:17:39,Lunes a Viernes,Activo
+107,Personal,TRABAJA_EN,8,Almacen,23:16:20,Lunes a Sábado,Suspendido
+108,Personal,TRABAJA_EN,5,Sucursal,23:49:38,Lunes a Sábado,Suspendido
+109,Personal,TRABAJA_EN,5,Almacen,09:52:35,Lunes a Sábado,Suspendido
+110,Personal,TRABAJA_EN,3,Almacen,16:48:46,Lunes a Viernes,Baja
+111,Personal,TRABAJA_EN,4,Sucursal,15:17:45,Turnos rotativos,Baja
+112,Personal,TRABAJA_EN,13,Sucursal,23:43:18,Lunes a Sábado,Activo
+113,Personal,TRABAJA_EN,5,Almacen,15:29:35,Turnos rotativos,Suspendido
+114,Personal,TRABAJA_EN,12,Sucursal,03:48:31,Lunes a Viernes,Suspendido
+115,Personal,TRABAJA_EN,0,Almacen,17:44:50,Lunes a Sábado,Activo
+116,Personal,TRABAJA_EN,4,Sucursal,01:24:15,Turnos rotativos,Baja
+117,Personal,TRABAJA_EN,7,Almacen,23:48:08,Lunes a Viernes,Activo
+118,Personal,TRABAJA_EN,8,Almacen,23:09:25,Lunes a Sábado,Baja
+119,Personal,TRABAJA_EN,3,Almacen,03:19:09,Lunes a Viernes,Baja
+120,Personal,TRABAJA_EN,13,Sucursal,09:38:53,Turnos rotativos,Baja
+121,Personal,TRABAJA_EN,2,Sucursal,21:23:18,Lunes a Sábado,Baja
+122,Personal,TRABAJA_EN,3,Sucursal,18:31:33,Turnos rotativos,Baja
+123,Personal,TRABAJA_EN,6,Almacen,15:44:30,Lunes a Viernes,Baja
+124,Personal,TRABAJA_EN,0,Almacen,00:48:28,Lunes a Viernes,Suspendido
+125,Personal,TRABAJA_EN,1,Almacen,18:23:09,Lunes a Viernes,Activo
+126,Personal,TRABAJA_EN,0,Almacen,14:30:40,Turnos rotativos,Baja
+127,Personal,TRABAJA_EN,4,Almacen,21:16:33,Lunes a Sábado,Suspendido
+128,Personal,TRABAJA_EN,12,Sucursal,23:10:53,Lunes a Viernes,Baja
+129,Personal,TRABAJA_EN,0,Sucursal,16:50:23,Turnos rotativos,Suspendido
+130,Personal,TRABAJA_EN,6,Sucursal,20:41:58,Turnos rotativos,Suspendido
+131,Personal,TRABAJA_EN,2,Almacen,23:57:01,Lunes a Viernes,Suspendido
+132,Personal,TRABAJA_EN,8,Sucursal,19:53:00,Lunes a Sábado,Activo
+133,Personal,TRABAJA_EN,9,Almacen,10:01:50,Lunes a Sábado,Baja
+134,Personal,TRABAJA_EN,0,Almacen,11:48:26,Turnos rotativos,Suspendido
+135,Personal,TRABAJA_EN,4,Almacen,16:47:53,Lunes a Sábado,Suspendido
+136,Personal,TRABAJA_EN,3,Sucursal,13:38:35,Turnos rotativos,Suspendido
+137,Personal,TRABAJA_EN,4,Sucursal,15:21:33,Turnos rotativos,Suspendido
+138,Personal,TRABAJA_EN,6,Sucursal,20:22:56,Lunes a Viernes,Suspendido
+139,Personal,TRABAJA_EN,0,Sucursal,04:49:09,Turnos rotativos,Baja
+140,Personal,TRABAJA_EN,2,Sucursal,22:49:33,Lunes a Sábado,Baja
+141,Personal,TRABAJA_EN,10,Sucursal,22:11:04,Turnos rotativos,Suspendido
+142,Personal,TRABAJA_EN,3,Almacen,19:15:26,Lunes a Sábado,Suspendido
+143,Personal,TRABAJA_EN,7,Sucursal,13:03:14,Lunes a Viernes,Activo
+144,Personal,TRABAJA_EN,6,Sucursal,20:07:00,Turnos rotativos,Activo
+145,Personal,TRABAJA_EN,11,Sucursal,20:27:26,Lunes a Sábado,Baja
+146,Personal,TRABAJA_EN,6,Sucursal,03:28:08,Lunes a Viernes,Activo
+147,Personal,TRABAJA_EN,14,Sucursal,04:39:48,Lunes a Sábado,Baja
+148,Personal,TRABAJA_EN,7,Almacen,22:46:15,Lunes a Viernes,Baja
+149,Personal,TRABAJA_EN,11,Sucursal,05:29:28,Turnos rotativos,Suspendido
+150,Personal,TRABAJA_EN,14,Sucursal,04:00:03,Lunes a Viernes,Activo
+151,Personal,TRABAJA_EN,9,Almacen,18:04:32,Turnos rotativos,Baja
+152,Personal,TRABAJA_EN,2,Almacen,22:11:00,Turnos rotativos,Baja
+153,Personal,TRABAJA_EN,9,Almacen,14:00:39,Turnos rotativos,Activo
+154,Personal,TRABAJA_EN,5,Almacen,08:27:51,Lunes a Sábado,Suspendido
+155,Personal,TRABAJA_EN,5,Almacen,19:39:28,Turnos rotativos,Activo
+156,Personal,TRABAJA_EN,7,Sucursal,04:16:33,Lunes a Sábado,Baja
+157,Personal,TRABAJA_EN,2,Almacen,05:57:18,Lunes a Viernes,Baja
+158,Personal,TRABAJA_EN,12,Sucursal,13:29:33,Lunes a Viernes,Baja
+159,Personal,TRABAJA_EN,9,Sucursal,21:34:14,Lunes a Sábado,Activo
+160,Personal,TRABAJA_EN,6,Almacen,03:37:52,Turnos rotativos,Baja
+161,Personal,TRABAJA_EN,12,Sucursal,04:13:47,Lunes a Sábado,Suspendido
+162,Personal,TRABAJA_EN,8,Sucursal,10:28:43,Lunes a Viernes,Suspendido
+163,Personal,TRABAJA_EN,8,Sucursal,16:51:32,Lunes a Sábado,Activo
+164,Personal,TRABAJA_EN,2,Sucursal,13:43:39,Lunes a Sábado,Activo
+165,Personal,TRABAJA_EN,7,Sucursal,13:57:09,Lunes a Viernes,Suspendido
+166,Personal,TRABAJA_EN,6,Almacen,22:24:57,Lunes a Viernes,Activo
+167,Personal,TRABAJA_EN,5,Almacen,11:16:15,Lunes a Viernes,Suspendido
+168,Personal,TRABAJA_EN,2,Almacen,06:17:07,Lunes a Sábado,Activo
+169,Personal,TRABAJA_EN,3,Almacen,09:44:46,Lunes a Sábado,Baja
+170,Personal,TRABAJA_EN,4,Almacen,18:09:07,Lunes a Sábado,Activo
+171,Personal,TRABAJA_EN,3,Almacen,04:32:54,Lunes a Viernes,Baja
+172,Personal,TRABAJA_EN,2,Almacen,16:50:03,Lunes a Viernes,Baja
+173,Personal,TRABAJA_EN,1,Almacen,05:35:09,Lunes a Sábado,Baja
+174,Personal,TRABAJA_EN,8,Sucursal,14:57:39,Turnos rotativos,Baja
+175,Personal,TRABAJA_EN,9,Sucursal,18:50:05,Turnos rotativos,Suspendido
+176,Personal,TRABAJA_EN,2,Almacen,22:18:33,Turnos rotativos,Suspendido
+177,Personal,TRABAJA_EN,9,Almacen,19:18:58,Lunes a Sábado,Activo
+178,Personal,TRABAJA_EN,4,Almacen,12:02:31,Lunes a Sábado,Activo
+179,Personal,TRABAJA_EN,8,Sucursal,08:05:54,Lunes a Sábado,Baja
+180,Personal,TRABAJA_EN,9,Almacen,05:34:04,Lunes a Sábado,Baja
+181,Personal,TRABAJA_EN,1,Sucursal,19:15:42,Lunes a Sábado,Baja
+182,Personal,TRABAJA_EN,14,Sucursal,08:12:17,Lunes a Viernes,Suspendido
+183,Personal,TRABAJA_EN,3,Sucursal,23:50:55,Turnos rotativos,Suspendido
+184,Personal,TRABAJA_EN,14,Sucursal,11:33:33,Turnos rotativos,Baja
+185,Personal,TRABAJA_EN,0,Sucursal,12:08:10,Lunes a Viernes,Baja
+186,Personal,TRABAJA_EN,8,Sucursal,04:40:30,Lunes a Viernes,Baja
+187,Personal,TRABAJA_EN,4,Almacen,03:31:28,Turnos rotativos,Baja
+188,Personal,TRABAJA_EN,0,Sucursal,07:35:46,Lunes a Viernes,Baja
+189,Personal,TRABAJA_EN,3,Almacen,23:25:54,Turnos rotativos,Suspendido
+190,Personal,TRABAJA_EN,3,Almacen,10:52:59,Turnos rotativos,Suspendido
+191,Personal,TRABAJA_EN,5,Sucursal,21:54:17,Lunes a Sábado,Activo
+192,Personal,TRABAJA_EN,5,Almacen,14:20:48,Lunes a Viernes,Baja
+193,Personal,TRABAJA_EN,6,Sucursal,00:04:46,Turnos rotativos,Baja
+194,Personal,TRABAJA_EN,5,Sucursal,16:00:50,Turnos rotativos,Baja
+195,Personal,TRABAJA_EN,5,Almacen,11:07:40,Lunes a Viernes,Activo
+196,Personal,TRABAJA_EN,0,Almacen,07:44:51,Turnos rotativos,Activo
+197,Personal,TRABAJA_EN,3,Sucursal,14:28:55,Lunes a Sábado,Baja
+198,Personal,TRABAJA_EN,10,Sucursal,17:02:00,Lunes a Viernes,Suspendido
+199,Personal,TRABAJA_EN,7,Almacen,02:16:26,Lunes a Sábado,Activo
+200,Personal,TRABAJA_EN,4,Almacen,10:07:50,Lunes a Sábado,Activo
+201,Personal,TRABAJA_EN,5,Sucursal,17:50:29,Lunes a Sábado,Suspendido
+202,Personal,TRABAJA_EN,5,Almacen,05:23:46,Lunes a Sábado,Activo
+203,Personal,TRABAJA_EN,8,Almacen,02:26:21,Turnos rotativos,Baja
+204,Personal,TRABAJA_EN,2,Sucursal,17:17:59,Lunes a Viernes,Suspendido
+205,Personal,TRABAJA_EN,0,Almacen,11:35:40,Turnos rotativos,Baja
+206,Personal,TRABAJA_EN,11,Sucursal,09:21:39,Lunes a Viernes,Suspendido
+207,Personal,TRABAJA_EN,6,Almacen,12:20:29,Turnos rotativos,Baja
+208,Personal,TRABAJA_EN,12,Sucursal,21:49:58,Lunes a Viernes,Suspendido
+209,Personal,TRABAJA_EN,14,Sucursal,16:50:13,Turnos rotativos,Suspendido
+210,Personal,TRABAJA_EN,9,Almacen,21:58:08,Lunes a Sábado,Baja
+211,Personal,TRABAJA_EN,1,Almacen,01:33:36,Lunes a Viernes,Activo
+212,Personal,TRABAJA_EN,3,Sucursal,12:51:57,Lunes a Viernes,Baja
+213,Personal,TRABAJA_EN,9,Sucursal,08:16:15,Lunes a Viernes,Activo
+214,Personal,TRABAJA_EN,4,Sucursal,02:51:24,Lunes a Viernes,Suspendido
+215,Personal,TRABAJA_EN,0,Almacen,03:42:21,Turnos rotativos,Baja
+216,Personal,TRABAJA_EN,7,Almacen,22:05:28,Lunes a Viernes,Baja
+217,Personal,TRABAJA_EN,11,Sucursal,13:14:55,Lunes a Viernes,Baja
+218,Personal,TRABAJA_EN,0,Almacen,10:53:50,Turnos rotativos,Activo
+219,Personal,TRABAJA_EN,7,Almacen,10:17:53,Lunes a Sábado,Activo
+220,Personal,TRABAJA_EN,7,Almacen,04:45:00,Lunes a Viernes,Activo
+221,Personal,TRABAJA_EN,5,Sucursal,23:04:30,Turnos rotativos,Baja
+222,Personal,TRABAJA_EN,8,Sucursal,04:05:39,Lunes a Viernes,Baja
+223,Personal,TRABAJA_EN,3,Almacen,02:54:18,Turnos rotativos,Activo
+224,Personal,TRABAJA_EN,13,Sucursal,02:23:35,Turnos rotativos,Baja
+225,Personal,TRABAJA_EN,11,Sucursal,15:04:18,Turnos rotativos,Baja
+226,Personal,TRABAJA_EN,7,Almacen,20:32:56,Lunes a Sábado,Suspendido
+227,Personal,TRABAJA_EN,7,Sucursal,20:31:39,Turnos rotativos,Baja
+228,Personal,TRABAJA_EN,6,Almacen,17:19:39,Lunes a Sábado,Activo
+229,Personal,TRABAJA_EN,6,Sucursal,10:15:18,Lunes a Sábado,Activo
+230,Personal,TRABAJA_EN,6,Almacen,21:31:15,Lunes a Sábado,Suspendido
+231,Personal,TRABAJA_EN,8,Sucursal,22:26:45,Turnos rotativos,Baja
+232,Personal,TRABAJA_EN,5,Almacen,16:08:02,Lunes a Viernes,Suspendido
+233,Personal,TRABAJA_EN,5,Almacen,03:55:11,Turnos rotativos,Baja
+234,Personal,TRABAJA_EN,11,Sucursal,23:22:32,Lunes a Sábado,Baja
+235,Personal,TRABAJA_EN,5,Sucursal,15:46:20,Lunes a Sábado,Activo
+236,Personal,TRABAJA_EN,7,Sucursal,00:55:58,Lunes a Sábado,Suspendido
+237,Personal,TRABAJA_EN,3,Almacen,16:38:04,Turnos rotativos,Suspendido
+238,Personal,TRABAJA_EN,10,Sucursal,17:27:59,Turnos rotativos,Suspendido
+239,Personal,TRABAJA_EN,10,Sucursal,01:52:22,Lunes a Sábado,Activo
+240,Personal,TRABAJA_EN,8,Sucursal,00:14:02,Lunes a Viernes,Baja
+241,Personal,TRABAJA_EN,10,Sucursal,15:03:23,Lunes a Sábado,Baja
+242,Personal,TRABAJA_EN,8,Sucursal,17:02:31,Lunes a Sábado,Activo
+243,Personal,TRABAJA_EN,10,Sucursal,05:38:50,Turnos rotativos,Activo
+244,Personal,TRABAJA_EN,4,Almacen,04:42:31,Turnos rotativos,Baja
+245,Personal,TRABAJA_EN,3,Sucursal,10:47:58,Turnos rotativos,Suspendido
+246,Personal,TRABAJA_EN,13,Sucursal,22:44:49,Lunes a Sábado,Baja
+247,Personal,TRABAJA_EN,8,Sucursal,00:50:32,Turnos rotativos,Suspendido
+248,Personal,TRABAJA_EN,0,Sucursal,05:21:50,Turnos rotativos,Suspendido
+249,Personal,TRABAJA_EN,10,Sucursal,12:32:45,Lunes a Viernes,Baja
+250,Personal,TRABAJA_EN,9,Almacen,15:53:14,Lunes a Sábado,Activo
+251,Personal,TRABAJA_EN,6,Sucursal,01:03:23,Turnos rotativos,Baja
+252,Personal,TRABAJA_EN,1,Almacen,02:12:13,Lunes a Viernes,Activo
+253,Personal,TRABAJA_EN,14,Sucursal,01:31:33,Lunes a Sábado,Activo
+254,Personal,TRABAJA_EN,1,Almacen,13:12:26,Lunes a Viernes,Activo
+255,Personal,TRABAJA_EN,13,Sucursal,17:39:26,Turnos rotativos,Activo
+256,Personal,TRABAJA_EN,8,Almacen,09:26:46,Turnos rotativos,Activo
+257,Personal,TRABAJA_EN,12,Sucursal,09:35:07,Turnos rotativos,Baja
+258,Personal,TRABAJA_EN,12,Sucursal,07:21:45,Lunes a Viernes,Suspendido
+259,Personal,TRABAJA_EN,6,Sucursal,21:57:57,Lunes a Sábado,Suspendido
+260,Personal,TRABAJA_EN,4,Almacen,17:49:56,Lunes a Sábado,Activo
+261,Personal,TRABAJA_EN,7,Almacen,11:20:15,Lunes a Viernes,Activo
+262,Personal,TRABAJA_EN,9,Almacen,15:41:28,Turnos rotativos,Activo
+263,Personal,TRABAJA_EN,4,Almacen,12:04:56,Turnos rotativos,Activo
+264,Personal,TRABAJA_EN,5,Almacen,05:58:14,Turnos rotativos,Activo
+265,Personal,TRABAJA_EN,8,Almacen,19:30:05,Lunes a Sábado,Activo
+266,Personal,TRABAJA_EN,14,Sucursal,08:32:48,Lunes a Viernes,Suspendido
+267,Personal,TRABAJA_EN,3,Sucursal,14:22:22,Lunes a Sábado,Baja
+268,Personal,TRABAJA_EN,5,Almacen,18:49:20,Turnos rotativos,Baja
+269,Personal,TRABAJA_EN,4,Sucursal,14:50:11,Lunes a Sábado,Activo
+270,Personal,TRABAJA_EN,0,Almacen,13:30:36,Turnos rotativos,Suspendido
+271,Personal,TRABAJA_EN,2,Almacen,00:35:14,Lunes a Sábado,Baja
+272,Personal,TRABAJA_EN,7,Almacen,17:03:08,Lunes a Viernes,Baja
+273,Personal,TRABAJA_EN,10,Sucursal,02:41:05,Turnos rotativos,Baja
+274,Personal,TRABAJA_EN,5,Almacen,23:50:16,Lunes a Sábado,Suspendido
+275,Personal,TRABAJA_EN,9,Sucursal,05:02:18,Lunes a Sábado,Baja
+276,Personal,TRABAJA_EN,4,Almacen,21:28:03,Lunes a Viernes,Baja
+277,Personal,TRABAJA_EN,1,Almacen,05:02:29,Turnos rotativos,Baja
+278,Personal,TRABAJA_EN,12,Sucursal,01:41:40,Lunes a Sábado,Suspendido
+279,Personal,TRABAJA_EN,10,Sucursal,12:19:46,Lunes a Sábado,Suspendido
+280,Personal,TRABAJA_EN,2,Almacen,14:14:11,Turnos rotativos,Suspendido
+281,Personal,TRABAJA_EN,2,Almacen,06:50:01,Turnos rotativos,Activo
+282,Personal,TRABAJA_EN,7,Almacen,19:15:02,Lunes a Sábado,Activo
+283,Personal,TRABAJA_EN,5,Almacen,18:50:06,Lunes a Sábado,Baja
+284,Personal,TRABAJA_EN,13,Sucursal,06:04:59,Lunes a Viernes,Suspendido
+285,Personal,TRABAJA_EN,6,Sucursal,09:57:21,Lunes a Sábado,Baja
+286,Personal,TRABAJA_EN,9,Almacen,04:55:17,Lunes a Sábado,Baja
+287,Personal,TRABAJA_EN,4,Almacen,20:54:29,Turnos rotativos,Activo
+288,Personal,TRABAJA_EN,13,Sucursal,07:38:36,Turnos rotativos,Baja
+289,Personal,TRABAJA_EN,1,Sucursal,00:44:36,Lunes a Viernes,Suspendido
+290,Personal,TRABAJA_EN,8,Sucursal,22:57:22,Lunes a Sábado,Baja
+291,Personal,TRABAJA_EN,6,Sucursal,00:59:24,Lunes a Sábado,Suspendido
+292,Personal,TRABAJA_EN,0,Sucursal,05:16:17,Lunes a Viernes,Activo
+293,Personal,TRABAJA_EN,8,Sucursal,02:43:40,Lunes a Viernes,Activo
+294,Personal,TRABAJA_EN,1,Almacen,21:19:45,Turnos rotativos,Baja
+295,Personal,TRABAJA_EN,0,Almacen,23:10:58,Lunes a Viernes,Baja
+296,Personal,TRABAJA_EN,7,Sucursal,03:18:09,Lunes a Sábado,Suspendido
+297,Personal,TRABAJA_EN,2,Almacen,23:57:33,Turnos rotativos,Baja
+298,Personal,TRABAJA_EN,9,Sucursal,10:17:47,Turnos rotativos,Baja
+299,Personal,TRABAJA_EN,6,Almacen,22:07:59,Turnos rotativos,Suspendido
+300,Personal,TRABAJA_EN,6,Sucursal,06:54:58,Lunes a Sábado,Baja
+301,Personal,TRABAJA_EN,8,Almacen,19:58:08,Lunes a Sábado,Baja
+302,Personal,TRABAJA_EN,7,Sucursal,23:12:46,Turnos rotativos,Baja
+303,Personal,TRABAJA_EN,1,Almacen,11:18:26,Lunes a Sábado,Activo
+304,Personal,TRABAJA_EN,7,Sucursal,08:23:25,Lunes a Sábado,Suspendido
+305,Personal,TRABAJA_EN,11,Sucursal,15:45:15,Turnos rotativos,Activo
+306,Personal,TRABAJA_EN,3,Almacen,18:53:17,Turnos rotativos,Suspendido
+307,Personal,TRABAJA_EN,2,Sucursal,20:36:34,Lunes a Viernes,Baja
+308,Personal,TRABAJA_EN,1,Almacen,23:06:49,Lunes a Viernes,Baja
+309,Personal,TRABAJA_EN,5,Sucursal,10:12:02,Lunes a Viernes,Suspendido
+310,Personal,TRABAJA_EN,9,Almacen,23:24:49,Lunes a Viernes,Baja
+311,Personal,TRABAJA_EN,1,Almacen,13:56:03,Turnos rotativos,Suspendido
+312,Personal,TRABAJA_EN,1,Sucursal,12:06:08,Turnos rotativos,Suspendido
+313,Personal,TRABAJA_EN,13,Sucursal,19:05:05,Lunes a Viernes,Suspendido
+314,Personal,TRABAJA_EN,14,Sucursal,19:46:55,Lunes a Sábado,Suspendido
+315,Personal,TRABAJA_EN,4,Almacen,06:22:27,Lunes a Viernes,Baja
+316,Personal,TRABAJA_EN,12,Sucursal,15:20:52,Lunes a Sábado,Suspendido
+317,Personal,TRABAJA_EN,9,Sucursal,05:22:58,Turnos rotativos,Activo
+318,Personal,TRABAJA_EN,8,Sucursal,01:11:48,Turnos rotativos,Suspendido
+319,Personal,TRABAJA_EN,10,Sucursal,05:31:49,Turnos rotativos,Baja
+320,Personal,TRABAJA_EN,5,Almacen,00:38:57,Lunes a Sábado,Activo
+321,Personal,TRABAJA_EN,14,Sucursal,03:42:16,Turnos rotativos,Baja
+322,Personal,TRABAJA_EN,0,Sucursal,02:32:21,Turnos rotativos,Baja
+323,Personal,TRABAJA_EN,5,Almacen,00:14:42,Turnos rotativos,Activo
+324,Personal,TRABAJA_EN,6,Almacen,01:31:57,Lunes a Sábado,Baja
+325,Personal,TRABAJA_EN,3,Sucursal,22:48:06,Turnos rotativos,Baja
+326,Personal,TRABAJA_EN,8,Almacen,14:00:08,Lunes a Viernes,Suspendido
+327,Personal,TRABAJA_EN,14,Sucursal,07:37:23,Lunes a Viernes,Activo
+328,Personal,TRABAJA_EN,6,Sucursal,02:56:42,Lunes a Viernes,Activo
+329,Personal,TRABAJA_EN,9,Sucursal,06:51:28,Turnos rotativos,Suspendido
+330,Personal,TRABAJA_EN,2,Sucursal,10:07:12,Lunes a Viernes,Activo
+331,Personal,TRABAJA_EN,3,Sucursal,09:34:35,Turnos rotativos,Suspendido
+332,Personal,TRABAJA_EN,7,Sucursal,21:20:25,Lunes a Viernes,Suspendido
+333,Personal,TRABAJA_EN,1,Sucursal,05:38:42,Lunes a Viernes,Activo
+334,Personal,TRABAJA_EN,8,Almacen,09:54:08,Lunes a Sábado,Activo
+335,Personal,TRABAJA_EN,4,Almacen,19:08:04,Lunes a Viernes,Activo
+336,Personal,TRABAJA_EN,4,Almacen,00:00:00,Lunes a Viernes,Activo
+337,Personal,TRABAJA_EN,8,Sucursal,04:46:42,Lunes a Sábado,Baja
+338,Personal,TRABAJA_EN,6,Sucursal,02:11:09,Turnos rotativos,Baja
+339,Personal,TRABAJA_EN,8,Almacen,15:02:38,Lunes a Sábado,Baja
+340,Personal,TRABAJA_EN,0,Almacen,22:28:04,Turnos rotativos,Baja
+341,Personal,TRABAJA_EN,9,Almacen,14:31:25,Lunes a Viernes,Activo
+342,Personal,TRABAJA_EN,5,Almacen,14:21:35,Turnos rotativos,Suspendido
+343,Personal,TRABAJA_EN,10,Sucursal,05:29:14,Lunes a Viernes,Baja
+344,Personal,TRABAJA_EN,2,Almacen,18:39:42,Turnos rotativos,Suspendido
+345,Personal,TRABAJA_EN,10,Sucursal,18:15:33,Turnos rotativos,Activo
+346,Personal,TRABAJA_EN,3,Sucursal,22:34:44,Lunes a Viernes,Baja
+347,Personal,TRABAJA_EN,9,Sucursal,03:09:55,Lunes a Viernes,Suspendido
+348,Personal,TRABAJA_EN,3,Almacen,11:51:27,Lunes a Sábado,Baja
+349,Personal,TRABAJA_EN,6,Sucursal,19:53:30,Turnos rotativos,Suspendido
+350,Personal,TRABAJA_EN,2,Almacen,10:03:27,Turnos rotativos,Baja
+351,Personal,TRABAJA_EN,0,Sucursal,18:47:04,Lunes a Viernes,Activo
+352,Personal,TRABAJA_EN,0,Almacen,07:12:31,Lunes a Sábado,Activo
+353,Personal,TRABAJA_EN,5,Almacen,15:25:10,Lunes a Sábado,Activo
+354,Personal,TRABAJA_EN,7,Almacen,16:22:53,Turnos rotativos,Baja
+355,Personal,TRABAJA_EN,1,Almacen,19:52:35,Lunes a Viernes,Activo
+356,Personal,TRABAJA_EN,4,Almacen,16:52:15,Turnos rotativos,Suspendido
+357,Personal,TRABAJA_EN,0,Sucursal,20:46:48,Lunes a Sábado,Suspendido
+358,Personal,TRABAJA_EN,7,Sucursal,06:51:24,Turnos rotativos,Suspendido
+359,Personal,TRABAJA_EN,9,Sucursal,14:43:55,Turnos rotativos,Baja
+360,Personal,TRABAJA_EN,4,Sucursal,04:28:27,Lunes a Sábado,Baja
+361,Personal,TRABAJA_EN,5,Sucursal,02:25:48,Lunes a Sábado,Baja
+362,Personal,TRABAJA_EN,7,Almacen,03:31:48,Lunes a Sábado,Baja
+363,Personal,TRABAJA_EN,0,Almacen,00:06:17,Turnos rotativos,Suspendido
+364,Personal,TRABAJA_EN,3,Sucursal,23:55:14,Lunes a Sábado,Activo
+365,Personal,TRABAJA_EN,9,Almacen,06:38:10,Lunes a Viernes,Suspendido
+366,Personal,TRABAJA_EN,4,Almacen,07:45:13,Lunes a Sábado,Activo
+367,Personal,TRABAJA_EN,3,Sucursal,23:27:29,Lunes a Sábado,Suspendido
+368,Personal,TRABAJA_EN,2,Sucursal,18:30:20,Lunes a Viernes,Activo
+369,Personal,TRABAJA_EN,5,Almacen,21:22:42,Lunes a Sábado,Baja
+370,Personal,TRABAJA_EN,1,Sucursal,06:37:58,Lunes a Sábado,Baja
+371,Personal,TRABAJA_EN,0,Almacen,06:24:49,Lunes a Viernes,Baja
+372,Personal,TRABAJA_EN,11,Sucursal,00:01:00,Turnos rotativos,Suspendido
+373,Personal,TRABAJA_EN,14,Sucursal,19:49:43,Lunes a Viernes,Activo
+374,Personal,TRABAJA_EN,11,Sucursal,03:53:55,Lunes a Viernes,Baja
+375,Personal,TRABAJA_EN,1,Almacen,22:36:51,Lunes a Viernes,Activo
+376,Personal,TRABAJA_EN,7,Sucursal,07:09:24,Turnos rotativos,Suspendido
+377,Personal,TRABAJA_EN,6,Almacen,20:05:41,Lunes a Sábado,Activo
+378,Personal,TRABAJA_EN,6,Almacen,07:57:43,Turnos rotativos,Activo
+379,Personal,TRABAJA_EN,10,Sucursal,10:42:42,Lunes a Sábado,Suspendido
+380,Personal,TRABAJA_EN,3,Almacen,23:12:36,Lunes a Viernes,Baja
+381,Personal,TRABAJA_EN,11,Sucursal,17:10:02,Lunes a Sábado,Suspendido
+382,Personal,TRABAJA_EN,6,Sucursal,05:53:47,Lunes a Viernes,Suspendido
+383,Personal,TRABAJA_EN,0,Almacen,23:56:01,Turnos rotativos,Suspendido
+384,Personal,TRABAJA_EN,1,Almacen,00:31:34,Lunes a Sábado,Suspendido
+385,Personal,TRABAJA_EN,9,Almacen,19:15:58,Turnos rotativos,Suspendido
+386,Personal,TRABAJA_EN,2,Almacen,07:46:44,Turnos rotativos,Activo
+387,Personal,TRABAJA_EN,0,Sucursal,13:18:51,Lunes a Viernes,Suspendido
+388,Personal,TRABAJA_EN,8,Almacen,07:50:26,Lunes a Viernes,Activo
+389,Personal,TRABAJA_EN,0,Sucursal,08:01:16,Lunes a Viernes,Suspendido
+390,Personal,TRABAJA_EN,0,Sucursal,22:25:40,Turnos rotativos,Baja
+391,Personal,TRABAJA_EN,2,Almacen,17:32:02,Turnos rotativos,Activo
+392,Personal,TRABAJA_EN,12,Sucursal,06:15:55,Lunes a Viernes,Suspendido
+393,Personal,TRABAJA_EN,3,Sucursal,13:51:07,Lunes a Sábado,Baja
+394,Personal,TRABAJA_EN,2,Almacen,08:44:27,Lunes a Sábado,Suspendido
+395,Personal,TRABAJA_EN,4,Almacen,05:16:13,Turnos rotativos,Baja
+396,Personal,TRABAJA_EN,9,Almacen,02:31:07,Lunes a Sábado,Baja
+397,Personal,TRABAJA_EN,11,Sucursal,02:30:12,Lunes a Viernes,Activo
+398,Personal,TRABAJA_EN,12,Sucursal,11:26:08,Lunes a Viernes,Suspendido
+399,Personal,TRABAJA_EN,13,Sucursal,16:08:01,Turnos rotativos,Baja
+400,Personal,TRABAJA_EN,5,Sucursal,04:04:22,Lunes a Viernes,Activo
+401,Personal,TRABAJA_EN,11,Sucursal,16:45:00,Lunes a Viernes,Suspendido
+402,Personal,TRABAJA_EN,8,Almacen,21:37:16,Lunes a Sábado,Suspendido
+403,Personal,TRABAJA_EN,6,Almacen,10:41:40,Lunes a Viernes,Suspendido
+404,Personal,TRABAJA_EN,10,Sucursal,13:08:19,Turnos rotativos,Suspendido
+405,Personal,TRABAJA_EN,6,Almacen,14:44:14,Lunes a Viernes,Activo
+406,Personal,TRABAJA_EN,1,Almacen,03:31:44,Lunes a Sábado,Baja
+407,Personal,TRABAJA_EN,2,Almacen,01:47:07,Lunes a Sábado,Suspendido
+408,Personal,TRABAJA_EN,0,Sucursal,12:16:25,Lunes a Sábado,Activo
+409,Personal,TRABAJA_EN,14,Sucursal,05:59:04,Lunes a Viernes,Baja
+410,Personal,TRABAJA_EN,13,Sucursal,15:03:37,Turnos rotativos,Suspendido
+411,Personal,TRABAJA_EN,6,Almacen,23:32:21,Turnos rotativos,Baja
+412,Personal,TRABAJA_EN,10,Sucursal,06:00:20,Lunes a Sábado,Suspendido
+413,Personal,TRABAJA_EN,12,Sucursal,04:32:01,Lunes a Sábado,Suspendido
+414,Personal,TRABAJA_EN,5,Almacen,02:07:44,Lunes a Sábado,Suspendido
+415,Personal,TRABAJA_EN,10,Sucursal,02:00:17,Lunes a Viernes,Suspendido
+416,Personal,TRABAJA_EN,7,Almacen,19:41:49,Lunes a Viernes,Activo
+417,Personal,TRABAJA_EN,11,Sucursal,09:15:02,Turnos rotativos,Suspendido
+418,Personal,TRABAJA_EN,14,Sucursal,23:55:55,Turnos rotativos,Baja
+419,Personal,TRABAJA_EN,3,Almacen,17:40:44,Lunes a Viernes,Baja
+420,Personal,TRABAJA_EN,13,Sucursal,08:14:13,Lunes a Viernes,Activo
+421,Personal,TRABAJA_EN,6,Sucursal,18:11:39,Lunes a Sábado,Activo
+422,Personal,TRABAJA_EN,2,Almacen,15:36:16,Turnos rotativos,Baja
+423,Personal,TRABAJA_EN,8,Sucursal,12:54:13,Lunes a Sábado,Suspendido
+424,Personal,TRABAJA_EN,9,Sucursal,02:48:04,Lunes a Viernes,Suspendido
+425,Personal,TRABAJA_EN,0,Sucursal,15:54:34,Turnos rotativos,Activo
+426,Personal,TRABAJA_EN,10,Sucursal,06:10:08,Lunes a Sábado,Baja
+427,Personal,TRABAJA_EN,4,Almacen,22:29:53,Lunes a Sábado,Suspendido
+428,Personal,TRABAJA_EN,0,Almacen,04:36:21,Lunes a Viernes,Suspendido
+429,Personal,TRABAJA_EN,3,Sucursal,23:59:09,Lunes a Viernes,Activo
+430,Personal,TRABAJA_EN,5,Almacen,18:07:09,Lunes a Sábado,Activo
+431,Personal,TRABAJA_EN,14,Sucursal,08:52:57,Lunes a Sábado,Activo
+432,Personal,TRABAJA_EN,6,Almacen,16:47:10,Lunes a Sábado,Suspendido
+433,Personal,TRABAJA_EN,4,Almacen,11:19:17,Lunes a Sábado,Suspendido
+434,Personal,TRABAJA_EN,1,Sucursal,08:24:52,Lunes a Viernes,Suspendido
+435,Personal,TRABAJA_EN,0,Almacen,09:56:55,Lunes a Sábado,Baja
+436,Personal,TRABAJA_EN,8,Almacen,14:11:39,Lunes a Viernes,Baja
+437,Personal,TRABAJA_EN,5,Sucursal,03:49:36,Turnos rotativos,Activo
+438,Personal,TRABAJA_EN,1,Almacen,10:48:28,Lunes a Sábado,Activo
+439,Personal,TRABAJA_EN,4,Almacen,20:47:58,Turnos rotativos,Activo
+440,Personal,TRABAJA_EN,0,Almacen,01:11:35,Lunes a Sábado,Suspendido
+441,Personal,TRABAJA_EN,0,Almacen,00:02:18,Lunes a Sábado,Activo
+442,Personal,TRABAJA_EN,14,Sucursal,15:22:37,Turnos rotativos,Baja
+443,Personal,TRABAJA_EN,9,Almacen,18:03:05,Lunes a Viernes,Suspendido
+444,Personal,TRABAJA_EN,1,Sucursal,00:43:45,Lunes a Sábado,Baja
+445,Personal,TRABAJA_EN,7,Sucursal,04:18:59,Lunes a Viernes,Baja
+446,Personal,TRABAJA_EN,4,Almacen,12:12:07,Lunes a Viernes,Baja
+447,Personal,TRABAJA_EN,4,Sucursal,22:04:38,Lunes a Sábado,Suspendido
+448,Personal,TRABAJA_EN,14,Sucursal,23:29:17,Lunes a Viernes,Activo
+449,Personal,TRABAJA_EN,4,Almacen,21:39:21,Lunes a Viernes,Activo
+450,Personal,TRABAJA_EN,9,Sucursal,17:21:03,Turnos rotativos,Suspendido
+451,Personal,TRABAJA_EN,8,Almacen,05:37:46,Lunes a Viernes,Baja
+452,Personal,TRABAJA_EN,6,Almacen,09:35:37,Lunes a Viernes,Suspendido
+453,Personal,TRABAJA_EN,1,Almacen,05:48:33,Lunes a Sábado,Suspendido
+454,Personal,TRABAJA_EN,13,Sucursal,07:53:29,Lunes a Viernes,Suspendido
+455,Personal,TRABAJA_EN,9,Almacen,19:25:32,Lunes a Viernes,Baja
+456,Personal,TRABAJA_EN,1,Almacen,08:10:14,Lunes a Sábado,Activo
+457,Personal,TRABAJA_EN,10,Sucursal,01:14:36,Lunes a Viernes,Suspendido
+458,Personal,TRABAJA_EN,8,Sucursal,10:42:55,Lunes a Viernes,Suspendido
+459,Personal,TRABAJA_EN,8,Sucursal,14:47:56,Turnos rotativos,Suspendido
+460,Personal,TRABAJA_EN,12,Sucursal,21:11:43,Lunes a Sábado,Baja
+461,Personal,TRABAJA_EN,7,Sucursal,06:01:26,Turnos rotativos,Activo
+462,Personal,TRABAJA_EN,5,Sucursal,02:06:01,Turnos rotativos,Suspendido
+463,Personal,TRABAJA_EN,6,Sucursal,14:45:48,Lunes a Sábado,Suspendido
+464,Personal,TRABAJA_EN,6,Almacen,01:02:55,Lunes a Sábado,Suspendido
+465,Personal,TRABAJA_EN,9,Almacen,20:50:25,Lunes a Viernes,Activo
+466,Personal,TRABAJA_EN,8,Sucursal,08:59:43,Turnos rotativos,Activo
+467,Personal,TRABAJA_EN,9,Almacen,18:45:37,Lunes a Viernes,Suspendido
+468,Personal,TRABAJA_EN,3,Sucursal,20:59:04,Lunes a Sábado,Baja
+469,Personal,TRABAJA_EN,6,Sucursal,08:21:16,Lunes a Sábado,Activo
+470,Personal,TRABAJA_EN,4,Almacen,14:53:53,Lunes a Sábado,Activo
+471,Personal,TRABAJA_EN,0,Sucursal,05:39:39,Lunes a Sábado,Activo
+472,Personal,TRABAJA_EN,14,Sucursal,01:39:10,Lunes a Viernes,Suspendido
+473,Personal,TRABAJA_EN,11,Sucursal,00:40:38,Turnos rotativos,Activo
+474,Personal,TRABAJA_EN,7,Almacen,06:26:46,Lunes a Sábado,Activo
+475,Personal,TRABAJA_EN,6,Almacen,14:39:23,Turnos rotativos,Suspendido
+476,Personal,TRABAJA_EN,4,Almacen,07:24:06,Turnos rotativos,Baja
+477,Personal,TRABAJA_EN,9,Almacen,15:02:18,Turnos rotativos,Suspendido
+478,Personal,TRABAJA_EN,6,Almacen,04:28:34,Lunes a Sábado,Baja
+479,Personal,TRABAJA_EN,9,Sucursal,18:23:16,Turnos rotativos,Activo
+480,Personal,TRABAJA_EN,2,Almacen,11:44:37,Lunes a Viernes,Suspendido
+481,Personal,TRABAJA_EN,6,Almacen,21:49:48,Turnos rotativos,Baja
+482,Personal,TRABAJA_EN,1,Almacen,15:07:15,Lunes a Sábado,Suspendido
+483,Personal,TRABAJA_EN,8,Sucursal,22:59:43,Lunes a Viernes,Suspendido
+484,Personal,TRABAJA_EN,1,Sucursal,12:47:22,Turnos rotativos,Suspendido
+485,Personal,TRABAJA_EN,11,Sucursal,05:31:23,Turnos rotativos,Baja
+486,Personal,TRABAJA_EN,9,Sucursal,06:35:31,Lunes a Sábado,Baja
+487,Personal,TRABAJA_EN,3,Sucursal,05:45:48,Lunes a Viernes,Activo
+488,Personal,TRABAJA_EN,2,Sucursal,06:05:11,Lunes a Sábado,Suspendido
+489,Personal,TRABAJA_EN,9,Sucursal,10:48:29,Turnos rotativos,Baja
+490,Personal,TRABAJA_EN,9,Almacen,10:19:13,Turnos rotativos,Baja
+491,Personal,TRABAJA_EN,5,Sucursal,00:23:44,Lunes a Sábado,Suspendido
+492,Personal,TRABAJA_EN,8,Almacen,09:12:08,Lunes a Viernes,Baja
+493,Personal,TRABAJA_EN,3,Sucursal,03:40:44,Turnos rotativos,Activo
+494,Personal,TRABAJA_EN,6,Almacen,01:37:30,Turnos rotativos,Suspendido
+495,Personal,TRABAJA_EN,13,Sucursal,07:07:06,Turnos rotativos,Baja
+496,Personal,TRABAJA_EN,7,Almacen,04:32:41,Lunes a Sábado,Suspendido
+497,Personal,TRABAJA_EN,4,Sucursal,01:43:04,Lunes a Viernes,Suspendido
+498,Personal,TRABAJA_EN,4,Sucursal,04:56:34,Lunes a Viernes,Baja
+499,Personal,TRABAJA_EN,13,Sucursal,17:49:30,Lunes a Sábado,Baja
+500,Personal,TRABAJA_EN,1,Almacen,09:31:06,Lunes a Viernes,Baja
+501,Personal,TRABAJA_EN,0,Sucursal,02:47:44,Lunes a Viernes,Baja
+502,Personal,TRABAJA_EN,14,Sucursal,23:26:34,Turnos rotativos,Baja
+503,Personal,TRABAJA_EN,13,Sucursal,13:06:45,Lunes a Viernes,Activo
+504,Personal,TRABAJA_EN,12,Sucursal,23:46:13,Turnos rotativos,Activo
+505,Personal,TRABAJA_EN,8,Almacen,04:21:01,Lunes a Viernes,Baja
+506,Personal,TRABAJA_EN,3,Sucursal,05:40:14,Lunes a Sábado,Activo
+507,Personal,TRABAJA_EN,11,Sucursal,18:28:52,Lunes a Viernes,Suspendido
+508,Personal,TRABAJA_EN,1,Almacen,13:57:22,Lunes a Viernes,Baja
+509,Personal,TRABAJA_EN,1,Almacen,20:29:06,Lunes a Viernes,Suspendido
+510,Personal,TRABAJA_EN,1,Sucursal,04:18:01,Lunes a Viernes,Activo
+511,Personal,TRABAJA_EN,0,Sucursal,06:31:31,Turnos rotativos,Activo
+512,Personal,TRABAJA_EN,1,Almacen,14:27:24,Turnos rotativos,Suspendido
+513,Personal,TRABAJA_EN,0,Almacen,15:30:53,Lunes a Viernes,Suspendido
+514,Personal,TRABAJA_EN,7,Sucursal,11:14:51,Turnos rotativos,Suspendido
+515,Personal,TRABAJA_EN,5,Sucursal,16:09:47,Lunes a Sábado,Activo
+516,Personal,TRABAJA_EN,9,Sucursal,06:39:39,Lunes a Sábado,Baja
+517,Personal,TRABAJA_EN,7,Almacen,21:41:47,Lunes a Sábado,Baja
+518,Personal,TRABAJA_EN,0,Almacen,10:00:10,Lunes a Viernes,Suspendido
+519,Personal,TRABAJA_EN,11,Sucursal,00:38:05,Lunes a Sábado,Suspendido
+520,Personal,TRABAJA_EN,7,Almacen,04:43:12,Lunes a Viernes,Baja
+521,Personal,TRABAJA_EN,2,Sucursal,10:01:55,Lunes a Sábado,Baja
+522,Personal,TRABAJA_EN,8,Sucursal,03:14:04,Turnos rotativos,Suspendido
+523,Personal,TRABAJA_EN,10,Sucursal,16:13:17,Turnos rotativos,Suspendido
+524,Personal,TRABAJA_EN,4,Sucursal,12:42:28,Lunes a Sábado,Baja
+525,Personal,TRABAJA_EN,8,Almacen,20:52:39,Lunes a Sábado,Suspendido
+526,Personal,TRABAJA_EN,9,Sucursal,07:16:09,Lunes a Sábado,Activo
+527,Personal,TRABAJA_EN,4,Sucursal,10:16:35,Lunes a Sábado,Activo
+528,Personal,TRABAJA_EN,11,Sucursal,01:51:14,Lunes a Viernes,Baja
+529,Personal,TRABAJA_EN,4,Almacen,21:15:31,Lunes a Viernes,Suspendido
+530,Personal,TRABAJA_EN,6,Sucursal,19:11:51,Lunes a Viernes,Activo
+531,Personal,TRABAJA_EN,13,Sucursal,04:50:58,Turnos rotativos,Activo
+532,Personal,TRABAJA_EN,9,Almacen,16:22:23,Lunes a Viernes,Activo
+533,Personal,TRABAJA_EN,8,Almacen,21:27:48,Lunes a Sábado,Activo
+534,Personal,TRABAJA_EN,13,Sucursal,03:01:42,Turnos rotativos,Suspendido
+535,Personal,TRABAJA_EN,5,Sucursal,19:06:07,Lunes a Sábado,Baja
+536,Personal,TRABAJA_EN,0,Almacen,10:50:50,Lunes a Sábado,Suspendido
+537,Personal,TRABAJA_EN,8,Almacen,00:04:46,Turnos rotativos,Baja
+538,Personal,TRABAJA_EN,2,Almacen,21:31:46,Turnos rotativos,Activo
+539,Personal,TRABAJA_EN,4,Almacen,00:33:23,Lunes a Sábado,Suspendido
+540,Personal,TRABAJA_EN,3,Almacen,22:24:49,Lunes a Viernes,Baja
+541,Personal,TRABAJA_EN,13,Sucursal,19:19:25,Turnos rotativos,Suspendido
+542,Personal,TRABAJA_EN,4,Almacen,18:23:25,Turnos rotativos,Activo
+543,Personal,TRABAJA_EN,8,Sucursal,09:27:50,Lunes a Sábado,Suspendido
+544,Personal,TRABAJA_EN,6,Almacen,13:57:39,Lunes a Sábado,Suspendido
+545,Personal,TRABAJA_EN,0,Sucursal,16:05:44,Lunes a Sábado,Suspendido
+546,Personal,TRABAJA_EN,8,Almacen,08:22:20,Turnos rotativos,Suspendido
+547,Personal,TRABAJA_EN,5,Almacen,22:40:21,Lunes a Viernes,Activo
+548,Personal,TRABAJA_EN,6,Almacen,07:58:08,Lunes a Viernes,Baja
+549,Personal,TRABAJA_EN,4,Sucursal,09:21:23,Lunes a Sábado,Activo
+550,Personal,TRABAJA_EN,5,Almacen,00:59:05,Lunes a Sábado,Suspendido
+551,Personal,TRABAJA_EN,1,Almacen,18:56:00,Lunes a Sábado,Baja
+552,Personal,TRABAJA_EN,7,Sucursal,10:30:56,Lunes a Sábado,Baja
+553,Personal,TRABAJA_EN,3,Sucursal,20:55:25,Lunes a Sábado,Suspendido
+554,Personal,TRABAJA_EN,1,Almacen,12:26:07,Turnos rotativos,Suspendido
+555,Personal,TRABAJA_EN,11,Sucursal,01:20:00,Lunes a Sábado,Activo
+556,Personal,TRABAJA_EN,3,Sucursal,00:43:24,Lunes a Viernes,Suspendido
+557,Personal,TRABAJA_EN,3,Almacen,12:04:18,Lunes a Sábado,Activo
+558,Personal,TRABAJA_EN,14,Sucursal,11:07:35,Lunes a Sábado,Activo
+559,Personal,TRABAJA_EN,6,Almacen,23:33:12,Turnos rotativos,Activo
+560,Personal,TRABAJA_EN,6,Almacen,20:38:12,Lunes a Sábado,Suspendido
+561,Personal,TRABAJA_EN,6,Almacen,12:25:19,Lunes a Sábado,Baja
+562,Personal,TRABAJA_EN,9,Sucursal,02:59:10,Lunes a Viernes,Baja
+563,Personal,TRABAJA_EN,2,Almacen,15:26:11,Lunes a Viernes,Activo
+564,Personal,TRABAJA_EN,4,Almacen,06:40:32,Lunes a Viernes,Suspendido
+565,Personal,TRABAJA_EN,14,Sucursal,23:49:16,Lunes a Viernes,Baja
+566,Personal,TRABAJA_EN,1,Sucursal,05:33:41,Lunes a Viernes,Activo
+567,Personal,TRABAJA_EN,11,Sucursal,20:37:35,Lunes a Sábado,Baja
+568,Personal,TRABAJA_EN,7,Almacen,10:33:06,Turnos rotativos,Baja
+569,Personal,TRABAJA_EN,8,Almacen,00:18:19,Lunes a Sábado,Baja
+570,Personal,TRABAJA_EN,0,Sucursal,16:09:20,Lunes a Sábado,Activo
+571,Personal,TRABAJA_EN,3,Sucursal,05:30:29,Turnos rotativos,Activo
+572,Personal,TRABAJA_EN,3,Almacen,14:48:27,Lunes a Viernes,Activo
+573,Personal,TRABAJA_EN,8,Sucursal,17:27:17,Turnos rotativos,Suspendido
+574,Personal,TRABAJA_EN,1,Almacen,09:04:19,Lunes a Sábado,Suspendido
+575,Personal,TRABAJA_EN,3,Almacen,21:40:33,Turnos rotativos,Activo
+576,Personal,TRABAJA_EN,7,Sucursal,20:38:29,Turnos rotativos,Activo
+577,Personal,TRABAJA_EN,6,Sucursal,11:13:07,Lunes a Sábado,Baja
+578,Personal,TRABAJA_EN,12,Sucursal,23:43:01,Turnos rotativos,Activo
+579,Personal,TRABAJA_EN,13,Sucursal,17:30:04,Lunes a Viernes,Suspendido
+580,Personal,TRABAJA_EN,13,Sucursal,14:39:00,Turnos rotativos,Activo
+581,Personal,TRABAJA_EN,2,Almacen,06:15:40,Lunes a Viernes,Baja
+582,Personal,TRABAJA_EN,8,Almacen,00:25:32,Lunes a Viernes,Suspendido
+583,Personal,TRABAJA_EN,8,Almacen,05:03:26,Lunes a Sábado,Baja
+584,Personal,TRABAJA_EN,4,Sucursal,10:56:34,Lunes a Sábado,Baja
+585,Personal,TRABAJA_EN,0,Almacen,15:58:09,Lunes a Sábado,Suspendido
+586,Personal,TRABAJA_EN,4,Sucursal,23:13:54,Lunes a Sábado,Activo
+587,Personal,TRABAJA_EN,4,Sucursal,16:56:12,Lunes a Sábado,Suspendido
+588,Personal,TRABAJA_EN,13,Sucursal,16:37:53,Lunes a Viernes,Activo
+589,Personal,TRABAJA_EN,1,Almacen,23:59:23,Turnos rotativos,Suspendido
+590,Personal,TRABAJA_EN,9,Almacen,01:52:26,Lunes a Sábado,Baja
+591,Personal,TRABAJA_EN,6,Sucursal,11:10:15,Turnos rotativos,Suspendido
+592,Personal,TRABAJA_EN,3,Sucursal,14:12:51,Lunes a Viernes,Activo
+593,Personal,TRABAJA_EN,9,Sucursal,08:40:09,Turnos rotativos,Suspendido
+594,Personal,TRABAJA_EN,8,Almacen,12:18:28,Lunes a Viernes,Activo
+595,Personal,TRABAJA_EN,1,Sucursal,23:02:14,Lunes a Viernes,Activo
+596,Personal,TRABAJA_EN,13,Sucursal,00:31:17,Lunes a Sábado,Baja
+597,Personal,TRABAJA_EN,12,Sucursal,11:18:53,Lunes a Sábado,Activo
+598,Personal,TRABAJA_EN,2,Almacen,01:10:45,Lunes a Sábado,Baja
+599,Personal,TRABAJA_EN,5,Almacen,17:21:19,Lunes a Sábado,Suspendido
+600,Personal,TRABAJA_EN,4,Almacen,00:49:45,Lunes a Sábado,Baja
+601,Personal,TRABAJA_EN,0,Almacen,21:17:20,Lunes a Sábado,Activo
+602,Personal,TRABAJA_EN,5,Almacen,08:18:50,Turnos rotativos,Activo
+603,Personal,TRABAJA_EN,8,Sucursal,06:35:25,Lunes a Sábado,Baja
+604,Personal,TRABAJA_EN,8,Sucursal,10:26:40,Lunes a Viernes,Activo
+605,Personal,TRABAJA_EN,8,Almacen,05:31:39,Lunes a Sábado,Suspendido
+606,Personal,TRABAJA_EN,7,Sucursal,00:10:21,Lunes a Viernes,Baja
+607,Personal,TRABAJA_EN,9,Sucursal,01:55:42,Lunes a Viernes,Baja
+608,Personal,TRABAJA_EN,3,Almacen,14:58:51,Lunes a Sábado,Activo
+609,Personal,TRABAJA_EN,9,Almacen,11:09:22,Lunes a Viernes,Activo
+610,Personal,TRABAJA_EN,14,Sucursal,12:49:23,Lunes a Sábado,Suspendido
+611,Personal,TRABAJA_EN,6,Sucursal,17:25:20,Lunes a Sábado,Suspendido
+612,Personal,TRABAJA_EN,7,Sucursal,22:32:49,Lunes a Sábado,Baja
+613,Personal,TRABAJA_EN,0,Sucursal,10:20:26,Lunes a Sábado,Activo
+614,Personal,TRABAJA_EN,12,Sucursal,07:21:11,Lunes a Sábado,Baja
+615,Personal,TRABAJA_EN,4,Almacen,16:02:15,Lunes a Viernes,Baja
+616,Personal,TRABAJA_EN,7,Almacen,09:40:10,Lunes a Sábado,Suspendido
+617,Personal,TRABAJA_EN,10,Sucursal,11:43:24,Lunes a Sábado,Suspendido
+618,Personal,TRABAJA_EN,7,Sucursal,17:29:48,Lunes a Sábado,Baja
+619,Personal,TRABAJA_EN,8,Sucursal,13:50:46,Turnos rotativos,Suspendido
+620,Personal,TRABAJA_EN,4,Almacen,18:23:38,Lunes a Sábado,Suspendido
+621,Personal,TRABAJA_EN,11,Sucursal,04:02:18,Lunes a Viernes,Activo
+622,Personal,TRABAJA_EN,7,Sucursal,10:45:05,Turnos rotativos,Activo
+623,Personal,TRABAJA_EN,2,Sucursal,22:09:09,Lunes a Viernes,Baja
+624,Personal,TRABAJA_EN,11,Sucursal,00:17:02,Lunes a Viernes,Suspendido
+625,Personal,TRABAJA_EN,5,Sucursal,16:59:14,Lunes a Sábado,Suspendido
+626,Personal,TRABAJA_EN,7,Sucursal,00:16:08,Lunes a Viernes,Activo
+627,Personal,TRABAJA_EN,12,Sucursal,22:46:31,Lunes a Sábado,Suspendido
+628,Personal,TRABAJA_EN,2,Sucursal,07:28:09,Turnos rotativos,Activo
+629,Personal,TRABAJA_EN,1,Almacen,23:49:16,Turnos rotativos,Suspendido
+630,Personal,TRABAJA_EN,12,Sucursal,23:32:11,Turnos rotativos,Suspendido
+631,Personal,TRABAJA_EN,0,Sucursal,12:14:22,Lunes a Viernes,Baja
+632,Personal,TRABAJA_EN,14,Sucursal,13:11:01,Lunes a Viernes,Activo
+633,Personal,TRABAJA_EN,6,Almacen,20:26:07,Lunes a Sábado,Suspendido
+634,Personal,TRABAJA_EN,4,Sucursal,07:52:29,Lunes a Viernes,Suspendido
+635,Personal,TRABAJA_EN,1,Sucursal,09:17:35,Lunes a Sábado,Activo
+636,Personal,TRABAJA_EN,3,Almacen,12:48:26,Turnos rotativos,Baja
+637,Personal,TRABAJA_EN,3,Almacen,04:51:52,Lunes a Sábado,Baja
+638,Personal,TRABAJA_EN,13,Sucursal,02:07:55,Lunes a Viernes,Suspendido
+639,Personal,TRABAJA_EN,1,Almacen,17:51:11,Lunes a Viernes,Suspendido
+640,Personal,TRABAJA_EN,1,Almacen,05:58:47,Turnos rotativos,Activo
+641,Personal,TRABAJA_EN,0,Almacen,12:26:23,Turnos rotativos,Activo
+642,Personal,TRABAJA_EN,1,Almacen,23:19:16,Lunes a Viernes,Activo
+643,Personal,TRABAJA_EN,14,Sucursal,13:29:36,Lunes a Viernes,Baja
+644,Personal,TRABAJA_EN,0,Almacen,01:55:26,Turnos rotativos,Activo
+645,Personal,TRABAJA_EN,11,Sucursal,12:17:50,Lunes a Sábado,Activo
+646,Personal,TRABAJA_EN,9,Almacen,07:06:42,Turnos rotativos,Suspendido
+647,Personal,TRABAJA_EN,7,Almacen,04:33:24,Lunes a Viernes,Suspendido
+648,Personal,TRABAJA_EN,7,Almacen,17:08:13,Lunes a Viernes,Suspendido
+649,Personal,TRABAJA_EN,0,Almacen,01:48:13,Lunes a Sábado,Suspendido
+650,Personal,TRABAJA_EN,8,Almacen,21:29:18,Lunes a Viernes,Activo
+651,Personal,TRABAJA_EN,11,Sucursal,14:58:56,Turnos rotativos,Suspendido
+652,Personal,TRABAJA_EN,6,Almacen,07:08:17,Lunes a Sábado,Activo
+653,Personal,TRABAJA_EN,11,Sucursal,20:47:10,Lunes a Viernes,Suspendido
+654,Personal,TRABAJA_EN,4,Almacen,13:36:09,Lunes a Viernes,Suspendido
+655,Personal,TRABAJA_EN,0,Almacen,22:42:38,Turnos rotativos,Suspendido
+656,Personal,TRABAJA_EN,2,Sucursal,08:29:16,Lunes a Sábado,Activo
+657,Personal,TRABAJA_EN,7,Sucursal,20:17:49,Turnos rotativos,Suspendido
+658,Personal,TRABAJA_EN,7,Almacen,04:57:54,Lunes a Sábado,Baja
+659,Personal,TRABAJA_EN,2,Sucursal,08:44:09,Turnos rotativos,Suspendido
+660,Personal,TRABAJA_EN,3,Sucursal,10:04:32,Turnos rotativos,Suspendido
+661,Personal,TRABAJA_EN,5,Almacen,05:40:49,Turnos rotativos,Baja
+662,Personal,TRABAJA_EN,4,Sucursal,10:40:59,Lunes a Sábado,Suspendido
+663,Personal,TRABAJA_EN,3,Sucursal,04:48:51,Turnos rotativos,Suspendido
+664,Personal,TRABAJA_EN,3,Almacen,08:19:53,Turnos rotativos,Baja
+665,Personal,TRABAJA_EN,9,Almacen,17:17:59,Lunes a Sábado,Suspendido
+666,Personal,TRABAJA_EN,7,Sucursal,17:29:05,Turnos rotativos,Activo
+667,Personal,TRABAJA_EN,6,Almacen,09:01:02,Lunes a Viernes,Baja
+668,Personal,TRABAJA_EN,5,Almacen,09:24:24,Lunes a Sábado,Baja
+669,Personal,TRABAJA_EN,7,Almacen,20:54:15,Lunes a Sábado,Suspendido
+670,Personal,TRABAJA_EN,0,Almacen,17:10:27,Lunes a Sábado,Baja
+671,Personal,TRABAJA_EN,5,Almacen,04:02:52,Lunes a Sábado,Activo
+672,Personal,TRABAJA_EN,14,Sucursal,04:39:58,Turnos rotativos,Suspendido
+673,Personal,TRABAJA_EN,3,Almacen,20:12:41,Lunes a Viernes,Baja
+674,Personal,TRABAJA_EN,6,Sucursal,16:39:01,Lunes a Sábado,Baja
+675,Personal,TRABAJA_EN,6,Sucursal,21:24:06,Turnos rotativos,Suspendido
+676,Personal,TRABAJA_EN,9,Sucursal,18:22:43,Turnos rotativos,Baja
+677,Personal,TRABAJA_EN,0,Almacen,05:45:01,Lunes a Sábado,Suspendido
+678,Personal,TRABAJA_EN,9,Sucursal,04:00:17,Lunes a Viernes,Baja
+679,Personal,TRABAJA_EN,10,Sucursal,01:34:21,Lunes a Sábado,Baja
+680,Personal,TRABAJA_EN,7,Almacen,08:11:11,Lunes a Viernes,Baja
+681,Personal,TRABAJA_EN,2,Almacen,04:46:06,Lunes a Sábado,Suspendido
+682,Personal,TRABAJA_EN,10,Sucursal,07:45:08,Lunes a Sábado,Activo
+683,Personal,TRABAJA_EN,1,Almacen,12:45:49,Lunes a Viernes,Baja
+684,Personal,TRABAJA_EN,0,Almacen,05:07:14,Turnos rotativos,Activo
+685,Personal,TRABAJA_EN,14,Sucursal,17:19:43,Lunes a Sábado,Suspendido
+686,Personal,TRABAJA_EN,14,Sucursal,03:41:09,Turnos rotativos,Activo
+687,Personal,TRABAJA_EN,4,Almacen,23:38:15,Lunes a Sábado,Activo
+688,Personal,TRABAJA_EN,3,Almacen,03:55:42,Lunes a Viernes,Activo
+689,Personal,TRABAJA_EN,6,Sucursal,20:09:44,Lunes a Viernes,Activo
+690,Personal,TRABAJA_EN,1,Sucursal,14:02:26,Lunes a Sábado,Suspendido
+691,Personal,TRABAJA_EN,4,Almacen,00:09:09,Lunes a Sábado,Suspendido
+692,Personal,TRABAJA_EN,9,Almacen,05:51:56,Lunes a Viernes,Baja
+693,Personal,TRABAJA_EN,3,Almacen,19:52:54,Lunes a Viernes,Activo
+694,Personal,TRABAJA_EN,4,Almacen,22:14:17,Lunes a Viernes,Activo
+695,Personal,TRABAJA_EN,2,Sucursal,20:09:16,Lunes a Sábado,Baja
+696,Personal,TRABAJA_EN,12,Sucursal,10:24:46,Lunes a Sábado,Baja
+697,Personal,TRABAJA_EN,0,Sucursal,03:47:47,Turnos rotativos,Activo
+698,Personal,TRABAJA_EN,7,Sucursal,10:43:36,Lunes a Sábado,Activo
+699,Personal,TRABAJA_EN,2,Almacen,13:57:30,Lunes a Sábado,Baja
+700,Personal,TRABAJA_EN,9,Almacen,15:43:07,Turnos rotativos,Activo
+701,Personal,TRABAJA_EN,3,Almacen,02:18:11,Lunes a Viernes,Baja
+702,Personal,TRABAJA_EN,5,Almacen,22:28:25,Lunes a Viernes,Suspendido
+703,Personal,TRABAJA_EN,3,Almacen,08:01:31,Turnos rotativos,Suspendido
+704,Personal,TRABAJA_EN,7,Almacen,21:34:32,Turnos rotativos,Activo
+705,Personal,TRABAJA_EN,10,Sucursal,14:51:15,Lunes a Sábado,Activo
+706,Personal,TRABAJA_EN,3,Almacen,02:12:00,Turnos rotativos,Activo
+707,Personal,TRABAJA_EN,0,Sucursal,22:23:16,Lunes a Viernes,Activo
+708,Personal,TRABAJA_EN,14,Sucursal,16:05:39,Turnos rotativos,Baja
+709,Personal,TRABAJA_EN,1,Almacen,23:11:31,Turnos rotativos,Suspendido
+710,Personal,TRABAJA_EN,6,Almacen,06:09:03,Turnos rotativos,Activo
+711,Personal,TRABAJA_EN,1,Sucursal,20:38:17,Lunes a Sábado,Baja
+712,Personal,TRABAJA_EN,2,Almacen,18:09:25,Lunes a Viernes,Activo
+713,Personal,TRABAJA_EN,2,Almacen,10:38:59,Lunes a Sábado,Baja
+714,Personal,TRABAJA_EN,12,Sucursal,00:45:52,Turnos rotativos,Activo
+715,Personal,TRABAJA_EN,8,Almacen,06:29:27,Turnos rotativos,Suspendido
+716,Personal,TRABAJA_EN,5,Almacen,19:17:30,Lunes a Viernes,Suspendido
+717,Personal,TRABAJA_EN,9,Almacen,06:30:57,Lunes a Sábado,Baja
+718,Personal,TRABAJA_EN,7,Almacen,11:32:30,Lunes a Viernes,Baja
+719,Personal,TRABAJA_EN,6,Sucursal,23:26:45,Lunes a Sábado,Suspendido
+720,Personal,TRABAJA_EN,3,Sucursal,09:06:48,Turnos rotativos,Baja
+721,Personal,TRABAJA_EN,0,Sucursal,20:41:40,Turnos rotativos,Suspendido
+722,Personal,TRABAJA_EN,8,Almacen,16:14:25,Turnos rotativos,Activo
+723,Personal,TRABAJA_EN,8,Sucursal,23:32:04,Lunes a Viernes,Baja
+724,Personal,TRABAJA_EN,7,Almacen,08:50:31,Lunes a Viernes,Baja
+725,Personal,TRABAJA_EN,6,Almacen,10:01:01,Lunes a Sábado,Baja
+726,Personal,TRABAJA_EN,11,Sucursal,20:43:32,Lunes a Sábado,Activo
+727,Personal,TRABAJA_EN,9,Almacen,08:57:09,Lunes a Sábado,Suspendido
+728,Personal,TRABAJA_EN,0,Sucursal,00:05:19,Lunes a Sábado,Activo
+729,Personal,TRABAJA_EN,2,Almacen,05:38:20,Lunes a Viernes,Suspendido
+730,Personal,TRABAJA_EN,1,Sucursal,09:20:22,Lunes a Viernes,Activo
+731,Personal,TRABAJA_EN,6,Almacen,20:29:07,Lunes a Viernes,Activo
+732,Personal,TRABAJA_EN,0,Almacen,22:08:17,Lunes a Sábado,Activo
+733,Personal,TRABAJA_EN,0,Almacen,16:18:55,Lunes a Viernes,Activo
+734,Personal,TRABAJA_EN,14,Sucursal,22:49:13,Lunes a Viernes,Suspendido
+735,Personal,TRABAJA_EN,9,Almacen,04:41:31,Turnos rotativos,Activo
+736,Personal,TRABAJA_EN,8,Almacen,16:07:28,Lunes a Viernes,Suspendido
+737,Personal,TRABAJA_EN,7,Sucursal,23:54:18,Lunes a Sábado,Baja
+738,Personal,TRABAJA_EN,2,Almacen,22:43:47,Turnos rotativos,Baja
+739,Personal,TRABAJA_EN,1,Sucursal,08:51:55,Turnos rotativos,Activo
+740,Personal,TRABAJA_EN,14,Sucursal,17:00:14,Lunes a Viernes,Baja
+741,Personal,TRABAJA_EN,9,Almacen,10:32:12,Lunes a Sábado,Baja
+742,Personal,TRABAJA_EN,7,Almacen,02:31:43,Lunes a Viernes,Activo
+743,Personal,TRABAJA_EN,14,Sucursal,04:09:23,Lunes a Viernes,Baja
+744,Personal,TRABAJA_EN,1,Almacen,21:22:35,Turnos rotativos,Baja
+745,Personal,TRABAJA_EN,3,Almacen,12:47:36,Lunes a Sábado,Suspendido
+746,Personal,TRABAJA_EN,11,Sucursal,23:34:31,Turnos rotativos,Baja
+747,Personal,TRABAJA_EN,0,Almacen,13:39:24,Turnos rotativos,Activo
+748,Personal,TRABAJA_EN,13,Sucursal,12:32:11,Lunes a Viernes,Suspendido
+749,Personal,TRABAJA_EN,8,Almacen,05:02:18,Lunes a Sábado,Baja
+750,Personal,TRABAJA_EN,5,Almacen,11:12:44,Lunes a Sábado,Activo
+751,Personal,TRABAJA_EN,4,Sucursal,07:09:26,Turnos rotativos,Baja
+752,Personal,TRABAJA_EN,9,Sucursal,22:08:49,Lunes a Sábado,Suspendido
+753,Personal,TRABAJA_EN,1,Almacen,16:04:45,Turnos rotativos,Baja
+754,Personal,TRABAJA_EN,6,Almacen,19:18:47,Turnos rotativos,Activo
+755,Personal,TRABAJA_EN,9,Almacen,18:55:35,Lunes a Viernes,Suspendido
+756,Personal,TRABAJA_EN,0,Sucursal,01:07:52,Lunes a Viernes,Baja
+757,Personal,TRABAJA_EN,6,Almacen,09:22:43,Lunes a Viernes,Suspendido
+758,Personal,TRABAJA_EN,8,Almacen,19:09:50,Lunes a Viernes,Activo
+759,Personal,TRABAJA_EN,5,Almacen,05:11:34,Turnos rotativos,Activo
+760,Personal,TRABAJA_EN,6,Sucursal,13:16:15,Lunes a Viernes,Suspendido
+761,Personal,TRABAJA_EN,4,Almacen,06:12:45,Lunes a Sábado,Activo
+762,Personal,TRABAJA_EN,2,Almacen,16:28:37,Lunes a Sábado,Suspendido
+763,Personal,TRABAJA_EN,6,Sucursal,19:29:08,Lunes a Viernes,Suspendido
+764,Personal,TRABAJA_EN,3,Sucursal,19:22:36,Turnos rotativos,Baja
+765,Personal,TRABAJA_EN,14,Sucursal,00:41:06,Lunes a Viernes,Suspendido
+766,Personal,TRABAJA_EN,9,Almacen,21:59:39,Turnos rotativos,Activo
+767,Personal,TRABAJA_EN,4,Sucursal,06:51:14,Lunes a Sábado,Activo
+768,Personal,TRABAJA_EN,8,Sucursal,02:54:08,Turnos rotativos,Suspendido
+769,Personal,TRABAJA_EN,2,Sucursal,07:26:33,Lunes a Sábado,Baja
+770,Personal,TRABAJA_EN,8,Sucursal,16:36:53,Turnos rotativos,Activo
+771,Personal,TRABAJA_EN,13,Sucursal,19:10:14,Turnos rotativos,Baja
+772,Personal,TRABAJA_EN,0,Almacen,16:39:05,Lunes a Viernes,Baja
+773,Personal,TRABAJA_EN,11,Sucursal,00:44:24,Lunes a Viernes,Baja
+774,Personal,TRABAJA_EN,4,Almacen,03:26:30,Turnos rotativos,Baja
+775,Personal,TRABAJA_EN,5,Sucursal,04:01:10,Lunes a Viernes,Activo
+776,Personal,TRABAJA_EN,2,Almacen,14:11:16,Turnos rotativos,Suspendido
+777,Personal,TRABAJA_EN,10,Sucursal,08:51:43,Turnos rotativos,Suspendido
+778,Personal,TRABAJA_EN,5,Sucursal,14:16:13,Lunes a Viernes,Suspendido
+779,Personal,TRABAJA_EN,8,Sucursal,07:37:34,Lunes a Viernes,Baja
+780,Personal,TRABAJA_EN,2,Sucursal,17:40:38,Lunes a Sábado,Suspendido
+781,Personal,TRABAJA_EN,9,Sucursal,23:57:31,Turnos rotativos,Baja
+782,Personal,TRABAJA_EN,8,Almacen,20:52:45,Turnos rotativos,Activo
+783,Personal,TRABAJA_EN,7,Almacen,13:06:05,Lunes a Viernes,Baja
+784,Personal,TRABAJA_EN,2,Almacen,20:27:45,Turnos rotativos,Baja
+785,Personal,TRABAJA_EN,7,Sucursal,05:49:40,Turnos rotativos,Suspendido
+786,Personal,TRABAJA_EN,8,Sucursal,20:36:08,Turnos rotativos,Baja
+787,Personal,TRABAJA_EN,0,Sucursal,09:03:49,Lunes a Sábado,Baja
+788,Personal,TRABAJA_EN,7,Almacen,21:32:27,Lunes a Viernes,Baja
+789,Personal,TRABAJA_EN,5,Sucursal,22:12:53,Lunes a Viernes,Baja
+790,Personal,TRABAJA_EN,7,Almacen,09:34:07,Lunes a Viernes,Suspendido
+791,Personal,TRABAJA_EN,7,Sucursal,22:24:54,Turnos rotativos,Suspendido
+792,Personal,TRABAJA_EN,9,Sucursal,00:05:09,Lunes a Viernes,Activo
+793,Personal,TRABAJA_EN,6,Sucursal,22:11:10,Lunes a Sábado,Activo
+794,Personal,TRABAJA_EN,6,Sucursal,15:38:35,Turnos rotativos,Activo
+795,Personal,TRABAJA_EN,0,Almacen,20:42:11,Lunes a Sábado,Baja
+796,Personal,TRABAJA_EN,9,Almacen,21:06:17,Lunes a Sábado,Suspendido
+797,Personal,TRABAJA_EN,3,Almacen,15:30:05,Lunes a Viernes,Suspendido
+798,Personal,TRABAJA_EN,6,Almacen,02:43:30,Lunes a Sábado,Activo
+799,Personal,TRABAJA_EN,13,Sucursal,09:46:03,Lunes a Sábado,Activo
+800,Personal,TRABAJA_EN,14,Sucursal,23:33:33,Turnos rotativos,Baja
+801,Personal,TRABAJA_EN,3,Almacen,18:45:38,Turnos rotativos,Suspendido
+802,Personal,TRABAJA_EN,7,Almacen,07:56:40,Turnos rotativos,Activo
+803,Personal,TRABAJA_EN,6,Sucursal,16:04:02,Turnos rotativos,Activo
+804,Personal,TRABAJA_EN,2,Sucursal,09:30:54,Lunes a Viernes,Activo
+805,Personal,TRABAJA_EN,1,Almacen,22:41:57,Lunes a Sábado,Baja
+806,Personal,TRABAJA_EN,3,Almacen,14:00:39,Lunes a Sábado,Activo
+807,Personal,TRABAJA_EN,7,Almacen,23:49:17,Lunes a Viernes,Baja
+808,Personal,TRABAJA_EN,6,Sucursal,05:20:00,Turnos rotativos,Baja
+809,Personal,TRABAJA_EN,9,Almacen,15:38:28,Lunes a Sábado,Activo
+810,Personal,TRABAJA_EN,6,Almacen,13:09:36,Lunes a Sábado,Suspendido
+811,Personal,TRABAJA_EN,7,Almacen,18:17:03,Lunes a Sábado,Activo
+812,Personal,TRABAJA_EN,9,Almacen,20:13:47,Turnos rotativos,Activo
+813,Personal,TRABAJA_EN,6,Sucursal,02:19:29,Lunes a Viernes,Activo
+814,Personal,TRABAJA_EN,7,Almacen,05:06:06,Lunes a Viernes,Baja
+815,Personal,TRABAJA_EN,3,Sucursal,17:30:28,Lunes a Sábado,Suspendido
+816,Personal,TRABAJA_EN,2,Almacen,09:21:46,Turnos rotativos,Baja
+817,Personal,TRABAJA_EN,8,Almacen,10:43:53,Turnos rotativos,Activo
+818,Personal,TRABAJA_EN,6,Sucursal,13:27:13,Lunes a Sábado,Baja
+819,Personal,TRABAJA_EN,7,Sucursal,05:35:56,Turnos rotativos,Suspendido
+820,Personal,TRABAJA_EN,7,Almacen,05:35:36,Lunes a Sábado,Baja
+821,Personal,TRABAJA_EN,3,Almacen,14:37:53,Lunes a Viernes,Suspendido
+822,Personal,TRABAJA_EN,4,Sucursal,21:46:22,Lunes a Viernes,Baja
+823,Personal,TRABAJA_EN,6,Almacen,00:10:28,Lunes a Viernes,Suspendido
+824,Personal,TRABAJA_EN,4,Almacen,17:20:53,Lunes a Sábado,Baja
+825,Personal,TRABAJA_EN,8,Almacen,18:28:41,Turnos rotativos,Suspendido
+826,Personal,TRABAJA_EN,0,Almacen,23:53:44,Lunes a Viernes,Suspendido
+827,Personal,TRABAJA_EN,1,Sucursal,03:44:54,Turnos rotativos,Baja
+828,Personal,TRABAJA_EN,4,Sucursal,05:05:57,Lunes a Viernes,Activo
+829,Personal,TRABAJA_EN,0,Almacen,17:34:52,Turnos rotativos,Activo
+830,Personal,TRABAJA_EN,3,Sucursal,02:26:35,Lunes a Viernes,Suspendido
+831,Personal,TRABAJA_EN,4,Almacen,22:34:55,Lunes a Sábado,Baja
+832,Personal,TRABAJA_EN,0,Almacen,03:33:49,Lunes a Viernes,Baja
+833,Personal,TRABAJA_EN,1,Almacen,23:33:05,Lunes a Sábado,Baja
+834,Personal,TRABAJA_EN,4,Almacen,19:05:10,Turnos rotativos,Activo
+835,Personal,TRABAJA_EN,6,Sucursal,09:45:39,Turnos rotativos,Baja
+836,Personal,TRABAJA_EN,1,Almacen,14:14:00,Lunes a Sábado,Activo
+837,Personal,TRABAJA_EN,8,Sucursal,05:15:26,Lunes a Viernes,Baja
+838,Personal,TRABAJA_EN,4,Almacen,16:13:05,Turnos rotativos,Suspendido
+839,Personal,TRABAJA_EN,8,Sucursal,02:16:18,Turnos rotativos,Baja
+840,Personal,TRABAJA_EN,8,Almacen,09:31:57,Turnos rotativos,Baja
+841,Personal,TRABAJA_EN,2,Almacen,21:42:33,Lunes a Viernes,Baja
+842,Personal,TRABAJA_EN,5,Sucursal,21:52:44,Lunes a Viernes,Activo
+843,Personal,TRABAJA_EN,4,Almacen,03:22:48,Lunes a Sábado,Suspendido
+844,Personal,TRABAJA_EN,3,Sucursal,07:58:32,Lunes a Viernes,Suspendido
+845,Personal,TRABAJA_EN,10,Sucursal,09:57:07,Lunes a Sábado,Suspendido
+846,Personal,TRABAJA_EN,2,Sucursal,04:27:53,Lunes a Sábado,Suspendido
+847,Personal,TRABAJA_EN,0,Sucursal,14:16:40,Turnos rotativos,Activo
+848,Personal,TRABAJA_EN,7,Almacen,07:11:03,Lunes a Viernes,Suspendido
+849,Personal,TRABAJA_EN,1,Almacen,23:54:33,Lunes a Viernes,Activo
+850,Personal,TRABAJA_EN,2,Almacen,14:15:21,Lunes a Sábado,Baja
+851,Personal,TRABAJA_EN,4,Almacen,19:30:22,Lunes a Viernes,Activo
+852,Personal,TRABAJA_EN,4,Sucursal,13:59:58,Turnos rotativos,Baja
+853,Personal,TRABAJA_EN,7,Almacen,06:25:50,Turnos rotativos,Suspendido
+854,Personal,TRABAJA_EN,5,Almacen,19:00:39,Lunes a Viernes,Suspendido
+855,Personal,TRABAJA_EN,5,Sucursal,19:17:05,Lunes a Viernes,Activo
+856,Personal,TRABAJA_EN,5,Sucursal,06:33:37,Lunes a Sábado,Baja
+857,Personal,TRABAJA_EN,2,Almacen,03:45:59,Turnos rotativos,Activo
+858,Personal,TRABAJA_EN,0,Almacen,10:26:14,Lunes a Sábado,Suspendido
+859,Personal,TRABAJA_EN,1,Almacen,09:24:08,Lunes a Sábado,Baja
+860,Personal,TRABAJA_EN,9,Sucursal,15:14:30,Turnos rotativos,Activo
+861,Personal,TRABAJA_EN,5,Almacen,21:18:09,Lunes a Viernes,Activo
+862,Personal,TRABAJA_EN,6,Almacen,19:47:24,Lunes a Viernes,Activo
+863,Personal,TRABAJA_EN,7,Almacen,01:27:19,Lunes a Viernes,Suspendido
+864,Personal,TRABAJA_EN,5,Almacen,08:34:36,Lunes a Viernes,Suspendido
+865,Personal,TRABAJA_EN,6,Almacen,16:04:08,Turnos rotativos,Baja
+866,Personal,TRABAJA_EN,7,Sucursal,22:58:24,Turnos rotativos,Baja
+867,Personal,TRABAJA_EN,6,Almacen,09:23:35,Lunes a Viernes,Baja
+868,Personal,TRABAJA_EN,11,Sucursal,08:00:48,Lunes a Sábado,Suspendido
+869,Personal,TRABAJA_EN,5,Sucursal,01:17:27,Lunes a Viernes,Suspendido
+870,Personal,TRABAJA_EN,8,Sucursal,20:15:15,Lunes a Sábado,Activo
+871,Personal,TRABAJA_EN,3,Sucursal,10:15:58,Turnos rotativos,Activo
+872,Personal,TRABAJA_EN,1,Almacen,19:11:40,Turnos rotativos,Suspendido
+873,Personal,TRABAJA_EN,7,Sucursal,15:33:49,Lunes a Viernes,Baja
+874,Personal,TRABAJA_EN,11,Sucursal,18:31:19,Lunes a Viernes,Baja

@@ -22,10 +22,13 @@ with open('personas.csv', 'w', newline='', encoding='utf-8') as file:
     writer = csv.writer(file)
     writer.writerow([
         'id', 'labels', 'nombre', 'apellido', 'telefono', 'dpi', 'fecha_nacimiento',
-        'nit', 'membresia', 'num_membresia',  
+        'id_cliente','nit', 'membresia', 'num_membresia',  
         'fecha_inicio', 'puesto', 'id_empleado', 'salario', 'planilla'  
     ])
 
+    counter = 0
+    counterC = 0
+    
     for i in range(NUM_PERSONAS):
         es_cliente = random.random() < PCT_CLIENTE
         es_personal = random.random() < PCT_PERSONAL
@@ -36,22 +39,26 @@ with open('personas.csv', 'w', newline='', encoding='utf-8') as file:
             es_personal = True
 
         etiquetas = ["Persona"]
-        nit = membresia = num_membresia = None
+        id_cliente = nit = membresia = num_membresia = None
         fecha_inicio = puesto = id_empleado = salario = planilla = None
+        
 
         if es_cliente:
             etiquetas.append("Cliente")
+            id_cliente = counterC
             nit = fake.unique.random_int(min=1000000, max=9999999)
             membresia = random.choice([True, False])
             num_membresia = fake.unique.random_int(min=100000, max=999999) if membresia else None
+            counterC = counterC + 1
 
         if es_personal:
             etiquetas.append("Personal")
             fecha_inicio = fake.date_between(start_date=datetime(2010,1,1), end_date=datetime(2024,12,31))
             puesto = random.choice(["Cajero", "Gerente", "Supervisor", "Vendedor", "Repartidor"])
-            id_empleado = fake.unique.random_int(min=1000, max=9999)
+            id_empleado = counter
             salario = random_salary()
             planilla = random.choice([True, False])
+            counter = counter + 1
 
         writer.writerow([
             i,
@@ -61,7 +68,7 @@ with open('personas.csv', 'w', newline='', encoding='utf-8') as file:
             fake.phone_number(),
             fake.unique.random_int(min=1000000000000, max=9999999999999),  # DPI simulado
             random_date().strftime('%Y-%m-%d'),
-            nit, membresia, num_membresia,  # Cliente
+            id_cliente, nit, membresia, num_membresia,  # Cliente
             fecha_inicio, puesto, id_empleado, salario, planilla  # Personal
         ])
 
@@ -111,7 +118,7 @@ def random_date(start_year=1990, end_year=2023):
 # Generar Sucursales
 with open('sucursales.csv', 'w', newline='', encoding='utf-8') as file:
     writer = csv.writer(file)
-    writer.writerow(['id', 'labels', 'nombre', 'fecha_inauguracion', 'pedidos_domicilio', 'ubicacion', 'departamento'])
+    writer.writerow(['id', 'labels', 'nombre', 'fecha_inauguracion', 'pedidos_domicilio', 'ubicacion', 'estado'])
 
     for i in range(NUM_SUCURSALES):
         writer.writerow([
@@ -129,7 +136,7 @@ print(f"Archivo 'sucursales.csv' generado con {NUM_SUCURSALES} sucursales.")
 # Generar Almacenes
 with open('almacenes.csv', 'w', newline='', encoding='utf-8') as file:
     writer = csv.writer(file)
-    writer.writerow(['id', 'labels', 'nombre', 'ubicacion', 'departamento', 'tipo', 'capacidad_max', 'capacidad_actual'])
+    writer.writerow(['id', 'labels', 'nombre', 'ubicacion', 'estado', 'tipo', 'capacidad_max', 'capacidad_actual'])
 
     for i in range(NUM_ALMACENES):
         capacidad_max = [round(random.uniform(5000, 50000), 2) for _ in range(3)]
@@ -151,7 +158,7 @@ print(f"Archivo 'almacenes.csv' generado con {NUM_ALMACENES} almacenes.")
 # Generar Proveedores
 with open('proveedores.csv', 'w', newline='', encoding='utf-8') as file:
     writer = csv.writer(file)
-    writer.writerow(['id', 'labels', 'nombre', 'ubicacion', 'departamento', 'tipo_produccion', 'marca'])
+    writer.writerow(['id', 'labels', 'nombre', 'ubicacion', 'estado', 'tipo_produccion', 'marca'])
 
     for i in range(NUM_PROVEEDORES):
         writer.writerow([

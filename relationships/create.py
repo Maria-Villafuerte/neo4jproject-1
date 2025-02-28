@@ -5,14 +5,14 @@ from faker import Faker
 fake = Faker()
 
 NUM_PERSONAS = 2000
-NUM_CLIENTES = 1400
-NUM_PERSONAL = 1000
+NUM_CLIENTES = 1195
+NUM_PERSONAL = 875
 NUM_TRANSPORTES = 200
 NUM_SUCURSALES = 15
 NUM_ALMACENES = 10
 NUM_PROVEEDORES = 20
 NUM_PRODUCTOS = 3000
-NUM_RELACIONES = 500  
+
 
 DIA_PREFERIDO = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
 HORAS = ["Mañana", "Tarde", "Noche"]
@@ -29,7 +29,7 @@ def generar_tiene():
         writer = csv.writer(file)
         writer.writerow(['start_id', 'start_label', 'type', 'end_id', 'end_label', 'cantidad', 'pasillo', 'estanteria'])
 
-        for _ in range(NUM_RELACIONES):
+        for _ in range(1500):
             writer.writerow([
                 random.randint(0, NUM_SUCURSALES - 1), 'Sucursal', 'TIENE',
                 random.randint(0, NUM_PRODUCTOS - 1), 'Producto',
@@ -42,7 +42,7 @@ def generar_almacena():
         writer = csv.writer(file)
         writer.writerow(['start_id', 'start_label', 'type', 'end_id', 'end_label', 'cantidad', 'pasillo', 'estanteria'])
 
-        for _ in range(NUM_RELACIONES):
+        for _ in range(1500):
             writer.writerow([
                 random.randint(0, NUM_ALMACENES - 1), 'Almacen', 'ALMACENA',
                 random.randint(0, NUM_PRODUCTOS - 1), 'Producto',
@@ -55,7 +55,7 @@ def generar_produce():
         writer = csv.writer(file)
         writer.writerow(['start_id', 'start_label', 'type', 'end_id', 'end_label', 'frecuencia_produccion', 'cantidad_minima'])
 
-        for _ in range(NUM_RELACIONES):
+        for _ in range(1500):
             writer.writerow([
                 random.randint(0, NUM_PROVEEDORES - 1), 'Proveedor', 'PRODUCE',
                 random.randint(0, NUM_PRODUCTOS - 1), 'Producto',
@@ -68,7 +68,7 @@ def generar_provee():
         writer = csv.writer(file)
         writer.writerow(['start_id', 'start_label', 'type', 'end_id', 'end_label', 'ultimo_envio', 'cantidad_envios', 'frecuencia_envios'])
 
-        for _ in range(NUM_RELACIONES):
+        for _ in range(100):
             writer.writerow([
                 random.randint(0, NUM_PROVEEDORES - 1), 'Proveedor', 'PROVEE',
                 random.randint(0, NUM_ALMACENES - 1), 'Almacen',
@@ -81,7 +81,7 @@ def generar_suministra():
         writer = csv.writer(file)
         writer.writerow(['start_id', 'start_label', 'type', 'end_id', 'end_label', 'ultimo_envio', 'cantidad_envios', 'frecuencia_envios'])
 
-        for _ in range(NUM_RELACIONES):
+        for _ in range(100):
             writer.writerow([
                 random.randint(0, NUM_ALMACENES - 1), 'Almacen', 'SUMINISTRA',
                 random.randint(0, NUM_SUCURSALES - 1), 'Sucursal',
@@ -94,9 +94,9 @@ def generar_recurre():
         writer = csv.writer(file)
         writer.writerow(['start_id', 'start_label', 'type', 'end_id', 'end_label', 'ultima_visita', 'dia_preferido', 'hora_preferida'])
 
-        for _ in range(NUM_RELACIONES):
+        for i in range(NUM_CLIENTES):
             writer.writerow([
-                random.randint(0, NUM_CLIENTES - 1), 'Cliente', 'RECURRE',
+                i, 'Cliente', 'RECURRE',
                 random.randint(0, NUM_SUCURSALES - 1), 'Sucursal',
                 fake.date_this_year(), random.choice(DIA_PREFERIDO), random.choice(HORAS)
             ])
@@ -107,10 +107,10 @@ def generar_trabaja_en():
         writer = csv.writer(file)
         writer.writerow(['start_id', 'start_label', 'type', 'end_id', 'end_label', 'horario', 'dias_laborales', 'estado'])
 
-        for _ in range(NUM_RELACIONES):
+        for i in range(NUM_PERSONAL):
             lugar = random.choice(["Sucursal", "Almacen"])
             writer.writerow([
-                random.randint(0, NUM_PERSONAL - 1), 'Personal', 'TRABAJA_EN',
+                i, 'Personal', 'TRABAJA_EN',
                 random.randint(0, NUM_SUCURSALES - 1) if lugar == "Sucursal" else random.randint(0, NUM_ALMACENES - 1), lugar,
                 fake.time(), random.choice(DIAS_LABORALES), random.choice(ESTADOS)
             ])
@@ -121,10 +121,10 @@ def generar_asignado_a():
         writer = csv.writer(file)
         writer.writerow(['start_id', 'start_label', 'type', 'end_id', 'end_label', 'fecha_asignacion', 'disponibilidad', 'cantidad_de_viajes'])
 
-        for _ in range(NUM_RELACIONES):
+        for i in range(NUM_TRANSPORTES):
             destino = random.choice(["Sucursal", "Almacen"])
             writer.writerow([
-                random.randint(0, NUM_TRANSPORTES - 1), 'Transporte', 'ASIGNADO_A',
+                i, 'Transporte', 'ASIGNADO_A',
                 random.randint(0, NUM_SUCURSALES - 1) if destino == "Sucursal" else random.randint(0, NUM_ALMACENES - 1), destino,
                 fake.date_this_year(), random.choice(DISPONIBILIDAD), random.randint(5, 100)
             ])
