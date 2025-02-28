@@ -23,15 +23,29 @@ router.post('/create/relacion', async (req, res) => {
         return res.status(400).json({ error: 'Faltan datos requeridos' });
     }
 
+    // Nos aseguramos que cada dato tenga el tipo adecuado
     const properties_a = transformProperties(propertiesA);
-    const properties_r = transformProperties(propertiesR);
     const properties_b = transformProperties(propertiesB);
+    const properties_r = transformProperties(propertiesR);
+
+    // Convertimos los objetos en cadenas de propiedades Cypher
+    const propertiesAString = Object.entries(properties_a)
+        .map(([key, value]) => `${key}: $propsA.${key}`)
+        .join(', ');
+
+    const propertiesBString = Object.entries(properties_b)
+        .map(([key, value]) => `${key}: $propsB.${key}`)
+        .join(', ');
+
+    const propertiesRString = Object.entries(properties_r)
+        .map(([key, value]) => `${key}: $propsR.${key}`)
+        .join(', ');
 
     try {
         const query = `
-            MERGE (a:${labelA} $propsA)
-            MERGE (b:${labelB} $propsB)
-            MERGE (a)-[r:${relationship} $propsR]->(b)
+            MERGE (a:${labelA} { ${propertiesAString} })
+            MERGE (b:${labelB} { ${propertiesBString} })
+            MERGE (a)-[r:${relationship} { ${propertiesRString} }]->(b)
             RETURN a, r, b
         `;
 
