@@ -1,6 +1,6 @@
-import express, { json } from 'express';
-import cors from 'cors';
+import express from 'express';
 import { getSession } from './neo4j-connection.js';
+import transformProperties from './for_datatypes.js';
 
 const router = express.Router();
 
@@ -13,20 +13,21 @@ router.post('/add/node/properties', async (req, res) => {
     if (!labelN || !keyProperty || !propertiesToAdd) {
         return res.status(400).json({ error: 'Faltan datos requeridos' });
     }
-
+    
     try {
         const key = Object.keys(keyProperty)[0]; // Obtener la clave primaria
         const keyValue = keyProperty[key]; // Obtener su valor
-
+        const properties = transformProperties(propertiesToAdd);
+        
         const query = `
             MATCH (a:${labelN} {${key}: $keyValue})
-            SET a += $propertiesToAdd
+            SET a += $properties
             RETURN a
         `;
 
         const result = await session.run(query, {
             keyValue,
-            propertiesToAdd
+            properties
         });
 
         const response = result.records.map(record => ({
@@ -54,17 +55,18 @@ router.post('/add/nodes/properties', async (req, res) => {
 
     try {
         const key = Object.keys(keyProperties[0])[0]; // Obtener la clave primaria (asumiendo que es la misma en todos)
+        const properties = transformProperties(propertiesToAdd);
 
         const query = `
             UNWIND $keyProperties AS keyData
             MATCH (a:${labelN} {${key}: keyData.${key}})
-            SET a += $propertiesToAdd
+            SET a += $properties
             RETURN a
         `;
 
         const result = await session.run(query, {
             keyProperties,
-            propertiesToAdd
+            properties
         });
 
         const response = result.records.map(record => ({

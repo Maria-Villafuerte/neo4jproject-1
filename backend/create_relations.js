@@ -1,6 +1,6 @@
-import express, { json } from 'express';
-import cors from 'cors';
+import express from 'express';
 import { getSession } from './neo4j-connection.js';
+import transformProperties from './for_datatypes.js';
 
 const router = express.Router();
 
@@ -23,6 +23,10 @@ router.post('/create/relacion', async (req, res) => {
         return res.status(400).json({ error: 'Faltan datos requeridos' });
     }
 
+    const properties_a = transformProperties(propertiesA);
+    const properties_r = transformProperties(propertiesR);
+    const properties_b = transformProperties(propertiesB);
+
     try {
         const query = `
             MERGE (a:${labelA} $propsA)
@@ -32,9 +36,9 @@ router.post('/create/relacion', async (req, res) => {
         `;
 
         const result = await session.run(query, {
-            propsA: propertiesA,
-            propsB: propertiesB,
-            propsR: propertiesR
+            propsA: properties_a,
+            propsB: properties_b,
+            propsR: properties_r
         });
 
         const response = result.records.map(record => ({
