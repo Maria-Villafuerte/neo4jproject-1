@@ -346,25 +346,25 @@ def insert_relaciones(relationFile):
     driver.close()
     
     
-#print("Insertando Personas")
-#insert_personas()
-#print("Insertadas Personas Correctamente")
+print("Insertando Personas")
+insert_personas()
+print("Insertadas Personas Correctamente")
 
-#print("Insertando Almacenes")
-#insert_almacenes()
-#print("Insertados Almacenes Correctamente")
+print("Insertando Almacenes")
+insert_almacenes()
+print("Insertados Almacenes Correctamente")
 
-#print("Insertando Sucursales")
-#insert_sucursales()
-#print("Insertadas Sucursales Correctamente")
+print("Insertando Sucursales")
+insert_sucursales()
+print("Insertadas Sucursales Correctamente")
 
-#print("Insertando Proveedores")
-#insert_proveedores()
-#print("Insertados Proveedores Correctamente")
+print("Insertando Proveedores")
+insert_proveedores()
+print("Insertados Proveedores Correctamente")
 
-#print("Insertando Productos")
-#insert_productos()
-#print("Insertados Productos Correctamente")
+print("Insertando Productos")
+insert_productos()
+print("Insertados Productos Correctamente")
 
 print("Insertando Transportes")
 insert_transportes()
