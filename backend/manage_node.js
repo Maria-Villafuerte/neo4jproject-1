@@ -82,6 +82,44 @@ router.post('/add/nodes/properties', async (req, res) => {
     }
 });
 
+router.post('/add/nodes/propertiesVariation', async (req, res) => {
+    const session = getSession();
+    const { nodes } = req.body;
+
+    if (!Array.isArray(nodes) || nodes.length === 0) {
+        return res.status(400).json({ error: 'El array nodes está vacío o no es válido' });
+    }    
+
+    try {
+        nodes.forEach(node => {
+            node.propertiesToUpdate = transformProperties(node.propertiesToUpdate)
+        });
+
+        const query = `
+            UNWIND $nodes AS nodeData
+            MATCH (n {id: nodeData.keyProperties.id})  
+            WHERE labels(n) = nodeData.labels
+            SET n += nodeData.propertiesToUpdate  
+            RETURN n
+        `;
+
+        const result = await session.run(query, {
+            nodes
+        });
+
+        const response = result.records.map(record => ({
+            updatedNode: record.get('n').properties
+        }));
+
+        res.json(response);
+    } catch (error) {
+        console.error('Error actualizando nodos:', error);
+        res.status(500).json({ error: 'Error en la base de datos' });
+    } finally {
+        await session.close();
+    }
+});
+
 // Operación que permita eliminar 1 o mas propiedades de un nodo
 router.post('/delete/node/properties', async (req, res) => {
     const session = getSession();
@@ -144,6 +182,38 @@ router.post('/delete/nodes/properties', async (req, res) => {
 
         const response = result.records.map(record => ({
             updatedNode: record.get('a').properties
+        }));
+
+        res.json(response);
+    } catch (error) {
+        console.error('Error eliminando propiedades de los nodos:', error);
+        res.status(500).json({ error: 'Error en la base de datos' });
+    } finally {
+        await session.close();
+    }
+});
+
+router.post('/delete/nodes/propertiesVariation', async (req, res) => {
+    const session = getSession();
+    const { nodes } = req.body;
+
+    if (!Array.isArray(nodes) || nodes.length === 0) {
+        return res.status(400).json({ error: 'El array nodes está vacío o no es válido' });
+    }  
+
+    try {
+        const query = `
+            UNWIND $nodes AS nodeData
+            MATCH (n {id: nodeData.keyProperties.id})
+            WHERE labels(n) = nodeData.labels
+            FOREACH (prop IN nodeData.propertiesToRemove | REMOVE n[prop])
+            RETURN n
+        `;
+
+        const result = await session.run(query, { nodes });
+
+        const response = result.records.map(record => ({
+            updatedNode: record.get('n').properties
         }));
 
         res.json(response);
