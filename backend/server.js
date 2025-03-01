@@ -20,6 +20,10 @@ app.get('/api/nodos', async (req, res) => {
     }
 });
 
+//Usar las rutas de creación de nodos 
+import createNodesRoutes from './create_nodes.js';
+app.use('', createNodesRoutes);
+
 // Usar las rutas de características
 import createRelationsRoutes from './create_relations.js';
 app.use('', createRelationsRoutes);
@@ -27,6 +31,10 @@ app.use('', createRelationsRoutes);
 // Usar las rutas de características
 import manageNodesRoutes from './manage_node.js';
 app.use('', manageNodesRoutes);
+
+// Usar lasrutas de eliminación de nodos
+import deleteNodesRoutes from './delete_nodes.js';
+app.use('', deleteNodesRoutes);
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Servidor corriendo en el puerto ${PORT}`));
