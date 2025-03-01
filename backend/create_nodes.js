@@ -3,6 +3,16 @@ import { getSession } from './neo4j-connection.js';
 
 const router = express.Router();
 
+/**
+ * Operación CREATE que crea un nodo con una sola etiqueta.
+ * 
+ * El nodo será creado con una etiqueta única sin propiedades adicionales. La consulta simplemente creará el nodo con la etiqueta proporcionada.
+ * 
+ * Usa como parámetro la etiqueta del nodo, pero no se requieren propiedades.
+ * 
+ * El query de consulta se vería como:
+ * CREATE (n:Label)
+ */
 router.post('/create/oneLabelNode', async (req, res) => {
     const session = getSession();
     const { labelA } = req.body;
@@ -35,6 +45,16 @@ router.post('/create/oneLabelNode', async (req, res) => {
     }
 });
 
+/**
+ * Operación CREATE que crea un nodo con múltiples etiquetas.
+ * 
+ * El nodo será creado con varias etiquetas proporcionadas en el cuerpo de la solicitud, sin necesidad de propiedades adicionales.
+ * 
+ * Usa como parámetro un arreglo de etiquetas del nodo, pero no se requieren propiedades.
+ * 
+ * El query de consulta se vería como:
+ * CREATE (n:Label1:Label2)
+ **/
 router.post('/create/multiLabelNode', async (req, res) => {
     const session = getSession();
     const { labels } = req.body; 
@@ -68,6 +88,17 @@ router.post('/create/multiLabelNode', async (req, res) => {
     }
 });
 
+/**
+ * Operación CREATE que crea un nodo con una sola etiqueta y propiedades específicas.
+ * 
+ * El nodo será creado con una etiqueta única y un conjunto de propiedades proporcionadas en el cuerpo de la solicitud.
+ * La consulta verificará si el nodo ya existe; si no, lo creará con los valores indicados.
+ * 
+ * Usa como parámetro la etiqueta del nodo y las propiedades que debe tener (al menos 5 propiedades).
+ * 
+ * El query de consulta se vería como:
+ * CREATE (n:Label {property1: value1, property2: value2, property3: value3, ..., property5: value5})
+ */
 router.post('/create/nodeWithProperties', async (req, res) => {
     const session = getSession();
     const { label, properties } = req.body;
@@ -111,6 +142,17 @@ router.post('/create/nodeWithProperties', async (req, res) => {
     }
 });
 
+/**
+ * Operación CREATE que crea un nodo con múltiples etiquetas y propiedades específicas.
+ * 
+ * El nodo será creado con múltiples etiquetas y un conjunto de propiedades proporcionadas en el cuerpo de la solicitud.
+ * Se asegura de que al menos 5 propiedades sean definidas para el nodo.
+ * 
+ * Usa como parámetros las etiquetas del nodo y las propiedades que debe tener (al menos 5 propiedades).
+ * 
+ * El query de consulta se vería como:
+ * CREATE (n:Label1:Label2 {property1: value1, property2: value2, property3: value3, ..., property5: value5})
+ */
 router.post('/create/multiLabelNodeWithProperties', async (req, res) => {
     const session = getSession();
     const { labels, properties } = req.body;
