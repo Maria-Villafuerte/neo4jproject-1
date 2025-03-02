@@ -20,7 +20,7 @@ const router = express.Router();
  * WHERE n.prop1 = $prop1 AND n.prop2 = $prop2
  * RETURN n LIMIT $limit
  */
-router.get('/view/nodesByFilter', async (req, res) => {
+router.get('/get/nodesByFilter', async (req, res) => {
     const session = getSession();
     // Parse query parameters
     const labels = req.query.labels ? JSON.parse(req.query.labels) : null;
@@ -67,6 +67,52 @@ router.get('/view/nodesByFilter', async (req, res) => {
         res.json({ nodes, count: nodes.length });
     } catch (error) {
         console.error('Error consultando nodos:', error);
+        res.status(500).json({ error: 'Error en la base de datos' });
+    } finally {
+        await session.close();
+    }
+});
+
+
+/**
+ * Operación que consulta un nodo específico por su ID.
+ * 
+ * Devuelve un único nodo con todas sus etiquetas y propiedades.
+ * 
+ * Usa como parámetros:
+ * - id: ID del nodo a consultar
+ * 
+ * El query de consulta se vería como:
+ * MATCH (n) WHERE ID(n) = $id RETURN n, ID(n) AS nodeId, labels(n) AS nodeLabels
+ */
+router.get('/get/singleNode', async (req, res) => {
+    const session = getSession();
+    const nodeId = req.query.id;
+    
+    // Validate nodeId
+    if (!nodeId) {
+        return res.status(400).json({ error: 'Se requiere el ID del nodo' });
+    }
+    
+    try {
+        const query = 'MATCH (n) WHERE ID(n) = $id RETURN n, ID(n) AS nodeId, labels(n) AS nodeLabels';
+        
+        const result = await session.run(query, { id: parseInt(nodeId, 10) });
+        
+        if (result.records.length === 0) {
+            return res.status(404).json({ error: 'Nodo no encontrado' });
+        }
+        
+        const record = result.records[0];
+        const node = {
+            id: record.get('nodeId').low,
+            properties: record.get('n').properties,
+            labels: record.get('nodeLabels')
+        };
+        
+        res.json({ node });
+    } catch (error) {
+        console.error('Error consultando nodo:', error);
         res.status(500).json({ error: 'Error en la base de datos' });
     } finally {
         await session.close();
