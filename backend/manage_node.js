@@ -106,7 +106,7 @@ router.post('/add/relation/properties', async (req, res) => {
  * Aplica las mismas propiedades a todas las relaciones especificadas.
  * 
  */
-router.post('/add/relations/properties', async (req, res) => {
+router.post('/add/group/relations/properties', async (req, res) => {
     const session = getSession();
     const { relationships, propertiesToAdd } = req.body;
 
@@ -313,7 +313,7 @@ router.post('/update/relation/properties', async (req, res) => {
  * Este endpoint es similar a '/add/relations/properties', pero se proporciona por consistencia
  * con las operaciones de nodos.
  */
-router.post('/update/relations/properties', async (req, res) => {
+router.post('/update/group/relations/properties', async (req, res) => {
     const session = getSession();
     const { relationships, propertiesToUpdate } = req.body;
 
@@ -519,7 +519,7 @@ router.post('/delete/relation/properties', async (req, res) => {
  * Elimina las propiedades especificadas de múltiples relaciones identificadas por
  * nodo origen, nodo destino y tipo de relación.
  */
-router.post('/delete/relations/properties', async (req, res) => {
+router.post('/delete/group/relations/properties', async (req, res) => {
     const session = getSession();
     const { relationships, propertiesToRemove } = req.body;
 
