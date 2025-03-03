@@ -20,26 +20,24 @@ app.get('/api/nodos', async (req, res) => {
     }
 });
 
-//Usar las rutas de creación de nodos 
+// Importar las rutas
 import createNodesRoutes from './create_nodes.js';
 app.use('', createNodesRoutes);
 
-// Usar las rutas de características
 import createRelationsRoutes from './create_relations.js';
 app.use('', createRelationsRoutes);
 
-// Usar las rutas de características
 import manageNodesRoutes from './manage_node.js';
 app.use('', manageNodesRoutes);
 
-// Usar lasrutas de eliminación de nodos
 import deleteNodesRoutes from './delete_nodes.js';
 app.use('', deleteNodesRoutes);
 
-// Importar las rutas de consulta de nodos
+import deleteRelationsRoutes from './delete_relations.js';
+app.use('', deleteRelationsRoutes);
+
 import getNodesRoutes from './view_nodes.js';
 app.use('', getNodesRoutes);
-// Agregar esta línea después de importar las demás rutas
 
 import manageRelationsRoutes from './manage_relations.js';
 app.use('', manageRelationsRoutes);
