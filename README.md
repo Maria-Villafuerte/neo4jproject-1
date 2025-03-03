@@ -69,6 +69,12 @@ neo4jproject-1/
 │   ├── neo4j-connection.js # Configuración de conexión a Neo4j
 
 ```
+## 🚀 ¿Quieres generar tus datos o utilizar los del proyecto? 
+
+Dirígete a la branch "data_creation" para encontrar los datos utilizados en este proyecto. Puedes ejecutar el archivo upload.py utilizando las credenciales de Neo4j para subir los datos a tu base de datos.
+
+Si deseas generar datos diferentes, ve a las carpetas "nodes" y "relationships" y ejecuta el archivo create.py en cada una.
+🔹 Importante: Antes de ejecutar create.py, asegúrate de eliminar los archivos .csv previamente generados.
 
 ## 📌 Notas
 - Asegúrate de que Neo4j está en ejecución y accesible.
