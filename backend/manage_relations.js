@@ -122,130 +122,152 @@ router.post('/add/relation/properties', async (req, res) => {
 });
 
 /**
- * Operación que permite agregar propiedades a múltiples relaciones que cumplan ciertos criterios.
+ * Operación que permite agregar 1 o más propiedades a múltiples relaciones al mismo tiempo
+ * mediante una lista de IDs de nodos origen.
  * 
- * Identifica las relaciones mediante un tipo de relación y criterios de filtrado opcionales
- * para los nodos origen y destino.
+ * Usa UNWIND para procesar eficientemente múltiples nodos origen que comparten 
+ * el mismo tipo de relación, actualizando todas las relaciones encontradas con las propiedades especificadas.
  * 
  * Ejemplo de uso:
  * {
+ *   "sourceNodeIds": ["527", "842", "953", "1021"],
+ *   "sourceLabel": "Persona",
+ *   "sourceIdProperty": "id",
  *   "relationType": "RECURRE",
- *   "sourceFilter": {
- *     "label": "Persona",
- *     "property": {
- *       "key": "membresia",
- *       "value": true
- *     }
- *   },
  *   "targetFilter": {
  *     "label": "Establecimiento",
  *     "property": {
- *       "key": "categoria",
+ *       "key": "categoria", 
  *       "value": "Restaurante"
  *     }
  *   },
  *   "propertiesToAdd": {
  *     "descuento": 0.15,
- *     "actualizado_en": "2025-03-03"
+ *     "actualizado_en": {
+ *       "type": "date",
+ *       "value": "2025-03-03"
+ *     },
+ *     "notas": "Actualización masiva"
  *   }
  * }
+ * 
+ * El query de consulta se vería como:
+ * UNWIND $sourceNodeIds AS nodeId
+ * MATCH (source:Persona)
+ * WHERE source.id = nodeId OR source.id = toString(nodeId)
+ * MATCH (source)-[r:RECURRE]->(target:Establecimiento)
+ * WHERE target.categoria = 'Restaurante' OR target.categoria = 'Restaurante'
+ * SET r += $propertiesToAdd
+ * RETURN source, r, target
  */
-router.post('/add/relations/properties', async (req, res) => {
-    const session = getSession();
-    const { relationType, sourceFilter, targetFilter, propertiesToAdd } = req.body;
+router.post('/add/relations/properties/bySourceIds', async (req, res) => {
+  const session = getSession();
+  const { 
+      sourceNodeIds, 
+      sourceLabel, 
+      sourceIdProperty,
+      relationType, 
+      targetFilter, 
+      propertiesToAdd 
+  } = req.body;
 
-    // Validar los datos requeridos
-    if (!relationType || !propertiesToAdd) {
-        return res.status(400).json({ error: 'Faltan datos requeridos: relationType, propertiesToAdd' });
-    }
+  // Validar los datos requeridos
+  if (!Array.isArray(sourceNodeIds) || sourceNodeIds.length === 0) {
+      return res.status(400).json({ error: 'Se requiere un array no vacío de sourceNodeIds' });
+  }
 
-    // Transformar las propiedades para manejar tipos de datos especiales
-    const transformedProperties = transformProperties(propertiesToAdd);
+  if (!sourceLabel || !sourceIdProperty || !relationType || !propertiesToAdd) {
+      return res.status(400).json({ 
+          error: 'Faltan datos requeridos: sourceLabel, sourceIdProperty, relationType, propertiesToAdd' 
+      });
+  }
 
-    try {
-        // Construir la consulta base
-        let query = 'MATCH ';
-        const params = {
-            propertiesToAdd: transformedProperties
-        };
+  // Transformar las propiedades para manejar tipos de datos especiales
+  const transformedProperties = transformProperties(propertiesToAdd);
 
-        // Añadir filtro para el nodo origen si está presente
-        if (sourceFilter && sourceFilter.label) {
-            query += `(source:${sourceFilter.label})`;
-            
-            // Añadir filtro de propiedad para el nodo origen si está completo
-            if (sourceFilter.property && sourceFilter.property.key && sourceFilter.property.value !== undefined) {
-                query += ` WHERE source.${sourceFilter.property.key} = $sourceValue OR source.${sourceFilter.property.key} = $sourceValueStr`;
-                params.sourceValue = sourceFilter.property.value;
-                params.sourceValueStr = String(sourceFilter.property.value);
-            }
-        } else {
-            query += '(source)';
-        }
+  try {
+      // Iniciar construcción de la consulta
+      let query = `
+          UNWIND $sourceNodeIds AS nodeId
+          MATCH (source:${sourceLabel})
+          WHERE source.${sourceIdProperty} = nodeId OR source.${sourceIdProperty} = toString(nodeId)
+          MATCH (source)-[r:${relationType}]->`;
 
-        // Añadir la relación
-        query += `-[r:${relationType}]->`;
+      // Preparar los parámetros para la consulta
+      const params = {
+          sourceNodeIds: sourceNodeIds,
+          propertiesToAdd: transformedProperties
+      };
 
-        // Añadir filtro para el nodo destino si está presente
-        if (targetFilter && targetFilter.label) {
-            query += `(target:${targetFilter.label})`;
-            
-            // Añadir filtro de propiedad para el nodo destino si está completo
-            if (targetFilter.property && targetFilter.property.key && targetFilter.property.value !== undefined) {
-                // Si ya hay un WHERE para el nodo origen, usamos AND
-                if (params.sourceValue !== undefined) {
-                    query += ` AND target.${targetFilter.property.key} = $targetValue OR target.${targetFilter.property.key} = $targetValueStr`;
-                } else {
-                    query += ` WHERE target.${targetFilter.property.key} = $targetValue OR target.${targetFilter.property.key} = $targetValueStr`;
-                }
-                params.targetValue = targetFilter.property.value;
-                params.targetValueStr = String(targetFilter.property.value);
-            }
-        } else {
-            query += '(target)';
-        }
+      // Añadir filtro para el nodo destino si está presente
+      if (targetFilter && targetFilter.label) {
+          query += `(target:${targetFilter.label})`;
+          
+          // Añadir filtro de propiedad para el nodo destino si está completo
+          if (targetFilter.property && targetFilter.property.key && targetFilter.property.value !== undefined) {
+              query += `
+              WHERE target.${targetFilter.property.key} = $targetValue OR target.${targetFilter.property.key} = $targetValueStr`;
+              params.targetValue = targetFilter.property.value;
+              params.targetValueStr = String(targetFilter.property.value);
+          }
+      } else {
+          query += `(target)`;
+      }
 
-        // Completar la consulta
-        query += `
-            SET r += $propertiesToAdd
-            RETURN source, r, target
-        `;
+      // Completar la consulta
+      query += `
+          SET r += $propertiesToAdd
+          RETURN source, r, target`;
 
-        // Ejecutar la consulta
-        const result = await session.run(query, params);
+      // Ejecutar la consulta
+      const result = await session.run(query, params);
 
-        // Preparar la respuesta
-        const updatedRelations = result.records.map(record => ({
-            sourceNode: record.get('source').properties,
-            relationship: record.get('r').properties,
-            targetNode: record.get('target').properties
-        }));
+      // Preparar la respuesta
+      const updatedRelations = result.records.map(record => ({
+          sourceNode: record.get('source').properties,
+          relationship: record.get('r').properties,
+          targetNode: record.get('target').properties
+      }));
 
-        if (updatedRelations.length === 0) {
-            return res.status(404).json({
-                message: 'No se encontraron relaciones que coincidan con los criterios especificados',
-                details: {
-                    relationType,
-                    sourceFilter,
-                    targetFilter
-                }
-            });
-        }
+      if (updatedRelations.length === 0) {
+          return res.status(404).json({
+              message: 'No se encontraron relaciones que coincidan con los criterios especificados',
+              details: {
+                  sourceNodeIds,
+                  sourceLabel,
+                  sourceIdProperty,
+                  relationType,
+                  targetFilter
+              }
+          });
+      }
 
-        res.json({
-            message: `Se actualizaron ${updatedRelations.length} relaciones correctamente`,
-            count: updatedRelations.length,
-            updated: updatedRelations
-        });
-    } catch (error) {
-        console.error('Error actualizando múltiples relaciones:', error);
-        res.status(500).json({
-            error: 'Error en la base de datos',
-            details: error.message
-        });
-    } finally {
-        await session.close();
-    }
+      // Agrupar por ID de nodo origen para una respuesta más estructurada
+      const groupedBySource = {};
+      updatedRelations.forEach(relation => {
+          const sourceId = relation.sourceNode[sourceIdProperty];
+          if (!groupedBySource[sourceId]) {
+              groupedBySource[sourceId] = [];
+          }
+          groupedBySource[sourceId].push(relation);
+      });
+
+      res.json({
+          message: `Se actualizaron ${updatedRelations.length} relaciones de ${Object.keys(groupedBySource).length} nodos origen`,
+          totalRelationsUpdated: updatedRelations.length,
+          totalSourceNodesAffected: Object.keys(groupedBySource).length,
+          updatedBySource: groupedBySource
+      });
+  } catch (error) {
+      console.error('Error actualizando múltiples relaciones por IDs de origen:', error);
+      res.status(500).json({
+          error: 'Error en la base de datos',
+          details: error.message
+      });
+  } finally {
+      await session.close();
+  }
 });
+
 
 export default router;
