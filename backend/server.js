@@ -39,6 +39,11 @@ app.use('', deleteNodesRoutes);
 // Importar las rutas de consulta de nodos
 import getNodesRoutes from './view_nodes.js';
 app.use('', getNodesRoutes);
+// Agregar esta línea después de importar las demás rutas
+
+import manageRelationsRoutes from './manage_relations.js';
+app.use('', manageRelationsRoutes);
+
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Servidor corriendo en el puerto ${PORT}`));
