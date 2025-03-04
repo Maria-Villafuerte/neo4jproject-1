@@ -42,8 +42,14 @@ app.use('', getNodesRoutes);
 import manageRelationsRoutes from './manage_relations.js';
 app.use('', manageRelationsRoutes);
 
-import optimizationQueriesRoutes from './optimization_queries.js';
+import optimizationQueriesRoutes from './analytics/optimization_queries.js';
 app.use('', optimizationQueriesRoutes);
+
+import transportQueries from './analytics/about_transportation.js';
+app.use('', transportQueries);
+
+import timeQueries from './analytics/about_time.js';
+app.use('', timeQueries);
 
 
 const PORT = process.env.PORT || 5000;
