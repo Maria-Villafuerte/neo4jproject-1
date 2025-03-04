@@ -51,6 +51,11 @@ app.use('', transportQueries);
 import timeQueries from './analytics/about_time.js';
 app.use('', timeQueries);
 
+import por_categoria from './analytics/por_categoria.js';
+app.use('', por_categoria);
+
+import por_region from './analytics/por_region.js';
+app.use('', por_region);
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Servidor corriendo en el puerto ${PORT}`));
