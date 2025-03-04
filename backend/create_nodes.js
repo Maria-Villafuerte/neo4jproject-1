@@ -114,8 +114,20 @@ router.post('/create/nodeWithProperties', async (req, res) => {
     }
 
     try {
-        // Construir la consulta dinámicamente
-        const propKeys = Object.keys(properties);
+        // Obtener la cantidad de nodos existentes con la etiqueta dada
+        const countQuery = `
+            MATCH (n:${label})
+            RETURN COUNT(n) AS count
+        `;
+
+        const countResult = await session.run(countQuery);
+        const count = countResult.records[0]?.get('count').toNumber() || 0;
+
+        // Incluir la propiedad `id` como string
+        const nodeProperties = { ...properties, id: (count + 1).toString() };
+
+        // Construir la consulta dinámicamente con las propiedades
+        const propKeys = Object.keys(nodeProperties);
         const propParams = propKeys.map(key => `${key}: $${key}`).join(', ');
 
         const query = `
@@ -123,7 +135,7 @@ router.post('/create/nodeWithProperties', async (req, res) => {
             RETURN a, ID(a) AS nodeId
         `;
 
-        const result = await session.run(query, properties);
+        const result = await session.run(query, nodeProperties);
 
         const record = result.records[0];
         if (!record) {
@@ -131,9 +143,9 @@ router.post('/create/nodeWithProperties', async (req, res) => {
         }
 
         // Extraer ID de Neo4j
-        const nodeId = record.get('nodeId').low; 
+        const nodeId = record.get('nodeId').low;
 
-        res.json({ id: nodeId, node: record.get('a').properties });
+        res.json({ id: nodeId.toString(), node: record.get('a').properties });
     } catch (error) {
         console.error('Error creando nodo con propiedades:', error);
         res.status(500).json({ error: 'Error en la base de datos' });
@@ -141,6 +153,8 @@ router.post('/create/nodeWithProperties', async (req, res) => {
         await session.close();
     }
 });
+
+
 
 /**
  * Operación CREATE que crea un nodo con múltiples etiquetas y propiedades específicas.
@@ -157,7 +171,7 @@ router.post('/create/multiLabelNodeWithProperties', async (req, res) => {
     const session = getSession();
     const { labels, properties } = req.body;
 
-    // Validar que hay al menos 2 labels válidas
+    console.log(labels) // Validar que hay al menos 2 labels válidas
     if (!Array.isArray(labels) || labels.length < 2 || !labels.every(label => /^[a-zA-Z0-9_]+$/.test(label))) {
         return res.status(400).json({ error: 'Se requieren al menos 2 labels válidas' });
     }
@@ -168,9 +182,34 @@ router.post('/create/multiLabelNodeWithProperties', async (req, res) => {
     }
 
     try {
+        const countClientesQuery = `MATCH (n:Cliente) RETURN COUNT(n) AS count`;
+        const countPersonalQuery = `MATCH (n:Personal) RETURN COUNT(n) AS count`;
+        const countPersonaQuery = `MATCH (n:Persona) RETURN COUNT(n) AS count`;
+
+        const countResultC = await session.run(countClientesQuery);
+        const countResultP = await session.run(countPersonalQuery);
+        const countResultPP = await session.run(countPersonaQuery);
+
+        const countC = countResultC.records[0]?.get('count').toNumber() || 0;
+        const countP = countResultP.records[0]?.get('count').toNumber() || 0;
+        const countPP = countResultP.records[0]?.get('count').toNumber() || 0;
+
+        // Determinar qué tipo de ID asignar según las labels
+        let nodeProperties = { ...properties };
+
+        if (labels.includes("Persona")) {
+            nodeProperties.id = (countPP + 1).toString();
+        } 
+        if (labels.includes("Cliente")) {
+            nodeProperties.id_cliente = (countC + 1).toString();
+        } 
+        if (labels.includes("Personal")) {
+            nodeProperties.id_empleado = (countP + 1).toString();
+        }
+
         // Construir labels y propiedades dinámicamente
         const labelsString = labels.map(label => `\`${label}\``).join(':');
-        const propKeys = Object.keys(properties);
+        const propKeys = Object.keys(nodeProperties);
         const propParams = propKeys.map(key => `${key}: $${key}`).join(', ');
 
         const query = `
@@ -178,7 +217,7 @@ router.post('/create/multiLabelNodeWithProperties', async (req, res) => {
             RETURN a, ID(a) AS nodeId
         `;
 
-        const result = await session.run(query, properties);
+        const result = await session.run(query, nodeProperties);
 
         const record = result.records[0];
         if (!record) {
@@ -188,7 +227,7 @@ router.post('/create/multiLabelNodeWithProperties', async (req, res) => {
         // Extraer ID de Neo4j
         const nodeId = record.get('nodeId').low;
 
-        res.json({ id: nodeId, labels, node: record.get('a').properties });
+        res.json({ id: nodeId.toString(), labels, node: record.get('a').properties });
     } catch (error) {
         console.error('Error creando nodo con múltiples labels y propiedades:', error);
         res.status(500).json({ error: 'Error en la base de datos' });
