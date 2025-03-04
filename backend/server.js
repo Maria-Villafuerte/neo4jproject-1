@@ -42,6 +42,9 @@ app.use('', getNodesRoutes);
 import manageRelationsRoutes from './manage_relations.js';
 app.use('', manageRelationsRoutes);
 
+import optimizationQueriesRoutes from './optimization_queries.js';
+app.use('', optimizationQueriesRoutes);
+
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Servidor corriendo en el puerto ${PORT}`));
