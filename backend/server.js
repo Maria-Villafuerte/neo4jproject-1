@@ -42,9 +42,20 @@ app.use('', getNodesRoutes);
 import manageRelationsRoutes from './manage_relations.js';
 app.use('', manageRelationsRoutes);
 
-import optimizationQueriesRoutes from './optimization_queries.js';
+import optimizationQueriesRoutes from './analytics/optimization_queries.js';
 app.use('', optimizationQueriesRoutes);
 
+import transportQueries from './analytics/about_transportation.js';
+app.use('', transportQueries);
+
+import timeQueries from './analytics/about_time.js';
+app.use('', timeQueries);
+
+import por_categoria from './analytics/por_categoria.js';
+app.use('', por_categoria);
+
+import por_region from './analytics/por_region.js';
+app.use('', por_region);
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Servidor corriendo en el puerto ${PORT}`));

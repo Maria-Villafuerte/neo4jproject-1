@@ -1,5 +1,5 @@
 import express from 'express';
-import { getSession } from './neo4j-connection.js';
+import { getSession } from '../neo4j-connection.js';
 
 const router = express.Router();
 

@@ -1,5 +1,11 @@
 import neo4j from 'neo4j-driver';
 
+/**
+ * Esta función verifica el tipo de dato de las propiedades y devuelve el tipo correcto
+ * para enviarlo a la base de datos
+ * @param {*} properties 
+ * @returns properties array con el tipo de dato correcto
+ */
 const transformProperties = (properties) => {
     const transformed = {};
 
